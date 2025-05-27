@@ -23,11 +23,19 @@
     --border: #D8E0ED;
     --input: #D8E0ED;
     --ring: #1B2431;
+    
+    /* Enhanced color palette with RGB values for animations */
     --chart-1: #1D5B79;
+    --chart-1-rgb: 29, 91, 121;
     --chart-2: #468B97;
+    --chart-2-rgb: 70, 139, 151;
     --chart-3: #EF6262;
+    --chart-3-rgb: 239, 98, 98;
     --chart-4: #F3AA60;
+    --chart-4-rgb: 243, 170, 96;
     --chart-5: #8A5082;
+    --chart-5-rgb: 138, 80, 130;
+    
     --radius: 0.5rem;
 
     --sidebar-background: #F3F6FA;
@@ -60,11 +68,18 @@
     --border: #2A3747;
     --input: #2A3747;
     --ring: #94A3B8;
+    
+    /* Enhanced dark mode colors with RGB values */
     --chart-1: #38BDF8;
+    --chart-1-rgb: 56, 189, 248;
     --chart-2: #4ADE80;
+    --chart-2-rgb: 74, 222, 128;
     --chart-3: #FB923C;
+    --chart-3-rgb: 251, 146, 60;
     --chart-4: #F9C46B;
+    --chart-4-rgb: 249, 196, 107;
     --chart-5: #A78BFA;
+    --chart-5-rgb: 167, 139, 250;
 
     --sidebar-background: #17212E;
     --sidebar-foreground: #ECEFF4;
@@ -82,12 +97,33 @@
     @apply border-border;
   }
 
+  :root {
+    --font-sans: var(--font-inter), sans-serif;
+    --font-heading: var(--font-poppins), sans-serif;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply tracking-tight;
+    @apply tracking-tight font-heading font-bold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
   }
 
   /* Responsive text sizes */
@@ -106,6 +142,32 @@
       font-size: 16px;
     }
   }
+
+  /* Enhanced focus styles */
+  *:focus-visible {
+    @apply outline-offset-4 outline-chart-1 ring-chart-1;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-chart-1/50 rounded-full hover:bg-chart-1 transition-colors;
+  }
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
 }
 
 /* Custom utility classes */
@@ -121,6 +183,28 @@ html {
 /* Better image handling */
 img {
   @apply max-w-full h-auto;
+}
+
+/* Card hover effects */
+.hover-card-effect {
+  @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+}
+
+/* Button styles */
+.btn {
+  @apply px-6 py-3 rounded-lg font-medium transition-all shadow-sm;
+}
+
+.btn-primary {
+  @apply bg-chart-1 text-white hover:bg-chart-1/90 shadow-md shadow-chart-1/20;
+}
+
+.btn-secondary {
+  @apply bg-chart-2 text-white hover:bg-chart-2/90 shadow-md shadow-chart-2/20;
+}
+
+.btn-accent {
+  @apply bg-chart-3 text-white hover:bg-chart-3/90 shadow-md shadow-chart-3/20;
 }
 
 nextjs-portal {
