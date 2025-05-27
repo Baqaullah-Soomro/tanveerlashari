@@ -8,7 +8,7 @@ import Resume from '@/components/home/Resume';
 import ResumeDownload from '@/components/home/ResumeDownload';
 import ThemeToggle from '@/components/ui/ThemeToggle';
 export default function HomePage() {
-  return <main className="overflow-hidden" data-unique-id="dac4f710-b454-4388-a50f-1322acc3a6f5" data-file-name="app/page.tsx">
+  return <main className="overflow-hidden" data-unique-id="25f7e672-224b-4e4b-84a1-2ff5c2d70f2a" data-file-name="app/page.tsx">
       <Hero />
       <About />
       <Experience />

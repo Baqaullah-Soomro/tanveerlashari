@@ -31,8 +31,8 @@ const experiences = [{
   achievements: "Successfully established automated library system with trained staff for continued operation"
 }];
 export default function Experience() {
-  return <section id="experience" className="py-24 bg-secondary/30" data-unique-id="55be0f29-7584-444d-865f-352181bb8dd2" data-file-name="components/home/Experience.tsx">
-      <div className="container mx-auto px-6" data-unique-id="e6402a05-0f85-4153-bdb2-7fe50f199069" data-file-name="components/home/Experience.tsx">
+  return <section id="experience" className="py-24 bg-secondary/30" data-unique-id="4bc94171-21b8-4dae-aeac-4cebea974f29" data-file-name="components/home/Experience.tsx">
+      <div className="container mx-auto px-6" data-unique-id="38778479-2631-4cb3-80e8-8780eb176eca" data-file-name="components/home/Experience.tsx">
         <motion.div initial={{
         opacity: 0,
         y: 20
@@ -44,24 +44,24 @@ export default function Experience() {
         amount: 0.2
       }} transition={{
         duration: 0.5
-      }} className="text-center mb-16" data-unique-id="13219458-95c6-4a77-9542-90a0745ee897" data-file-name="components/home/Experience.tsx">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="262467bc-53ab-4300-8459-33509222eda9" data-file-name="components/home/Experience.tsx">
-            <span className="editable-text" data-unique-id="12e3678e-bb1f-49f9-9605-4396f14fd1da" data-file-name="components/home/Experience.tsx">Professional Experience</span>
+      }} className="text-center mb-16" data-unique-id="5fb3b46a-d1d5-4c8f-b3be-93e878243f00" data-file-name="components/home/Experience.tsx">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="8b4e8290-bd50-4483-959e-92ae50501262" data-file-name="components/home/Experience.tsx">
+            <span className="editable-text" data-unique-id="7d88290f-3994-47c5-b858-36f416749aa3" data-file-name="components/home/Experience.tsx">Professional Experience</span>
           </h2>
-          <div className="h-1 w-20 bg-chart-2 mx-auto" data-unique-id="d4eb3484-3e79-4cc7-af12-e01a28409e48" data-file-name="components/home/Experience.tsx"></div>
-          <p className="text-muted-foreground mt-6 max-w-2xl mx-auto" data-unique-id="20a5433c-d449-46b1-a197-e73a5e1ad557" data-file-name="components/home/Experience.tsx">
-            <span className="editable-text" data-unique-id="5e89a614-8aec-4e74-9784-7540278678bb" data-file-name="components/home/Experience.tsx">
+          <div className="h-1 w-20 bg-chart-2 mx-auto" data-unique-id="ec7369eb-13f7-4ec3-a0bb-f2bed2a2a4b1" data-file-name="components/home/Experience.tsx"></div>
+          <p className="text-muted-foreground mt-6 max-w-2xl mx-auto" data-unique-id="6982e478-87a2-4429-9c78-2078531b3ffa" data-file-name="components/home/Experience.tsx">
+            <span className="editable-text" data-unique-id="f51633a0-a301-46b1-9142-45c904cd01a5" data-file-name="components/home/Experience.tsx">
               My internship experiences have equipped me with practical knowledge in library systems,
               cataloging, and digital resource management.
             </span>
           </p>
         </motion.div>
         
-        <div className="relative" data-unique-id="35edfb18-0aa1-4c3b-89c9-d6be059621c3" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
+        <div className="relative" data-unique-id="64111b39-0459-4174-9ba2-763c399f5023" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
           {/* Timeline Line */}
-          <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-border" data-unique-id="459e6cb9-a4c0-4b9c-bb09-8527ffb3c920" data-file-name="components/home/Experience.tsx"></div>
+          <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-border" data-unique-id="6d0bf5c1-c4ca-4b88-97c7-67e2f1639ef3" data-file-name="components/home/Experience.tsx"></div>
           
-          <div className="space-y-12 lg:space-y-24 relative" data-unique-id="fbd7de2c-7146-4cc0-b666-7dc3ce79e0dc" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
+          <div className="space-y-12 lg:space-y-24 relative" data-unique-id="5c8064f2-c477-4ea4-a66d-1e3213fd5cf5" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
             {experiences.map((exp, index) => <motion.div key={index} initial={{
             opacity: 0,
             y: 50
@@ -74,52 +74,52 @@ export default function Experience() {
           }} transition={{
             duration: 0.6,
             delay: index * 0.2
-          }} className="relative" data-unique-id="9160573f-dbe2-4d36-9995-c3b3775cbb33" data-file-name="components/home/Experience.tsx">
-                <div className={`lg:flex items-center ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`} data-unique-id="ff404218-6388-4936-ba4e-051dc603b0af" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
+          }} className="relative" data-unique-id="4f6839ec-458b-4e91-a1b3-534f19a73a7a" data-file-name="components/home/Experience.tsx">
+                <div className={`lg:flex items-center ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`} data-unique-id="44c442a9-1f4c-4fe5-bbfe-7136568b3185" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
                   {/* Timeline dot */}
-                  <div className="hidden lg:flex absolute left-1/2 transform -translate-x-1/2" data-unique-id="90a6025a-60e0-4281-8122-963cb07bb6b3" data-file-name="components/home/Experience.tsx">
-                    <div className="w-8 h-8 bg-chart-1 rounded-full flex items-center justify-center" data-unique-id="3f0f878d-0176-46f9-b7e5-69282bb45872" data-file-name="components/home/Experience.tsx">
-                      <Briefcase className="text-white" size={16} data-unique-id="8df199c6-7da1-4d54-bc91-123015bd467b" data-file-name="components/home/Experience.tsx" data-dynamic-text="true" />
+                  <div className="hidden lg:flex absolute left-1/2 transform -translate-x-1/2" data-unique-id="8444fb32-54ab-4058-ad18-96103cab1630" data-file-name="components/home/Experience.tsx">
+                    <div className="w-8 h-8 bg-chart-1 rounded-full flex items-center justify-center" data-unique-id="6f39d255-d112-4456-a9a4-cd94c641b4fe" data-file-name="components/home/Experience.tsx">
+                      <Briefcase className="text-white" size={16} data-unique-id="a96002d7-a804-47a3-8f31-4d89fb8b1866" data-file-name="components/home/Experience.tsx" data-dynamic-text="true" />
                     </div>
                   </div>
                   
                   {/* Content card - alternates sides */}
-                  <div className={`lg:w-1/2 ${index % 2 === 0 ? 'lg:pr-16 lg:text-right' : 'lg:pl-16'}`} data-unique-id="c8402080-6903-487f-b955-8c989e7fcfee" data-file-name="components/home/Experience.tsx">
+                  <div className={`lg:w-1/2 ${index % 2 === 0 ? 'lg:pr-16 lg:text-right' : 'lg:pl-16'}`} data-unique-id="fdeba34d-010d-4e8d-aef8-82edf3f8c418" data-file-name="components/home/Experience.tsx">
                     <motion.div whileHover={{
                   y: -5
                 }} transition={{
                   type: "spring",
                   stiffness: 300
-                }} className="bg-card p-8 rounded-lg shadow-md hover:shadow-xl transition-all border border-border/40" data-unique-id="d7e69cf4-b684-409b-9c68-c3d603d203e7" data-file-name="components/home/Experience.tsx">
-                      <div className={`flex items-center ${index % 2 === 0 ? 'lg:justify-end' : ''}`} data-unique-id="806a1049-b997-4329-9e2d-3806b874056a" data-file-name="components/home/Experience.tsx">
-                        <div className={`${exp.iconBg} p-3 rounded-full mr-4 lg:order-${index % 2 === 0 ? '2 lg:ml-4 lg:mr-0' : '1'}`} data-unique-id="a6b143f6-0a74-4584-a3d7-d1f2fc51e386" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
+                }} className="bg-card p-8 rounded-lg shadow-md hover:shadow-xl transition-all border border-border/40" data-unique-id="4c17261d-4b59-4225-a0dc-8d1a4f0e3f8b" data-file-name="components/home/Experience.tsx">
+                      <div className={`flex items-center ${index % 2 === 0 ? 'lg:justify-end' : ''}`} data-unique-id="44147ed7-ad76-4fd7-8aac-8929168fded4" data-file-name="components/home/Experience.tsx">
+                        <div className={`${exp.iconBg} p-3 rounded-full mr-4 lg:order-${index % 2 === 0 ? '2 lg:ml-4 lg:mr-0' : '1'}`} data-unique-id="27a0174b-3c04-4294-82df-2ec3ee2d1e01" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
                           {exp.icon}
                         </div>
-                        <h3 className="text-xl font-bold" data-unique-id="b7470801-7432-4481-b126-090032cbd68c" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{exp.title}</h3>
+                        <h3 className="text-xl font-bold" data-unique-id="1684f17b-65ee-4e68-aa87-6f69a85345a2" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{exp.title}</h3>
                       </div>
                       
-                      <div className={`flex items-center text-muted-foreground mt-2 text-sm ${index % 2 === 0 ? 'lg:justify-end' : ''}`} data-unique-id="0a64b92a-cd01-46bd-9dfd-611640cdf95d" data-file-name="components/home/Experience.tsx">
-                        <Calendar size={14} className={`${index % 2 === 0 ? 'lg:order-2 lg:ml-2' : 'mr-2'}`} data-unique-id="b1964dc6-f4ce-40ad-b8a1-7931bc0b83a7" data-file-name="components/home/Experience.tsx" />
-                        <span data-unique-id="9ee01256-2f25-4ff5-92d8-46fa8842bd6d" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{exp.period}</span>
-                        <span className="mx-2" data-unique-id="4a7e54b3-da70-41d2-a3ab-acef7e964a91" data-file-name="components/home/Experience.tsx"><span className="editable-text" data-unique-id="237ad8b6-e641-4057-90a7-212603dd379d" data-file-name="components/home/Experience.tsx">•</span></span>
-                        <MapPin size={14} className={`${index % 2 === 0 ? 'lg:order-2 lg:ml-2' : 'mr-2'}`} data-unique-id="e4f4a9e0-391c-437c-9277-b43180a7d1f0" data-file-name="components/home/Experience.tsx" data-dynamic-text="true" />
-                        <span data-unique-id="7ffb3561-cd3c-4e6c-97d4-f8d5f283dac7" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{exp.location}</span>
+                      <div className={`flex items-center text-muted-foreground mt-2 text-sm ${index % 2 === 0 ? 'lg:justify-end' : ''}`} data-unique-id="e05a9fdf-9de5-4b83-8660-e234b6303d8e" data-file-name="components/home/Experience.tsx">
+                        <Calendar size={14} className={`${index % 2 === 0 ? 'lg:order-2 lg:ml-2' : 'mr-2'}`} data-unique-id="17e52c2e-1a49-4d42-819a-da3ae090a1ee" data-file-name="components/home/Experience.tsx" />
+                        <span data-unique-id="5b66a2a4-f822-4561-929b-486523c9c503" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{exp.period}</span>
+                        <span className="mx-2" data-unique-id="1f043e10-da47-456b-a41c-d480b399f44f" data-file-name="components/home/Experience.tsx"><span className="editable-text" data-unique-id="0b6144e5-363b-449d-8794-bacda096fa11" data-file-name="components/home/Experience.tsx">•</span></span>
+                        <MapPin size={14} className={`${index % 2 === 0 ? 'lg:order-2 lg:ml-2' : 'mr-2'}`} data-unique-id="ac177d3b-cdae-410d-8f13-cea41058a286" data-file-name="components/home/Experience.tsx" data-dynamic-text="true" />
+                        <span data-unique-id="2954992c-4f03-4502-a889-01131074f1ee" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{exp.location}</span>
                       </div>
                       
-                      <p className={`mt-4 text-sm text-muted-foreground ${index % 2 === 0 ? 'lg:text-right' : ''}`} data-unique-id="de515537-f02b-441d-b905-49bd279d5527" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
+                      <p className={`mt-4 text-sm text-muted-foreground ${index % 2 === 0 ? 'lg:text-right' : ''}`} data-unique-id="2ce343bd-b3a5-4a0d-9cc4-e2896ae71cfd" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
                         {exp.description}
                       </p>
                       
-                      <ul className={`mt-6 space-y-3 ${index % 2 === 0 ? 'lg:text-right' : ''}`} data-unique-id="17b314b5-6896-4858-913b-52cc25339670" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
-                        {exp.responsibilities.map((item, i) => <li key={i} className="flex items-start" data-unique-id="c29e568d-c47f-4aa4-b601-6334295c8a5f" data-file-name="components/home/Experience.tsx">
-                            <span className={`h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 ${index % 2 === 0 ? 'lg:order-2 lg:ml-3' : 'mr-3'}`} data-unique-id="09a74508-c112-4fbf-9219-f9268d5259c0" data-file-name="components/home/Experience.tsx"></span>
-                            <span data-unique-id="6f7ace1b-7fe4-4f2c-9c64-2adbf5af12e4" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{item}</span>
+                      <ul className={`mt-6 space-y-3 ${index % 2 === 0 ? 'lg:text-right' : ''}`} data-unique-id="79495274-62dd-48f0-bdca-7df289c1d42b" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">
+                        {exp.responsibilities.map((item, i) => <li key={i} className="flex items-start" data-unique-id="708dc8f6-6edb-48e9-822a-6dad02525bce" data-file-name="components/home/Experience.tsx">
+                            <span className={`h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 ${index % 2 === 0 ? 'lg:order-2 lg:ml-3' : 'mr-3'}`} data-unique-id="1336d8aa-8aa7-4775-8b9c-c4e39578f5da" data-file-name="components/home/Experience.tsx"></span>
+                            <span data-unique-id="c5d15108-60b8-4d8d-a34b-008ec73e975f" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{item}</span>
                           </li>)}
                       </ul>
                       
-                      <div className={`mt-6 pt-4 border-t border-border/40 ${index % 2 === 0 ? 'lg:text-right' : ''}`} data-unique-id="62ec6189-b2d6-4622-b72c-5c49c046c8ff" data-file-name="components/home/Experience.tsx">
-                        <p className="font-medium text-chart-1" data-unique-id="37d92450-b7cd-4ba9-b24d-35881fe54482" data-file-name="components/home/Experience.tsx"><span className="editable-text" data-unique-id="f048a3cc-3a02-425a-9dce-9f5723ae075b" data-file-name="components/home/Experience.tsx">Key Achievement:</span></p>
-                        <p className="text-sm" data-unique-id="eaaabac7-bb90-482f-9651-1dca72926bf2" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{exp.achievements}</p>
+                      <div className={`mt-6 pt-4 border-t border-border/40 ${index % 2 === 0 ? 'lg:text-right' : ''}`} data-unique-id="d2fa1fe9-c7ce-4252-8077-6359d6867508" data-file-name="components/home/Experience.tsx">
+                        <p className="font-medium text-chart-1" data-unique-id="6a104b23-d705-4b9f-bd4f-3f8e5a856a99" data-file-name="components/home/Experience.tsx"><span className="editable-text" data-unique-id="c79a6e23-63cb-42b8-bd4b-4ab7f2e39f10" data-file-name="components/home/Experience.tsx">Key Achievement:</span></p>
+                        <p className="text-sm" data-unique-id="249ad60c-dbf7-4071-8248-58942ad83804" data-file-name="components/home/Experience.tsx" data-dynamic-text="true">{exp.achievements}</p>
                       </div>
                     </motion.div>
                   </div>
