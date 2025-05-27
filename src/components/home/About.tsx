@@ -24,8 +24,8 @@ const item = {
   }
 };
 export default function About() {
-  return <section id="about" className="py-24 bg-accent/30" data-unique-id="9ac3a20e-a0be-46d5-9f22-eef976d117bf" data-file-name="components/home/About.tsx">
-      <div className="container mx-auto px-6" data-unique-id="b3bfc65c-9491-4c26-b8be-5a4c3f61530b" data-file-name="components/home/About.tsx">
+  return <section id="about" className="py-24 bg-accent/30" data-unique-id="1bf549d5-2bef-42ea-8131-fbabd108a2ad" data-file-name="components/home/About.tsx">
+      <div className="container mx-auto px-6" data-unique-id="13496d21-fe9c-496f-b3da-c18bce9f810f" data-file-name="components/home/About.tsx">
         <motion.div initial={{
         opacity: 0,
         y: 20
@@ -37,12 +37,12 @@ export default function About() {
         amount: 0.2
       }} transition={{
         duration: 0.5
-      }} className="text-center mb-16" data-unique-id="580e9454-bdf2-4600-aa8d-e22e009b5323" data-file-name="components/home/About.tsx">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="92690975-6838-497b-be43-65229fb2d205" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="b63b6cdc-4f05-4d6c-b53e-0400eafaafaf" data-file-name="components/home/About.tsx">About Me</span></h2>
-          <div className="h-1 w-20 bg-chart-1 mx-auto" data-unique-id="9b1d7e93-ba43-455b-a6c9-91a9ea126f08" data-file-name="components/home/About.tsx"></div>
+      }} className="text-center mb-16" data-unique-id="789771b7-ddbb-4d73-857a-b156d0060293" data-file-name="components/home/About.tsx">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="95498f8c-2614-4e8a-bc9f-b81970085ade" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="6ee5ef8c-e1b4-409e-820e-09125ab757ac" data-file-name="components/home/About.tsx">About Me</span></h2>
+          <div className="h-1 w-20 bg-chart-1 mx-auto" data-unique-id="34e4a04c-22c7-423a-bd35-3d4cd117e1c6" data-file-name="components/home/About.tsx"></div>
         </motion.div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12" data-unique-id="24c9c478-b81b-4258-9fbd-7ef16b54bbce" data-file-name="components/home/About.tsx">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12" data-unique-id="d811ecdc-9244-49ff-80c2-8bcce7301cad" data-file-name="components/home/About.tsx">
           <motion.div initial={{
           opacity: 0,
           x: -50
@@ -54,49 +54,49 @@ export default function About() {
           amount: 0.2
         }} transition={{
           duration: 0.5
-        }} data-unique-id="82f79130-e1e6-48e4-9b8c-d7c8c6eed39a" data-file-name="components/home/About.tsx">
-            <h3 className="text-2xl font-bold mb-6 flex items-center" data-unique-id="f14f432d-6b1a-4027-91c3-1ec0c7d23956" data-file-name="components/home/About.tsx">
-              <School className="mr-2 text-chart-2" size={24} /><span className="editable-text" data-unique-id="1a307a10-488b-4c52-825f-f37e97f41130" data-file-name="components/home/About.tsx">
+        }} data-unique-id="1a50ec1a-8d4a-4ce2-8218-e3fc4d8ff748" data-file-name="components/home/About.tsx">
+            <h3 className="text-2xl font-bold mb-6 flex items-center" data-unique-id="2f9c0d1c-2622-49ac-a67c-49baca09c22f" data-file-name="components/home/About.tsx">
+              <School className="mr-2 text-chart-2" size={24} /><span className="editable-text" data-unique-id="af964878-423e-473f-a23a-9345b1aebe5c" data-file-name="components/home/About.tsx">
               Academic Qualifications
             </span></h3>
             
             <motion.ul variants={container} initial="hidden" whileInView="show" viewport={{
             once: true,
             amount: 0.2
-          }} className="space-y-6" data-unique-id="b5e2def1-ffd5-43ac-9ed4-ed336ed36caa" data-file-name="components/home/About.tsx">
-              <motion.li variants={item} className="bg-card p-6 rounded-lg shadow-md" data-unique-id="db4951e3-9017-4888-817a-eeba6c61501a" data-file-name="components/home/About.tsx">
-                <div className="flex items-start" data-unique-id="e4d6292e-aec5-485c-a7b0-f90aa6c7b001" data-file-name="components/home/About.tsx">
-                  <div className="bg-chart-1/10 p-3 rounded-full mr-4" data-unique-id="9e134086-9f08-4876-94a5-392389a97feb" data-file-name="components/home/About.tsx">
+          }} className="space-y-6" data-unique-id="9ab159ea-f05d-4b1e-bb45-03e4d4ac67c1" data-file-name="components/home/About.tsx">
+              <motion.li variants={item} className="bg-card p-6 rounded-lg shadow-md" data-unique-id="b7420baf-47d6-4a34-b48c-d8dd52cdf429" data-file-name="components/home/About.tsx">
+                <div className="flex items-start" data-unique-id="8f5d2308-a65d-439f-84e7-0217e1dc67a3" data-file-name="components/home/About.tsx">
+                  <div className="bg-chart-1/10 p-3 rounded-full mr-4" data-unique-id="aacfdb50-988c-46cf-8a6d-ae43e9d7f273" data-file-name="components/home/About.tsx">
                     <GraduationCap className="text-chart-1" size={24} />
                   </div>
-                  <div data-unique-id="271037e1-adcf-4b7d-8b95-499f5a32dc68" data-file-name="components/home/About.tsx">
-                    <h4 className="font-bold text-lg" data-unique-id="6db74fe7-62f1-4b50-a4c7-8ff40a151a51" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="5d23b176-18a4-4445-a20a-b559c46ea89c" data-file-name="components/home/About.tsx">Bachelor of Library and Information Science and Archives Studies</span></h4>
-                    <p className="text-muted-foreground" data-unique-id="8b36ecc3-878a-4d1b-86c6-1e6437182938" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="1eba741d-d381-4d60-aa73-27714f79ba46" data-file-name="components/home/About.tsx">University of Sindh</span></p>
-                    <p className="text-chart-1 font-medium mt-2" data-unique-id="906c406f-5ae0-4716-b50d-c61da69cea9b" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="0dcb4e18-2da9-483d-b45e-33ef2c6af059" data-file-name="components/home/About.tsx">CGPA: 3.59</span></p>
+                  <div data-unique-id="2662ea99-3bbc-405d-b883-9c2f9b5833dc" data-file-name="components/home/About.tsx">
+                    <h4 className="font-bold text-lg" data-unique-id="a05342db-7aca-4c20-bba7-5077d9dceba3" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="332e9aec-c33c-4fb4-bd15-0b35f59f37c1" data-file-name="components/home/About.tsx">Bachelor of Library and Information Science and Archives Studies</span></h4>
+                    <p className="text-muted-foreground" data-unique-id="1345f695-85b5-4e0d-bdd3-bcde461d8f3d" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="5388526f-34d3-43a1-9a4f-3b472369ba9c" data-file-name="components/home/About.tsx">University of Sindh</span></p>
+                    <p className="text-chart-1 font-medium mt-2" data-unique-id="d4e657cb-71ae-4476-94b2-914315bde434" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="b419d9b3-2bac-4cff-8480-2f00aba82250" data-file-name="components/home/About.tsx">CGPA: 3.59</span></p>
                   </div>
                 </div>
               </motion.li>
               
-              <motion.li variants={item} className="bg-card p-6 rounded-lg shadow-md" data-unique-id="771f73fa-d42f-4ae9-9de9-242071992084" data-file-name="components/home/About.tsx">
-                <div className="flex items-start" data-unique-id="16ee43f3-bae3-4c0c-8dec-d0f75086d843" data-file-name="components/home/About.tsx">
-                  <div className="bg-chart-2/10 p-3 rounded-full mr-4" data-unique-id="caea081b-d996-43e2-bc44-7b61e0ea032b" data-file-name="components/home/About.tsx">
+              <motion.li variants={item} className="bg-card p-6 rounded-lg shadow-md" data-unique-id="ac525ee1-5825-4d16-8b70-b46b67768f3e" data-file-name="components/home/About.tsx">
+                <div className="flex items-start" data-unique-id="b0d5794b-25f7-4862-a1d6-a190a20a8506" data-file-name="components/home/About.tsx">
+                  <div className="bg-chart-2/10 p-3 rounded-full mr-4" data-unique-id="28d94d99-9284-4b91-9dfe-15b0afb0dc28" data-file-name="components/home/About.tsx">
                     <BookOpen className="text-chart-2" size={24} />
                   </div>
-                  <div data-unique-id="bd1f60ee-5a9f-4798-a56d-5084db54ca95" data-file-name="components/home/About.tsx">
-                    <h4 className="font-bold text-lg" data-unique-id="6c05ce07-24dd-4cd8-af26-abaa2a212d00" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="f36ac50e-494c-4456-b35e-ae45c039559d" data-file-name="components/home/About.tsx">Intermediate</span></h4>
-                    <p className="text-chart-2 font-medium mt-2" data-unique-id="772f647c-be77-4d30-affb-614bebe19db4" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="8db246ad-5016-4085-bc3b-c5a929d0ca47" data-file-name="components/home/About.tsx">B Grade</span></p>
+                  <div data-unique-id="87ea0078-47f5-43e9-a7ee-aa38d20764ce" data-file-name="components/home/About.tsx">
+                    <h4 className="font-bold text-lg" data-unique-id="cfd2f2aa-a84f-4a99-b2ae-9645dfeaaaad" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="b1f629e3-a4fe-48f3-872e-16b3be2458a4" data-file-name="components/home/About.tsx">Intermediate</span></h4>
+                    <p className="text-chart-2 font-medium mt-2" data-unique-id="b8446520-fc2f-4a04-9f43-755d0f9059d2" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="cb370ec1-2a11-4b83-a7f5-8f623baabf49" data-file-name="components/home/About.tsx">B Grade</span></p>
                   </div>
                 </div>
               </motion.li>
               
-              <motion.li variants={item} className="bg-card p-6 rounded-lg shadow-md" data-unique-id="c108f490-e1e6-4258-80f1-0f09092aceac" data-file-name="components/home/About.tsx">
-                <div className="flex items-start" data-unique-id="628c8231-09cf-46b0-87e7-1915f3d6c616" data-file-name="components/home/About.tsx">
-                  <div className="bg-chart-3/10 p-3 rounded-full mr-4" data-unique-id="78b6eb39-a7cc-4c16-bdd5-d8281bed5a8c" data-file-name="components/home/About.tsx">
+              <motion.li variants={item} className="bg-card p-6 rounded-lg shadow-md" data-unique-id="7863f918-d803-4a68-b982-0527ff5884c9" data-file-name="components/home/About.tsx">
+                <div className="flex items-start" data-unique-id="d10e95b1-4b6d-4943-8c35-19d0cd81ef04" data-file-name="components/home/About.tsx">
+                  <div className="bg-chart-3/10 p-3 rounded-full mr-4" data-unique-id="f1239d29-57e9-4c63-a490-c7695258701a" data-file-name="components/home/About.tsx">
                     <BookOpen className="text-chart-3" size={24} />
                   </div>
-                  <div data-unique-id="2f284101-d13a-43f4-b5c4-438b94a8f301" data-file-name="components/home/About.tsx">
-                    <h4 className="font-bold text-lg" data-unique-id="3e400da5-5917-4e3b-aa9a-e4d1076d5a9a" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="6c926cad-c6c6-4d64-ac83-05f21c7c3960" data-file-name="components/home/About.tsx">Matriculation</span></h4>
-                    <p className="text-chart-3 font-medium mt-2" data-unique-id="e3806211-f9b7-42f5-8f13-866511272314" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="25639726-1567-45a4-be26-b6967e775e77" data-file-name="components/home/About.tsx">A Grade</span></p>
+                  <div data-unique-id="52cab4c6-1c64-43d9-a5eb-092fbe99830f" data-file-name="components/home/About.tsx">
+                    <h4 className="font-bold text-lg" data-unique-id="1a49f566-1ea3-42b2-b924-d227703d0598" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="8f3ac6c6-6eec-4ba9-bf81-fd98cf8cfde1" data-file-name="components/home/About.tsx">Matriculation</span></h4>
+                    <p className="text-chart-3 font-medium mt-2" data-unique-id="e92b08c2-190a-451f-83fa-c1bf181886c6" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="2b6e0380-c91b-4783-8fa8-54d54f361bde" data-file-name="components/home/About.tsx">A Grade</span></p>
                   </div>
                 </div>
               </motion.li>
@@ -114,22 +114,22 @@ export default function About() {
           amount: 0.2
         }} transition={{
           duration: 0.5
-        }} data-unique-id="8ef07e63-6423-464d-908e-99b03bbeb9b3" data-file-name="components/home/About.tsx">
-            <h3 className="text-2xl font-bold mb-6" data-unique-id="3bf8e071-7abb-47f4-befa-2115a1fab38a" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="c3696c67-5bd3-4063-a1a4-e58218f5869c" data-file-name="components/home/About.tsx">Career Objective</span></h3>
-            <div className="bg-card p-8 rounded-lg shadow-md" data-unique-id="149670fb-9cb8-48ee-a3e4-dd966018531a" data-file-name="components/home/About.tsx">
-              <p className="mb-6 text-lg leading-relaxed" data-unique-id="a819bb6b-011e-4588-8e28-65dbeceae142" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="ef1633c8-1987-48bb-bf8e-cab5e6785ca5" data-file-name="components/home/About.tsx">
+        }} data-unique-id="7a6a787f-2b4b-45e3-9471-aef64e6ffaea" data-file-name="components/home/About.tsx">
+            <h3 className="text-2xl font-bold mb-6" data-unique-id="3d6d1c74-3fb8-4ba8-80c3-929a7d6ad1a7" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="e1c04cbf-bcb7-45af-a096-cc6bd10b092b" data-file-name="components/home/About.tsx">Career Objective</span></h3>
+            <div className="bg-card p-8 rounded-lg shadow-md" data-unique-id="fba5df12-04f4-4600-af10-ace7eedb93a6" data-file-name="components/home/About.tsx">
+              <p className="mb-6 text-lg leading-relaxed" data-unique-id="607f6d3a-188e-4d4c-9023-1c85bdcceaef" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="33664b41-5912-4e1d-9f13-a2fdbac285ea" data-file-name="components/home/About.tsx">
                 As a Library and Information Science graduate, I aim to utilize my knowledge and skills in 
-                </span><span className="text-chart-1 font-medium" data-unique-id="54812978-64ea-4211-81ad-938352b5619a" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="93a5f620-7810-46a2-b9af-1b1104cfc2b8" data-file-name="components/home/About.tsx"> library automation</span></span><span className="editable-text" data-unique-id="154e1f1e-3c5f-466b-bd31-204b34349cd1" data-file-name="components/home/About.tsx">,
-                </span><span className="text-chart-2 font-medium" data-unique-id="0a050859-a4d6-44f3-8e28-cf60427f1a65" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="23bbb06f-d3b5-4455-b823-aed6320655c6" data-file-name="components/home/About.tsx"> metadata and cataloging standards</span></span><span className="editable-text" data-unique-id="575e98b2-57e0-4a15-bb97-15fb1a274107" data-file-name="components/home/About.tsx">, and
-                </span><span className="text-chart-3 font-medium" data-unique-id="4a484fbb-a112-4434-8584-9ba883ee30d0" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="fb451f9f-0581-4c29-b576-c2fbbcc68ac7" data-file-name="components/home/About.tsx"> digital archiving</span></span><span className="editable-text" data-unique-id="7b666459-1767-4904-a652-c43be0626d98" data-file-name="components/home/About.tsx"> to enhance user experiences in modern library systems.
+                </span><span className="text-chart-1 font-medium" data-unique-id="924f5b2f-b368-4e98-a3fd-e1e2315a76f9" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="077cb34e-9443-4af0-be42-600a10510b8b" data-file-name="components/home/About.tsx"> library automation</span></span><span className="editable-text" data-unique-id="8ebce961-b7ea-42dd-a16b-1245057432d6" data-file-name="components/home/About.tsx">,
+                </span><span className="text-chart-2 font-medium" data-unique-id="ac68e3c8-8646-4ecc-a289-ffdcdf6e1d0a" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="607c727c-c8bf-4649-b4c5-21469da3bcd2" data-file-name="components/home/About.tsx"> metadata and cataloging standards</span></span><span className="editable-text" data-unique-id="ef2bfce9-abc5-495b-a932-de3e35cbc5d0" data-file-name="components/home/About.tsx">, and
+                </span><span className="text-chart-3 font-medium" data-unique-id="0743a22a-a51b-4cda-8b4f-d48b31e55020" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="cb62d79d-9e16-4139-a325-3d22be8d89a7" data-file-name="components/home/About.tsx"> digital archiving</span></span><span className="editable-text" data-unique-id="e1c55a58-8d00-43ca-a13c-fe74d86bfe15" data-file-name="components/home/About.tsx"> to enhance user experiences in modern library systems.
               </span></p>
               
-              <p className="mb-6 text-lg leading-relaxed" data-unique-id="845fd4b7-9c13-4134-aefc-403c9ed27e02" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="61c9d907-6258-4906-bfb4-3f9ae2927372" data-file-name="components/home/About.tsx">
+              <p className="mb-6 text-lg leading-relaxed" data-unique-id="66e73c30-81ba-406d-b8ea-baab3fbaf9f6" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="6a7fc600-a87d-4ae1-80ee-78f742a930cc" data-file-name="components/home/About.tsx">
                 I'm passionate about bridging traditional library science with cutting-edge digital technologies to create 
                 more accessible and efficient knowledge repositories.
               </span></p>
               
-              <p className="text-lg leading-relaxed" data-unique-id="019d3c3e-6e51-43b5-9f65-32c8941a0efc" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="ef621234-aae5-441f-9b7b-865ba36466ff" data-file-name="components/home/About.tsx">
+              <p className="text-lg leading-relaxed" data-unique-id="5af0cd84-dbfa-401a-9e4d-0933bc18cb80" data-file-name="components/home/About.tsx"><span className="editable-text" data-unique-id="23718cb6-57ad-4eb3-ae52-272fbe0fe8d0" data-file-name="components/home/About.tsx">
                 My goal is to contribute to the evolution of library services through innovation and 
                 user-centered approaches, ensuring information is organized and accessible to all who seek it.
               </span></p>

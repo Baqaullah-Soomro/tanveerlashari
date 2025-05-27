@@ -46,15 +46,15 @@ export default function ThemeToggle() {
     label: 'System',
     icon: <Laptop size={15} />
   }];
-  return <div className="fixed bottom-6 right-6 z-50" data-unique-id="e46c3107-313f-4fed-9636-9552de49f9e5" data-file-name="components/ui/ThemeToggle.tsx">
-      <div className="bg-background border border-border rounded-full p-2 shadow-lg" data-unique-id="f6e34c50-70f7-474a-b2a8-e2e17c9262ab" data-file-name="components/ui/ThemeToggle.tsx">
-        <div className="flex items-center gap-1" data-unique-id="816d7c64-8abf-45e8-8697-f94ad8b9e83a" data-file-name="components/ui/ThemeToggle.tsx" data-dynamic-text="true">
-          {options.map(option => <button key={option.value} onClick={() => setTheme(option.value)} className={`relative rounded-full p-2 text-foreground ${theme === option.value ? 'text-primary-foreground' : 'hover:text-accent-foreground'}`} title={option.label} data-unique-id="ffd25a53-b440-42d0-bd21-138bbacccd45" data-file-name="components/ui/ThemeToggle.tsx" data-dynamic-text="true">
+  return <div className="fixed bottom-6 right-6 z-50" data-unique-id="f9850d75-0662-46af-bbf8-a003d2a2e1d3" data-file-name="components/ui/ThemeToggle.tsx">
+      <div className="bg-background border border-border rounded-full p-2 shadow-lg" data-unique-id="48bbf42b-0486-4516-843b-0f15e1e7ee24" data-file-name="components/ui/ThemeToggle.tsx">
+        <div className="flex items-center gap-1" data-unique-id="071fcf3f-bcf2-4ecc-bc6f-7e910dbef0ea" data-file-name="components/ui/ThemeToggle.tsx" data-dynamic-text="true">
+          {options.map(option => <button key={option.value} onClick={() => setTheme(option.value)} className={`relative rounded-full p-2 text-foreground ${theme === option.value ? 'text-primary-foreground' : 'hover:text-accent-foreground'}`} title={option.label} data-unique-id="15960cc6-fa64-4b45-9266-d46b243b84bc" data-file-name="components/ui/ThemeToggle.tsx" data-dynamic-text="true">
               {theme === option.value && <motion.div layoutId="theme-indicator" className="absolute inset-0 bg-chart-1 rounded-full" transition={{
             type: "spring",
             duration: 0.5
-          }} data-unique-id="928af99b-844c-4a9b-93d2-b8c95832e99f" data-file-name="components/ui/ThemeToggle.tsx" />}
-              <span className="relative z-10" data-unique-id="ceecb1e7-e1f7-4c6f-b0a1-5f6287dc83fd" data-file-name="components/ui/ThemeToggle.tsx" data-dynamic-text="true">{option.icon}</span>
+          }} data-unique-id="1981014e-e266-4170-9f3c-f18f84ffb3a6" data-file-name="components/ui/ThemeToggle.tsx" />}
+              <span className="relative z-10" data-unique-id="a3e760fc-5e93-4ca6-963b-29ea9980474d" data-file-name="components/ui/ThemeToggle.tsx" data-dynamic-text="true">{option.icon}</span>
             </button>)}
         </div>
       </div>
