@@ -79,14 +79,14 @@ export default function Contact() {
       console.error('Error submitting form:', error);
     }
   };
-  return <section id="contact" className="py-24 bg-secondary/30 relative overflow-hidden" data-unique-id="defa7154-37ad-4847-a618-d631e3580da2" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
+  return <section id="contact" className="py-24 bg-secondary/30 relative overflow-hidden" data-unique-id="9d0c1c60-4d67-41e7-a04f-d34b42766c4d" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-20 pointer-events-none" data-unique-id="fed10f6d-1d29-4a51-afec-0144cc12c7f6" data-file-name="components/home/Contact.tsx">
-        <div className="absolute top-0 left-0 w-64 h-64 bg-chart-1/5 rounded-full blur-3xl" data-unique-id="5d313376-6724-47c3-ba84-43511f926300" data-file-name="components/home/Contact.tsx"></div>
-        <div className="absolute bottom-0 right-0 w-80 h-80 bg-chart-2/5 rounded-full blur-3xl" data-unique-id="b5012a69-26c9-40b7-bc75-4f8d89d94e93" data-file-name="components/home/Contact.tsx"></div>
+      <div className="absolute inset-0 opacity-20 pointer-events-none" data-unique-id="727420a9-8f81-4057-8c9e-18dcc1dd2792" data-file-name="components/home/Contact.tsx">
+        <div className="absolute top-0 left-0 w-64 h-64 bg-chart-1/5 rounded-full blur-3xl" data-unique-id="4b4d61c9-ed45-41ff-8d20-ea16fcdef99e" data-file-name="components/home/Contact.tsx"></div>
+        <div className="absolute bottom-0 right-0 w-80 h-80 bg-chart-2/5 rounded-full blur-3xl" data-unique-id="f55eb4e8-1b79-4373-886e-350c79b0ffd2" data-file-name="components/home/Contact.tsx"></div>
       </div>
       
-      <div className="container mx-auto px-6" data-unique-id="2eec79ac-d107-475e-8db1-f961b710b26e" data-file-name="components/home/Contact.tsx">
+      <div className="container mx-auto px-6" data-unique-id="d29aa089-10ef-41e9-94a5-d573e4f84648" data-file-name="components/home/Contact.tsx">
         <motion.div initial={{
         opacity: 0,
         y: 20
@@ -98,19 +98,19 @@ export default function Contact() {
         amount: 0.2
       }} transition={{
         duration: 0.5
-      }} className="text-center mb-16" data-unique-id="4fdaed08-1288-47cb-aba6-51d6ee97214a" data-file-name="components/home/Contact.tsx">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="da593d89-56b8-4623-9d20-e6cbd4e10311" data-file-name="components/home/Contact.tsx">
-            <span className="editable-text" data-unique-id="2259568a-158a-4054-901d-bd68a8972310" data-file-name="components/home/Contact.tsx">Get In Touch</span>
+      }} className="text-center mb-16" data-unique-id="9d587a57-016f-4ec9-b77a-d038fc074941" data-file-name="components/home/Contact.tsx">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="9cc5f957-3053-4b15-9a38-7f747da5a5c4" data-file-name="components/home/Contact.tsx">
+            <span className="editable-text" data-unique-id="578a1fed-e492-4e9a-b985-ee3fa4def557" data-file-name="components/home/Contact.tsx">Get In Touch</span>
           </h2>
-          <div className="h-1 w-20 bg-chart-4 mx-auto" data-unique-id="9d18f796-ff3c-4932-a0ab-21d4fe15196b" data-file-name="components/home/Contact.tsx"></div>
-          <p className="text-muted-foreground mt-6 max-w-2xl mx-auto" data-unique-id="b632e81b-9a16-4e68-ba30-5f91d9f2428b" data-file-name="components/home/Contact.tsx">
-            <span className="editable-text" data-unique-id="9cbcfbad-b804-492d-a041-d94b3c848833" data-file-name="components/home/Contact.tsx">
+          <div className="h-1 w-20 bg-chart-4 mx-auto" data-unique-id="6c13c34e-99da-414f-a853-2f2ac51f0441" data-file-name="components/home/Contact.tsx"></div>
+          <p className="text-muted-foreground mt-6 max-w-2xl mx-auto" data-unique-id="248c3026-f818-44ba-9a04-855f4043865d" data-file-name="components/home/Contact.tsx">
+            <span className="editable-text" data-unique-id="4aedb86d-b401-4f5a-8279-3287afa58c87" data-file-name="components/home/Contact.tsx">
               Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
             </span>
           </p>
         </motion.div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12" data-unique-id="8ae72699-ce4b-4d9a-a163-d968d8a3aa5b" data-file-name="components/home/Contact.tsx">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12" data-unique-id="d0940998-036a-4c11-ad93-8da67b7fc138" data-file-name="components/home/Contact.tsx">
           <motion.div initial={{
           opacity: 0,
           x: -50
@@ -122,41 +122,41 @@ export default function Contact() {
           amount: 0.2
         }} transition={{
           duration: 0.5
-        }} className="space-y-8" data-unique-id="dd956e1d-27f6-42dd-b701-eae85d7a082f" data-file-name="components/home/Contact.tsx">
-            <h3 className="text-2xl font-bold" data-unique-id="7d0397fd-9d96-48e6-bac5-2ed902ceef73" data-file-name="components/home/Contact.tsx">
-              <span className="editable-text" data-unique-id="46e8c015-b756-4aa6-84d0-10812ddf9c06" data-file-name="components/home/Contact.tsx">Contact Information</span>
+        }} className="space-y-8" data-unique-id="56bb1f56-786e-4b41-ac40-cf1d57b1d22f" data-file-name="components/home/Contact.tsx">
+            <h3 className="text-2xl font-bold" data-unique-id="773a03f7-d6e6-45b8-b9ee-0a2ea9a0c36c" data-file-name="components/home/Contact.tsx">
+              <span className="editable-text" data-unique-id="784684d3-c4da-4a08-b925-509295e3e230" data-file-name="components/home/Contact.tsx">Contact Information</span>
             </h3>
             
-            <div className="space-y-6" data-unique-id="6a1b340e-7b22-4813-ab4f-f33443b6e713" data-file-name="components/home/Contact.tsx">
+            <div className="space-y-6" data-unique-id="bc9aea2a-3e0a-40a6-9955-e4825df9a05b" data-file-name="components/home/Contact.tsx">
               <motion.div whileHover={{
               scale: 1.03
-            }} className="flex items-start bg-card p-4 rounded-lg shadow-md border border-border/40" data-unique-id="df49ed30-0cd0-448f-85df-930722f3bf5f" data-file-name="components/home/Contact.tsx">
-                <div className="bg-chart-1/10 p-3 rounded-full mr-4" data-unique-id="085c9541-6832-4c9c-b9ba-fa0cb85226e3" data-file-name="components/home/Contact.tsx">
+            }} className="flex items-start bg-card p-4 rounded-lg shadow-md border border-border/40" data-unique-id="9814541a-62ce-4968-81c2-85229a1ac1f5" data-file-name="components/home/Contact.tsx">
+                <div className="bg-chart-1/10 p-3 rounded-full mr-4" data-unique-id="e74fd451-b8e4-4e5d-8c27-aaac733f6f27" data-file-name="components/home/Contact.tsx">
                   <Phone className="text-chart-1" size={24} />
                 </div>
-                <div data-unique-id="aa86b2ed-646c-4d02-a05c-9f3a16cd507a" data-file-name="components/home/Contact.tsx">
-                  <h4 className="font-bold text-lg" data-unique-id="ef47bbac-c894-4fb1-8d80-d6f7f65ea19c" data-file-name="components/home/Contact.tsx">
-                    <span className="editable-text" data-unique-id="59e3de90-d4d4-4c5e-aec7-84336f838a34" data-file-name="components/home/Contact.tsx">Phone</span>
+                <div data-unique-id="55421dbb-5110-4e4b-a0c8-481b3921a05e" data-file-name="components/home/Contact.tsx">
+                  <h4 className="font-bold text-lg" data-unique-id="ba05cee9-499a-4a42-89af-9b2966e1d087" data-file-name="components/home/Contact.tsx">
+                    <span className="editable-text" data-unique-id="7436e47e-19ae-4016-9f86-77da769bdfbc" data-file-name="components/home/Contact.tsx">Phone</span>
                   </h4>
-                  <p className="text-muted-foreground" data-unique-id="e0bcf34a-1172-433f-8c69-ace250505958" data-file-name="components/home/Contact.tsx">
-                    <span className="editable-text" data-unique-id="7b28f97a-82b6-4a48-a46b-58bb6b5517fd" data-file-name="components/home/Contact.tsx">0312-0362742</span>
+                  <p className="text-muted-foreground" data-unique-id="387cc543-dd01-4758-9840-2a116069718e" data-file-name="components/home/Contact.tsx">
+                    <span className="editable-text" data-unique-id="9e21499a-3663-41fb-8c7c-97cd1ee71cb1" data-file-name="components/home/Contact.tsx">0312-0362742</span>
                   </p>
                 </div>
               </motion.div>
               
               <motion.div whileHover={{
               scale: 1.03
-            }} className="flex items-start bg-card p-4 rounded-lg shadow-md border border-border/40" data-unique-id="014b0ae8-7bb9-4537-b05e-cfa10bea8543" data-file-name="components/home/Contact.tsx">
-                <div className="bg-chart-2/10 p-3 rounded-full mr-4" data-unique-id="d85c3e45-299c-437e-85dd-17464c269da7" data-file-name="components/home/Contact.tsx">
+            }} className="flex items-start bg-card p-4 rounded-lg shadow-md border border-border/40" data-unique-id="7d5fe3c0-e482-4feb-b4a0-e1ef36239af6" data-file-name="components/home/Contact.tsx">
+                <div className="bg-chart-2/10 p-3 rounded-full mr-4" data-unique-id="c95e9c5a-0ff9-4b10-be7a-0c7eac91901a" data-file-name="components/home/Contact.tsx">
                   <Mail className="text-chart-2" size={24} />
                 </div>
-                <div data-unique-id="7b1e3a2a-92ab-4afa-8693-e5beccc06d4d" data-file-name="components/home/Contact.tsx">
-                  <h4 className="font-bold text-lg" data-unique-id="d247db4f-9eb4-479a-936a-7908047558d9" data-file-name="components/home/Contact.tsx">
-                    <span className="editable-text" data-unique-id="8f937cd0-eaad-4125-92a2-b3a9d6f7306b" data-file-name="components/home/Contact.tsx">Email</span>
+                <div data-unique-id="41e25bfc-cd3e-4c8d-bfe7-a3833851f6a4" data-file-name="components/home/Contact.tsx">
+                  <h4 className="font-bold text-lg" data-unique-id="c8548bb3-acb3-4fc8-8260-c2a98cdbbbcf" data-file-name="components/home/Contact.tsx">
+                    <span className="editable-text" data-unique-id="66315ec1-0c9d-4eb6-bef1-8fe1dcae7378" data-file-name="components/home/Contact.tsx">Email</span>
                   </h4>
-                  <p className="text-muted-foreground" data-unique-id="77639d4d-ae3e-4e64-9d7e-9b3f5d58f088" data-file-name="components/home/Contact.tsx">
-                    <a href="mailto:lasharitanveerahmed68@gmail.com" className="hover:text-chart-2 transition-colors" data-unique-id="8a41971b-9b19-43ef-a439-996051f285ad" data-file-name="components/home/Contact.tsx">
-                      <span className="editable-text" data-unique-id="bd8cb78f-6ec0-47e1-a0ed-316c49e27897" data-file-name="components/home/Contact.tsx">lasharitanveerahmed68@gmail.com</span>
+                  <p className="text-muted-foreground" data-unique-id="354b9ade-c586-4762-b4a8-028ab84781d7" data-file-name="components/home/Contact.tsx">
+                    <a href="mailto:lasharitanveerahmed68@gmail.com" className="hover:text-chart-2 transition-colors" data-unique-id="ae792908-9f25-4766-bd65-f5e15da99c05" data-file-name="components/home/Contact.tsx">
+                      <span className="editable-text" data-unique-id="bac5e033-49ca-4ae7-9f90-5753a718a124" data-file-name="components/home/Contact.tsx">lasharitanveerahmed68@gmail.com</span>
                     </a>
                   </p>
                 </div>
@@ -164,16 +164,16 @@ export default function Contact() {
               
               <motion.div whileHover={{
               scale: 1.03
-            }} className="flex items-start bg-card p-4 rounded-lg shadow-md border border-border/40" data-unique-id="9de5da29-6aab-4173-a9fe-015be1404b05" data-file-name="components/home/Contact.tsx">
-                <div className="bg-chart-3/10 p-3 rounded-full mr-4" data-unique-id="b87113ba-47db-4847-adfb-d6c7dedadc2e" data-file-name="components/home/Contact.tsx">
+            }} className="flex items-start bg-card p-4 rounded-lg shadow-md border border-border/40" data-unique-id="debf40da-1b68-41b8-a14c-60726aa92a7b" data-file-name="components/home/Contact.tsx">
+                <div className="bg-chart-3/10 p-3 rounded-full mr-4" data-unique-id="f9e23ea4-b8e5-4ef3-aab6-d32545e647d2" data-file-name="components/home/Contact.tsx">
                   <MapPin className="text-chart-3" size={24} />
                 </div>
-                <div data-unique-id="8c9ef672-f033-4f5f-b004-717531e6a403" data-file-name="components/home/Contact.tsx">
-                  <h4 className="font-bold text-lg" data-unique-id="3b26208b-297c-4c1c-97bc-3bcf7253538c" data-file-name="components/home/Contact.tsx">
-                    <span className="editable-text" data-unique-id="9f1f1979-5721-41c8-ae5e-c36f4cf3a87b" data-file-name="components/home/Contact.tsx">Address</span>
+                <div data-unique-id="2de442cc-ff7c-4530-bc1c-bad19da66e3e" data-file-name="components/home/Contact.tsx">
+                  <h4 className="font-bold text-lg" data-unique-id="d04f7d01-44bf-4873-8103-ec53e1190ff2" data-file-name="components/home/Contact.tsx">
+                    <span className="editable-text" data-unique-id="f4cf51e8-1f5a-4e44-bcde-865efc96246d" data-file-name="components/home/Contact.tsx">Address</span>
                   </h4>
-                  <p className="text-muted-foreground" data-unique-id="4922472d-53d2-4f93-9a2e-ddb2c9e99f47" data-file-name="components/home/Contact.tsx">
-                    <span className="editable-text" data-unique-id="7f74cfb2-91bb-4099-b9b2-1b99cf8d656f" data-file-name="components/home/Contact.tsx">
+                  <p className="text-muted-foreground" data-unique-id="4dac7d32-2efc-4cd6-abc3-88e7aa64031f" data-file-name="components/home/Contact.tsx">
+                    <span className="editable-text" data-unique-id="b6ed7306-8e90-426a-9c84-4114399e6466" data-file-name="components/home/Contact.tsx">
                       Sain Muhammad Shah Road, Zulfiqar Colony, Dadu
                     </span>
                   </p>
@@ -182,16 +182,16 @@ export default function Contact() {
               
               <motion.div whileHover={{
               scale: 1.03
-            }} className="flex items-start bg-card p-4 rounded-lg shadow-md border border-border/40" data-unique-id="79bf3f91-e9e7-4469-b43b-db46958563c7" data-file-name="components/home/Contact.tsx">
-                <div className="bg-chart-4/10 p-3 rounded-full mr-4" data-unique-id="d0996b34-c8cd-469e-9261-faa96b5a2112" data-file-name="components/home/Contact.tsx">
+            }} className="flex items-start bg-card p-4 rounded-lg shadow-md border border-border/40" data-unique-id="9b6bc233-e036-42bf-829a-41c9f2d720b3" data-file-name="components/home/Contact.tsx">
+                <div className="bg-chart-4/10 p-3 rounded-full mr-4" data-unique-id="102bd5e0-6475-496f-a25d-13093ffa9e7c" data-file-name="components/home/Contact.tsx">
                   <Globe className="text-chart-4" size={24} />
                 </div>
-                <div data-unique-id="c197ada4-35f4-4018-af5a-9c36bf92a1f4" data-file-name="components/home/Contact.tsx">
-                  <h4 className="font-bold text-lg" data-unique-id="1ef6f3f6-bbf1-4efb-b5c5-fe84ce87c802" data-file-name="components/home/Contact.tsx">
-                    <span className="editable-text" data-unique-id="d218d2d9-df4c-4c6d-970c-7f37afcb4256" data-file-name="components/home/Contact.tsx">Availability</span>
+                <div data-unique-id="6427a784-24e1-43b9-8aa8-a18ec1ee8665" data-file-name="components/home/Contact.tsx">
+                  <h4 className="font-bold text-lg" data-unique-id="825d300f-c5df-4d97-a81e-3e77a40fdc92" data-file-name="components/home/Contact.tsx">
+                    <span className="editable-text" data-unique-id="41db79e7-6723-4fe1-a323-acfea23c3133" data-file-name="components/home/Contact.tsx">Availability</span>
                   </h4>
-                  <p className="text-muted-foreground" data-unique-id="fbe63821-eecb-4345-8d63-0ca13feeb52d" data-file-name="components/home/Contact.tsx">
-                    <span className="editable-text" data-unique-id="a3a129b0-d6ff-47fc-b1d0-5e279611bd8f" data-file-name="components/home/Contact.tsx">
+                  <p className="text-muted-foreground" data-unique-id="7185ebb1-723c-403e-9c56-b7b805622b5e" data-file-name="components/home/Contact.tsx">
+                    <span className="editable-text" data-unique-id="bed9daf7-095a-466d-a562-defebd2526ca" data-file-name="components/home/Contact.tsx">
                       Open to opportunities worldwide
                     </span>
                   </p>
@@ -199,16 +199,16 @@ export default function Contact() {
               </motion.div>
             </div>
             
-            <div className="pt-8" data-unique-id="7d78856e-6838-46d2-8305-ec9270983341" data-file-name="components/home/Contact.tsx">
-              <h3 className="text-2xl font-bold mb-4" data-unique-id="ffcda14a-1c75-4783-a646-c44abdd315db" data-file-name="components/home/Contact.tsx">
-                <span className="editable-text" data-unique-id="658098c0-9669-4fc8-84e8-f36c5fdfb85f" data-file-name="components/home/Contact.tsx">Location</span>
+            <div className="pt-8" data-unique-id="be80e2c1-3e5f-4ca0-8b63-647aaf749b33" data-file-name="components/home/Contact.tsx">
+              <h3 className="text-2xl font-bold mb-4" data-unique-id="1708897d-8aa6-4b23-8c3c-bc425351ff72" data-file-name="components/home/Contact.tsx">
+                <span className="editable-text" data-unique-id="dc6b1206-9e12-45ad-96da-46599d8ab447" data-file-name="components/home/Contact.tsx">Location</span>
               </h3>
               <motion.div whileHover={{
               scale: 1.02
-            }} className="rounded-lg overflow-hidden border border-border shadow-md h-[300px] w-full" data-unique-id="fa2ecae4-3249-4c42-b899-00a6fc093688" data-file-name="components/home/Contact.tsx">
+            }} className="rounded-lg overflow-hidden border border-border shadow-md h-[300px] w-full" data-unique-id="7a7c9f51-d5d7-44bb-b550-0cb23cf5b740" data-file-name="components/home/Contact.tsx">
                 <iframe title="Location Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115348.38306533202!2d67.72261304999999!3d26.734420699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c71954baf199f%3A0x2d40beeac353a445!2sDadu%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1632312268054!5m2!1sen!2s" className="w-full h-full" style={{
                 border: 0
-              }} allowFullScreen loading="lazy" data-unique-id="ed26503a-9caa-4a6c-bae1-f93754de2028" data-file-name="components/home/Contact.tsx" />
+              }} allowFullScreen loading="lazy" data-unique-id="a2bd44eb-0762-4ff6-8712-faffd5620df7" data-file-name="components/home/Contact.tsx" />
               </motion.div>
             </div>
           </motion.div>
@@ -224,15 +224,15 @@ export default function Contact() {
           amount: 0.2
         }} transition={{
           duration: 0.5
-        }} data-unique-id="349beebf-6fd5-4e19-bb37-480172a76d86" data-file-name="components/home/Contact.tsx">
+        }} data-unique-id="385ad748-4b48-401a-acdb-4a313fb4331b" data-file-name="components/home/Contact.tsx">
             <motion.div whileHover={{
             y: -5
           }} transition={{
             type: "spring",
             stiffness: 300
-          }} className="bg-card p-8 rounded-lg shadow-md border border-border/40" data-unique-id="712063fc-d4b7-4926-95c0-05bf32cfb5b9" data-file-name="components/home/Contact.tsx">
-              <h3 className="text-2xl font-bold mb-6" data-unique-id="0b43cf4e-9a42-4646-8316-b2e22ba43045" data-file-name="components/home/Contact.tsx">
-                <span className="editable-text" data-unique-id="8cf177ec-8680-44ac-9d54-52d330cfed45" data-file-name="components/home/Contact.tsx">Send a Message</span>
+          }} className="bg-card p-8 rounded-lg shadow-md border border-border/40" data-unique-id="05b77c8d-9978-497a-a7e8-44f47e18c535" data-file-name="components/home/Contact.tsx">
+              <h3 className="text-2xl font-bold mb-6" data-unique-id="d66f7172-0a65-4ee0-9aa0-1322f4579565" data-file-name="components/home/Contact.tsx">
+                <span className="editable-text" data-unique-id="b3750f27-09cc-47bf-baee-03fd4de7445d" data-file-name="components/home/Contact.tsx">Send a Message</span>
               </h3>
               
               <AnimatePresence mode="wait">
@@ -245,21 +245,21 @@ export default function Contact() {
               }} exit={{
                 opacity: 0,
                 scale: 0.8
-              }} className="flex flex-col items-center justify-center py-12 text-center" data-unique-id="fdf1ed40-828c-4488-993b-cb9b4a0e40c0" data-file-name="components/home/Contact.tsx">
+              }} className="flex flex-col items-center justify-center py-12 text-center" data-unique-id="e8851afe-9934-4ef2-ad74-38e775d56f7a" data-file-name="components/home/Contact.tsx">
                     <motion.div initial={{
                   scale: 0
                 }} animate={{
                   scale: [0, 1.2, 1]
                 }} transition={{
                   duration: 0.5
-                }} data-unique-id="e69579ef-5f8c-4c4e-a6b4-00593e26b2a5" data-file-name="components/home/Contact.tsx">
+                }} data-unique-id="607693fe-56f5-43f0-97f6-a570c1434037" data-file-name="components/home/Contact.tsx">
                       <CheckCircle className="text-chart-2 h-16 w-16 mb-4" />
                     </motion.div>
-                    <h4 className="text-xl font-bold mb-2" data-unique-id="2d385ab7-7eaf-4494-87bb-f52580d1354c" data-file-name="components/home/Contact.tsx">
-                      <span className="editable-text" data-unique-id="24e45f69-ce4c-4588-8bbb-933554d0da0b" data-file-name="components/home/Contact.tsx">Message Sent!</span>
+                    <h4 className="text-xl font-bold mb-2" data-unique-id="8326e209-b7f5-4547-82fd-2874dd63c19e" data-file-name="components/home/Contact.tsx">
+                      <span className="editable-text" data-unique-id="29919417-6151-461a-8680-42ab60473faf" data-file-name="components/home/Contact.tsx">Message Sent!</span>
                     </h4>
-                    <p className="text-muted-foreground" data-unique-id="f873fc75-d0bb-4a89-a3fb-db204fad788f" data-file-name="components/home/Contact.tsx">
-                      <span className="editable-text" data-unique-id="b436b0bf-0aea-4f5b-aabb-e3acf862a513" data-file-name="components/home/Contact.tsx">
+                    <p className="text-muted-foreground" data-unique-id="1ed66670-898e-4a0d-8479-e0165cba27fb" data-file-name="components/home/Contact.tsx">
+                      <span className="editable-text" data-unique-id="ae7a6e68-da53-433a-8453-840f29d358a6" data-file-name="components/home/Contact.tsx">
                         Thank you for reaching out. I'll get back to you as soon as possible.
                       </span>
                     </p>
@@ -267,70 +267,70 @@ export default function Contact() {
                 opacity: 1
               }} exit={{
                 opacity: 0
-              }} className="space-y-6" data-unique-id="297b6bba-da6b-4440-b7e7-b5d0c51e93fb" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-unique-id="82d53212-1bda-4fcf-aa2d-23571df9ad35" data-file-name="components/home/Contact.tsx">
-                      <div data-unique-id="1489357d-b748-4ae6-962f-af77cdb35df3" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
-                        <label htmlFor="name" className="block text-sm font-medium mb-2" data-unique-id="72c66e8a-1251-4bbb-860e-b2ff9bedc921" data-file-name="components/home/Contact.tsx">
-                          <span className="editable-text" data-unique-id="80b2f085-fd3a-497f-a699-c3b8216d178b" data-file-name="components/home/Contact.tsx">Your Name</span>
+              }} className="space-y-6" data-unique-id="fc746bbe-5e1b-46c8-b9fc-0e583b730601" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-unique-id="c9f317db-1e97-42ec-ab61-5829c2d31061" data-file-name="components/home/Contact.tsx">
+                      <div data-unique-id="0abb91f7-b241-487f-9fe5-bd1e9072c764" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
+                        <label htmlFor="name" className="block text-sm font-medium mb-2" data-unique-id="4f85d0a7-1234-4a0d-b4f3-1ebc123bcfd1" data-file-name="components/home/Contact.tsx">
+                          <span className="editable-text" data-unique-id="8c5da532-b608-4b0a-a7ac-f8af2a325da8" data-file-name="components/home/Contact.tsx">Your Name</span>
                         </label>
-                        <input type="text" id="name" name="name" value={formValues.name} onChange={handleChange} className={cn("w-full px-4 py-3 rounded-md border bg-background transition-colors focus:outline-none focus:ring-2 focus:ring-chart-1/50", formErrors.name ? "border-destructive" : "border-input hover:border-chart-1/50")} placeholder="John Doe" data-unique-id="ea902dad-54af-451a-b4ca-a98591f93f9c" data-file-name="components/home/Contact.tsx" />
+                        <input type="text" id="name" name="name" value={formValues.name} onChange={handleChange} className={cn("w-full px-4 py-3 rounded-md border bg-background transition-colors focus:outline-none focus:ring-2 focus:ring-chart-1/50", formErrors.name ? "border-destructive" : "border-input hover:border-chart-1/50")} placeholder="John Doe" data-unique-id="09e0f5ac-3839-4b3a-8266-99d9e298624f" data-file-name="components/home/Contact.tsx" />
                         {formErrors.name && <motion.p initial={{
                       opacity: 0,
                       y: -10
                     }} animate={{
                       opacity: 1,
                       y: 0
-                    }} className="text-destructive text-sm mt-1 flex items-center" data-unique-id="66eb5db6-d234-4d42-9849-93c7e1b71b11" data-file-name="components/home/Contact.tsx">
-                            <AlertCircle size={12} className="mr-1" /><span className="editable-text" data-unique-id="a744fa61-d9f2-48ef-92d0-98e74015ea41" data-file-name="components/home/Contact.tsx"> Name is required
+                    }} className="text-destructive text-sm mt-1 flex items-center" data-unique-id="141ed291-2377-4ff3-beb2-f1a41e4bbbcd" data-file-name="components/home/Contact.tsx">
+                            <AlertCircle size={12} className="mr-1" /><span className="editable-text" data-unique-id="5034c029-bed5-4ff8-886e-ace7546ec173" data-file-name="components/home/Contact.tsx"> Name is required
                           </span></motion.p>}
                       </div>
                       
-                      <div data-unique-id="5297a2e6-f1ba-466e-bfcf-2fcd5c0a5539" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
-                        <label htmlFor="email" className="block text-sm font-medium mb-2" data-unique-id="af8e5f99-c040-442b-ba52-4e61648a79b1" data-file-name="components/home/Contact.tsx">
-                          <span className="editable-text" data-unique-id="159d1067-7b29-4bc5-ad5f-f35b89900527" data-file-name="components/home/Contact.tsx">Email Address</span>
+                      <div data-unique-id="173d0efa-174d-46c8-bf34-2fc68346a841" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
+                        <label htmlFor="email" className="block text-sm font-medium mb-2" data-unique-id="a2e8515e-f2a2-42ac-9f2a-542d2af97d1f" data-file-name="components/home/Contact.tsx">
+                          <span className="editable-text" data-unique-id="71a984f5-1367-44b0-96f5-5372219767a1" data-file-name="components/home/Contact.tsx">Email Address</span>
                         </label>
-                        <input type="email" id="email" name="email" value={formValues.email} onChange={handleChange} className={cn("w-full px-4 py-3 rounded-md border bg-background transition-colors focus:outline-none focus:ring-2 focus:ring-chart-1/50", formErrors.email ? "border-destructive" : "border-input hover:border-chart-1/50")} placeholder="john@example.com" data-unique-id="fba8d7e8-9431-47bc-ad78-9a39432e1261" data-file-name="components/home/Contact.tsx" />
+                        <input type="email" id="email" name="email" value={formValues.email} onChange={handleChange} className={cn("w-full px-4 py-3 rounded-md border bg-background transition-colors focus:outline-none focus:ring-2 focus:ring-chart-1/50", formErrors.email ? "border-destructive" : "border-input hover:border-chart-1/50")} placeholder="john@example.com" data-unique-id="9f276691-e927-425b-be5b-a7fd67589d80" data-file-name="components/home/Contact.tsx" />
                         {formErrors.email && <motion.p initial={{
                       opacity: 0,
                       y: -10
                     }} animate={{
                       opacity: 1,
                       y: 0
-                    }} className="text-destructive text-sm mt-1 flex items-center" data-unique-id="a21ca032-331b-4968-b8c1-83b647ce62b4" data-file-name="components/home/Contact.tsx">
-                            <AlertCircle size={12} className="mr-1" /><span className="editable-text" data-unique-id="ae2bb513-c26f-4699-98ec-727188c95d15" data-file-name="components/home/Contact.tsx"> Valid email is required
+                    }} className="text-destructive text-sm mt-1 flex items-center" data-unique-id="2ff572b3-7a48-488d-9b09-0bdccda39517" data-file-name="components/home/Contact.tsx">
+                            <AlertCircle size={12} className="mr-1" /><span className="editable-text" data-unique-id="cfe559c8-3b3a-4460-af1d-d3bea1168d80" data-file-name="components/home/Contact.tsx"> Valid email is required
                           </span></motion.p>}
                       </div>
                     </div>
                     
-                    <div data-unique-id="78c5f334-1b80-48e1-83b5-9b5ac9f9e896" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
-                      <label htmlFor="subject" className="block text-sm font-medium mb-2" data-unique-id="c6ba2c39-9135-4000-92cb-0e7a0ab011b4" data-file-name="components/home/Contact.tsx">
-                        <span className="editable-text" data-unique-id="9ae3dd13-bb25-4bef-aef8-d335043a2ea8" data-file-name="components/home/Contact.tsx">Subject</span>
+                    <div data-unique-id="23832541-6ff0-4235-8bff-46abe3d07df6" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
+                      <label htmlFor="subject" className="block text-sm font-medium mb-2" data-unique-id="7272f731-7e06-45d9-8923-f5b4a4c222fe" data-file-name="components/home/Contact.tsx">
+                        <span className="editable-text" data-unique-id="c1220c49-e997-4b3d-88f9-28e75e561ccb" data-file-name="components/home/Contact.tsx">Subject</span>
                       </label>
-                      <input type="text" id="subject" name="subject" value={formValues.subject} onChange={handleChange} className={cn("w-full px-4 py-3 rounded-md border bg-background transition-colors focus:outline-none focus:ring-2 focus:ring-chart-1/50", formErrors.subject ? "border-destructive" : "border-input hover:border-chart-1/50")} placeholder="Project Inquiry" data-unique-id="2c90e3d0-24f0-46e2-9f82-2ed647c4068b" data-file-name="components/home/Contact.tsx" />
+                      <input type="text" id="subject" name="subject" value={formValues.subject} onChange={handleChange} className={cn("w-full px-4 py-3 rounded-md border bg-background transition-colors focus:outline-none focus:ring-2 focus:ring-chart-1/50", formErrors.subject ? "border-destructive" : "border-input hover:border-chart-1/50")} placeholder="Project Inquiry" data-unique-id="d255f079-2b6a-4643-9aa0-cb855af2903f" data-file-name="components/home/Contact.tsx" />
                       {formErrors.subject && <motion.p initial={{
                     opacity: 0,
                     y: -10
                   }} animate={{
                     opacity: 1,
                     y: 0
-                  }} className="text-destructive text-sm mt-1 flex items-center" data-unique-id="3d0adaae-0639-4edd-a89a-1b7863214535" data-file-name="components/home/Contact.tsx">
-                          <AlertCircle size={12} className="mr-1" /><span className="editable-text" data-unique-id="5ec735f9-bde7-4bfb-832b-3a55192d2768" data-file-name="components/home/Contact.tsx"> Subject is required
+                  }} className="text-destructive text-sm mt-1 flex items-center" data-unique-id="7e4c47c8-5498-4896-a6e7-5809fd88abf8" data-file-name="components/home/Contact.tsx">
+                          <AlertCircle size={12} className="mr-1" /><span className="editable-text" data-unique-id="547b8ca0-10b1-429f-b682-1ef6e52ef0ea" data-file-name="components/home/Contact.tsx"> Subject is required
                         </span></motion.p>}
                     </div>
                     
-                    <div data-unique-id="5f596413-1f59-43ae-b7c7-5c5f5fcaaa4f" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
-                      <label htmlFor="message" className="block text-sm font-medium mb-2" data-unique-id="aaa112e9-abd4-41aa-ab35-b3411b68ff31" data-file-name="components/home/Contact.tsx">
-                        <span className="editable-text" data-unique-id="d333d240-7d08-4718-92f9-6920fda5858c" data-file-name="components/home/Contact.tsx">Message</span>
+                    <div data-unique-id="b8a7cee3-8ad0-4568-a326-8dd0c9bd150e" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
+                      <label htmlFor="message" className="block text-sm font-medium mb-2" data-unique-id="2d136198-843b-4c17-8570-d2fc9fea8cea" data-file-name="components/home/Contact.tsx">
+                        <span className="editable-text" data-unique-id="f0b9b5e1-991c-4971-afa0-7087bd81e695" data-file-name="components/home/Contact.tsx">Message</span>
                       </label>
-                      <textarea id="message" name="message" value={formValues.message} onChange={handleChange} rows={5} className={cn("w-full px-4 py-3 rounded-md border bg-background transition-colors focus:outline-none focus:ring-2 focus:ring-chart-1/50 resize-none", formErrors.message ? "border-destructive" : "border-input hover:border-chart-1/50")} placeholder="Your message here..." data-unique-id="8841f203-1577-4692-ba4c-9a522d7d0f71" data-file-name="components/home/Contact.tsx" />
+                      <textarea id="message" name="message" value={formValues.message} onChange={handleChange} rows={5} className={cn("w-full px-4 py-3 rounded-md border bg-background transition-colors focus:outline-none focus:ring-2 focus:ring-chart-1/50 resize-none", formErrors.message ? "border-destructive" : "border-input hover:border-chart-1/50")} placeholder="Your message here..." data-unique-id="10774016-3411-41c4-896b-88f8aa090db3" data-file-name="components/home/Contact.tsx" />
                       {formErrors.message && <motion.p initial={{
                     opacity: 0,
                     y: -10
                   }} animate={{
                     opacity: 1,
                     y: 0
-                  }} className="text-destructive text-sm mt-1 flex items-center" data-unique-id="51e24244-b7ef-446e-ac51-7c53101b8256" data-file-name="components/home/Contact.tsx">
-                          <AlertCircle size={12} className="mr-1" /><span className="editable-text" data-unique-id="aac12d40-64d2-4d03-975d-4eabf80c1f67" data-file-name="components/home/Contact.tsx"> Message is required
+                  }} className="text-destructive text-sm mt-1 flex items-center" data-unique-id="a9f8c678-dc7d-4639-b32a-e0689d438e06" data-file-name="components/home/Contact.tsx">
+                          <AlertCircle size={12} className="mr-1" /><span className="editable-text" data-unique-id="2e71fbc4-21c2-4c6f-8f74-155db51a23fb" data-file-name="components/home/Contact.tsx"> Message is required
                         </span></motion.p>}
                     </div>
                     
@@ -338,9 +338,9 @@ export default function Contact() {
                   scale: 1.02
                 }} whileTap={{
                   scale: 0.98
-                }} type="submit" disabled={formStatus === 'loading'} className={cn("flex items-center justify-center gap-2 w-full bg-chart-1 text-white py-3 px-6 rounded-md transition-all", formStatus === 'loading' ? "opacity-70 cursor-not-allowed" : "hover:bg-chart-1/90 hover:shadow-lg")} data-unique-id="d7649179-4c83-4e01-b543-306a8a0e3eea" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
+                }} type="submit" disabled={formStatus === 'loading'} className={cn("flex items-center justify-center gap-2 w-full bg-chart-1 text-white py-3 px-6 rounded-md transition-all", formStatus === 'loading' ? "opacity-70 cursor-not-allowed" : "hover:bg-chart-1/90 hover:shadow-lg")} data-unique-id="54476aa3-cb4c-450a-b202-2a82a5566732" data-file-name="components/home/Contact.tsx" data-dynamic-text="true">
                       {formStatus === 'loading' ? <>
-                          <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" data-unique-id="097a8965-a083-4d3d-bc59-4fd0c5d62bbd" data-file-name="components/home/Contact.tsx">
+                          <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" data-unique-id="a3944695-54f9-4b0a-bb51-ff6b7cb35c6f" data-file-name="components/home/Contact.tsx">
                             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                           </svg>
@@ -357,9 +357,9 @@ export default function Contact() {
                 }} animate={{
                   opacity: 1,
                   y: 0
-                }} className="text-destructive text-center mt-2 flex items-center justify-center" data-unique-id="f1b1e3d0-b51f-48c3-bb82-a7ff3865b71b" data-file-name="components/home/Contact.tsx">
+                }} className="text-destructive text-center mt-2 flex items-center justify-center" data-unique-id="a165daea-0468-4409-9586-c3aa15e38a48" data-file-name="components/home/Contact.tsx">
                         <AlertCircle size={16} className="mr-2" />
-                        <span className="editable-text" data-unique-id="15f97d18-11bf-42ba-a369-1de6849902dc" data-file-name="components/home/Contact.tsx">
+                        <span className="editable-text" data-unique-id="1862a02c-f66f-41da-88bd-737b8beb30a6" data-file-name="components/home/Contact.tsx">
                           There was an error sending your message. Please try again.
                         </span>
                       </motion.p>}
