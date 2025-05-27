@@ -8,7 +8,8 @@ import Footer from "@/components/layout/Footer";
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1
+  maximumScale: 5,
+  userScalable: true
 };
 export const metadata: Metadata = {
   title: {
@@ -58,8 +59,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <html lang="en" className={`${GeistSans.variable} scroll-smooth`} data-unique-id="e17eef96-e96a-4acb-b57d-110a8e0f2f34" data-file-name="app/layout.tsx">
-      <body data-unique-id="ceb6e958-8002-4170-9345-468db91c627c" data-file-name="app/layout.tsx">
+  return <html lang="en" className={`${GeistSans.variable} scroll-smooth`} data-unique-id="b6633266-c081-4fa6-9b14-a8ddf2b6ea40" data-file-name="app/layout.tsx">
+      <body data-unique-id="89ff9f5d-4996-41a1-a708-d4ecaa338e06" data-file-name="app/layout.tsx">
         <DevtoolsProvider>
           <Navbar />
           {children}

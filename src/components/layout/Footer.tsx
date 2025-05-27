@@ -4,50 +4,50 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  return <footer className="bg-card border-t border-border py-10" data-unique-id="eb02288d-19a2-49ac-8327-ad1254f6c48e" data-file-name="components/layout/Footer.tsx">
-      <div className="container mx-auto px-6" data-unique-id="9b958d88-be17-4c0f-9d73-93733eb1dcdd" data-file-name="components/layout/Footer.tsx">
-        <div className="flex flex-col md:flex-row justify-between items-center" data-unique-id="06f8eeed-6298-4005-b7da-f5e1ecf06609" data-file-name="components/layout/Footer.tsx">
-          <div className="mb-6 md:mb-0" data-unique-id="25bda292-85c2-45d1-84fc-008e2e1a49c5" data-file-name="components/layout/Footer.tsx">
+  return <footer className="bg-card border-t border-border py-10" data-unique-id="a41ae762-7523-4f4e-9dc5-ec82317c2d07" data-file-name="components/layout/Footer.tsx">
+      <div className="container mx-auto px-6" data-unique-id="4b8fb67d-bfc2-4be9-82b5-3bd6bea251c0" data-file-name="components/layout/Footer.tsx">
+        <div className="flex flex-col md:flex-row justify-between items-center" data-unique-id="98d2e559-5e75-4173-b55b-2cf900d22e4a" data-file-name="components/layout/Footer.tsx">
+          <div className="mb-6 md:mb-0" data-unique-id="e3f8032a-41b1-4f61-b2a5-dce25e8d1a12" data-file-name="components/layout/Footer.tsx">
             <motion.div initial={{
             opacity: 0
           }} animate={{
             opacity: 1
           }} transition={{
             delay: 0.2
-          }} className="text-2xl font-bold" data-unique-id="b1433a14-553f-4422-a4ca-6431796c65d4" data-file-name="components/layout/Footer.tsx">
-              <span className="text-chart-1" data-unique-id="f3da7dd9-531b-4487-9d2f-0149fa3255f5" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="0cbf10b8-5740-4c12-954b-e80b5aeb61bb" data-file-name="components/layout/Footer.tsx">T</span></span><span className="editable-text" data-unique-id="31d1e32d-066a-421f-940d-2767e1e2d76f" data-file-name="components/layout/Footer.tsx">anver</span><span className="text-chart-1" data-unique-id="7f3ca00a-d73b-4b04-8e5d-3cc736a14c58" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="6a14ec02-136a-44fc-b58d-c97d7371d2f1" data-file-name="components/layout/Footer.tsx">L</span></span>
+          }} className="text-2xl font-bold" data-unique-id="a327d183-b389-4e34-be72-721b97252558" data-file-name="components/layout/Footer.tsx">
+              <span className="text-chart-1" data-unique-id="911fcf9c-63fd-44ca-96da-786cd7ce6713" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="7a62d275-2adc-4411-b3ae-05f37bcd5809" data-file-name="components/layout/Footer.tsx">T</span></span><span className="editable-text" data-unique-id="66cba3a2-98f7-4a35-a216-3918b131f92e" data-file-name="components/layout/Footer.tsx">anver</span><span className="text-chart-1" data-unique-id="a646d2bd-f35c-4e99-ae9a-0d83ae47cb24" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="15884c9e-3581-4372-ae1c-0fdce48bf491" data-file-name="components/layout/Footer.tsx">L</span></span>
             </motion.div>
-            <p className="text-muted-foreground mt-2" data-unique-id="2ba42a7a-5553-4dda-9d3b-5737fff4ad87" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="fa7d0b8f-b3ce-40cf-9666-47cd23a8a893" data-file-name="components/layout/Footer.tsx">Library and Information Science Graduate</span></p>
+            <p className="text-muted-foreground mt-2" data-unique-id="62acf9f2-d751-4539-a2fc-56d5dd72d0a1" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="19e98e09-2d59-4742-b5b1-21071d6170e5" data-file-name="components/layout/Footer.tsx">Library and Information Science Graduate</span></p>
           </div>
           
-          <div className="flex items-center space-x-4" data-unique-id="d823344e-5104-4b02-b93e-63a3e10371fa" data-file-name="components/layout/Footer.tsx">
+          <div className="flex items-center space-x-4" data-unique-id="2f98e25a-2664-4b90-bbb1-be66080f042a" data-file-name="components/layout/Footer.tsx">
             <motion.a whileHover={{
             scale: 1.1
           }} whileTap={{
             scale: 0.9
-          }} href="mailto:lasharitanveerahmed68@gmail.com" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="Email" data-unique-id="3346f763-9745-44ac-bbe3-4e231e5a092a" data-file-name="components/layout/Footer.tsx">
+          }} href="mailto:lasharitanveerahmed68@gmail.com" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="Email" data-unique-id="7ab69fe4-a15e-4df2-9b71-3c113609646f" data-file-name="components/layout/Footer.tsx">
               <Mail size={20} />
             </motion.a>
             <motion.a whileHover={{
             scale: 1.1
           }} whileTap={{
             scale: 0.9
-          }} href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="LinkedIn" data-unique-id="f170054e-73bf-4663-9419-a647578737f7" data-file-name="components/layout/Footer.tsx">
+          }} href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="LinkedIn" data-unique-id="b56c0398-e91b-4c0b-a092-ae6fe93ebf55" data-file-name="components/layout/Footer.tsx">
               <Linkedin size={20} />
             </motion.a>
             <motion.a whileHover={{
             scale: 1.1
           }} whileTap={{
             scale: 0.9
-          }} href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="GitHub" data-unique-id="472c46d0-69eb-4bdd-8203-1ec125ef7367" data-file-name="components/layout/Footer.tsx">
+          }} href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="GitHub" data-unique-id="1fd4b15b-0a14-4709-b6ec-f17ece440abe" data-file-name="components/layout/Footer.tsx">
               <Github size={20} />
             </motion.a>
           </div>
         </div>
         
-        <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground" data-unique-id="15eb2d1a-4e31-4ef1-a854-8417536d3046" data-file-name="components/layout/Footer.tsx">
-          <p className="flex items-center justify-center" data-unique-id="03e90732-f233-4c7b-af5c-5f174185aca9" data-file-name="components/layout/Footer.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="d61e5f76-a282-4134-8085-345ea1bede15" data-file-name="components/layout/Footer.tsx">
-            © </span>{currentYear}<span className="editable-text" data-unique-id="8d763d14-e959-4db3-8574-c81957e79eb3" data-file-name="components/layout/Footer.tsx"> Tanveer Lashari. All rights reserved. Made with </span><Heart size={14} className="mx-1 text-chart-1" /><span className="editable-text" data-unique-id="6a0d0838-a1a8-4eb8-9a5d-0db11b984028" data-file-name="components/layout/Footer.tsx"> by Tanveer Lashari
+        <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground" data-unique-id="f5c363b0-e08c-4d9a-9fe5-0378a236b9c4" data-file-name="components/layout/Footer.tsx">
+          <p className="flex items-center justify-center" data-unique-id="ea0ca2e8-68da-4cc4-b8e4-2bd58c84c9c6" data-file-name="components/layout/Footer.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="2c42072b-25eb-453f-b1e7-08252849132c" data-file-name="components/layout/Footer.tsx">
+            © </span>{currentYear}<span className="editable-text" data-unique-id="055052a2-ed55-4a43-9ac6-92a615deaba2" data-file-name="components/layout/Footer.tsx"> Tanveer Lashari. All rights reserved. Made with </span><Heart size={14} className="mx-1 text-chart-1" /><span className="editable-text" data-unique-id="e1a9f6de-f342-4dce-95a6-597b7f23d429" data-file-name="components/layout/Footer.tsx"> by Tanveer Lashari
           </span></p>
         </div>
       </div>

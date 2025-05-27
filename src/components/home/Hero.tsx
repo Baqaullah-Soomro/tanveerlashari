@@ -3,11 +3,11 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Download, Mail, Briefcase, BookOpen } from 'lucide-react';
 export default function Hero() {
-  return <section id="home" className="relative h-screen flex items-center" data-unique-id="29d90092-9831-4c79-a5e9-e8ae0596b356" data-file-name="components/home/Hero.tsx" data-dynamic-text="true">
+  return <section id="home" className="relative h-screen flex items-center" data-unique-id="fe2a03ec-b47f-4395-b206-0edacfda44b2" data-file-name="components/home/Hero.tsx" data-dynamic-text="true">
       {/* Background elements */}
-      <div className="absolute inset-0 -z-10 overflow-hidden" data-unique-id="991d9d0b-244b-4a03-ab3c-aaba6e875a2d" data-file-name="components/home/Hero.tsx" data-dynamic-text="true">
-        <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 bg-gradient-to-bl from-chart-1/20 to-transparent" data-unique-id="b5a0fbca-e06b-4fda-8ce2-0e77b642bf1f" data-file-name="components/home/Hero.tsx"></div>
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-10 bg-gradient-to-tr from-chart-2/20 to-transparent" data-unique-id="a85771ae-1b3f-448e-88d4-51366b3a8084" data-file-name="components/home/Hero.tsx"></div>
+      <div className="absolute inset-0 -z-10 overflow-hidden" data-unique-id="b7f715c9-48b8-4b0b-a51d-1e8b99c7f364" data-file-name="components/home/Hero.tsx" data-dynamic-text="true">
+        <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 bg-gradient-to-bl from-chart-1/20 to-transparent" data-unique-id="89a5ef9f-bc07-4457-8d95-8904ef8b3ffa" data-file-name="components/home/Hero.tsx"></div>
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 opacity-10 bg-gradient-to-tr from-chart-2/20 to-transparent" data-unique-id="7fb298db-7e04-43e7-94d0-0170e72571ab" data-file-name="components/home/Hero.tsx"></div>
         
         <motion.div initial={{
         opacity: 0,
@@ -19,7 +19,7 @@ export default function Hero() {
         x: 0
       }} transition={{
         duration: 1.5
-      }} className="absolute top-20 right-20 w-[500px] h-[500px] rounded-full bg-chart-1" data-unique-id="fbbc69a6-ce79-4834-b45b-0ac7560d8d07" data-file-name="components/home/Hero.tsx" />
+      }} className="absolute top-20 right-20 w-[500px] h-[500px] rounded-full bg-chart-1" data-unique-id="579424f2-0ce7-4623-ae1f-8ff529791d7b" data-file-name="components/home/Hero.tsx" />
         <motion.div initial={{
         opacity: 0,
         scale: 0.8,
@@ -31,10 +31,10 @@ export default function Hero() {
       }} transition={{
         duration: 1.5,
         delay: 0.2
-      }} className="absolute bottom-10 left-10 w-[300px] h-[300px] rounded-full bg-chart-2" data-unique-id="0a45c1a6-e438-44c4-99dc-f1b2b9d34a52" data-file-name="components/home/Hero.tsx" />
+      }} className="absolute bottom-10 left-10 w-[300px] h-[300px] rounded-full bg-chart-2" data-unique-id="81491327-7fec-46d1-bf71-6f37b03a9c6a" data-file-name="components/home/Hero.tsx" />
         
         {/* Animated dots grid */}
-        <div className="absolute inset-0 grid grid-cols-12 grid-rows-6 opacity-30" data-unique-id="a5dd2d4a-7364-4c0b-9c62-7f1da3d3fae7" data-file-name="components/home/Hero.tsx" data-dynamic-text="true">
+        <div className="absolute inset-0 grid grid-cols-12 grid-rows-6 opacity-30" data-unique-id="912207f0-1a7e-4f3e-a483-a42f5369af68" data-file-name="components/home/Hero.tsx" data-dynamic-text="true">
           {Array.from({
           length: 12 * 6
         }).map((_, i) => <motion.div key={i} initial={{
@@ -46,13 +46,13 @@ export default function Hero() {
           repeat: Infinity,
           repeatType: "reverse",
           delay: Math.random() * 2
-        }} className="w-1.5 h-1.5 rounded-full bg-chart-4 mx-auto my-auto" data-unique-id="29850e82-539d-44f3-9bf3-ffe5f1d06eba" data-file-name="components/home/Hero.tsx" />)}
+        }} className="w-1.5 h-1.5 rounded-full bg-chart-4 mx-auto my-auto" data-unique-id="d0efbd76-ffd5-4dc1-bf2b-b20fe55f5e08" data-file-name="components/home/Hero.tsx" />)}
         </div>
       </div>
 
-      <div className="container mx-auto px-6" data-unique-id="169f7553-88f4-4c1e-8667-6069169e1ec5" data-file-name="components/home/Hero.tsx">
-        <div className="grid grid-cols-12 gap-8" data-unique-id="586d544f-33ef-4d6f-aa85-83212ddd4009" data-file-name="components/home/Hero.tsx">
-          <div className="col-span-12 lg:col-span-7" data-unique-id="dbcfd62c-57c7-4a8e-a077-447d794e1116" data-file-name="components/home/Hero.tsx">
+      <div className="container mx-auto px-6" data-unique-id="fe49ddbd-8e55-4a48-9d5a-0710f66d57f6" data-file-name="components/home/Hero.tsx">
+        <div className="grid grid-cols-12 gap-8" data-unique-id="f4c67bb4-6638-4264-bbfb-537d08fde9ed" data-file-name="components/home/Hero.tsx">
+          <div className="col-span-12 md:col-span-8 lg:col-span-7" data-unique-id="e7c64e43-f9ed-4f42-a4b8-8e5b7d9da6ed" data-file-name="components/home/Hero.tsx">
             <motion.div initial={{
             opacity: 0,
             y: 20
@@ -61,8 +61,8 @@ export default function Hero() {
             y: 0
           }} transition={{
             duration: 0.5
-          }} data-unique-id="5b909845-a704-4a66-9ef1-4af2219b51a2" data-file-name="components/home/Hero.tsx">
-              <h2 className="text-lg font-medium text-chart-1 mb-2" data-unique-id="d6384992-1ed0-4371-a2e1-26f47e79d9b6" data-file-name="components/home/Hero.tsx">
+          }} data-unique-id="cad79ead-b06b-4f41-8448-adbf60545a0c" data-file-name="components/home/Hero.tsx">
+              <h2 className="text-lg font-medium text-chart-1 mb-2" data-unique-id="6359595b-3740-4d5d-81af-a28ada0350b5" data-file-name="components/home/Hero.tsx">
                 <motion.span initial={{
                 opacity: 0,
                 x: -20
@@ -72,8 +72,8 @@ export default function Hero() {
               }} transition={{
                 delay: 0.1,
                 duration: 0.5
-              }} className="inline-block" data-unique-id="8d17ee79-8278-4d1b-83e8-70a54ebcefe1" data-file-name="components/home/Hero.tsx">
-                  <span className="editable-text" data-unique-id="410f9307-6570-459c-bc12-5e926d66fd9a" data-file-name="components/home/Hero.tsx">Hello, I'm</span>
+              }} className="inline-block" data-unique-id="9c1be1ab-55c5-448d-ad21-8cd94b6202cf" data-file-name="components/home/Hero.tsx">
+                  <span className="editable-text" data-unique-id="414cf349-cfbf-4ef9-bb64-d900a435f4a4" data-file-name="components/home/Hero.tsx">Hello, I'm</span>
                 </motion.span>
               </h2>
             </motion.div>
@@ -85,7 +85,7 @@ export default function Hero() {
           }} transition={{
             duration: 1,
             delay: 0.2
-          }} className="text-5xl sm:text-6xl md:text-7xl font-bold mb-4" data-unique-id="9bd4962e-c8ab-4251-98f1-957c352f7d2f" data-file-name="components/home/Hero.tsx">
+          }} className="text-5xl sm:text-6xl md:text-7xl font-bold mb-4" data-unique-id="832713db-f036-4ed8-8e46-918c791de980" data-file-name="components/home/Hero.tsx">
               <motion.span initial={{
               display: "inline-block",
               opacity: 0,
@@ -96,8 +96,8 @@ export default function Hero() {
             }} transition={{
               delay: 0.2,
               duration: 0.5
-            }} className="inline-block text-chart-1" data-unique-id="2c5af3cc-326f-4780-af41-282f5a669f93" data-file-name="components/home/Hero.tsx">
-                <span className="editable-text" data-unique-id="e5472a98-cb9c-4759-9a94-6eb9a572bd02" data-file-name="components/home/Hero.tsx">T</span>
+            }} className="inline-block text-chart-1" data-unique-id="8933f536-ac84-48c3-b3ef-54c146369c4f" data-file-name="components/home/Hero.tsx">
+                <span className="editable-text" data-unique-id="71efe9c2-31c0-4a24-a552-ff7310307d7f" data-file-name="components/home/Hero.tsx">T</span>
               </motion.span>
               <motion.span initial={{
               display: "inline-block",
@@ -109,8 +109,8 @@ export default function Hero() {
             }} transition={{
               delay: 0.3,
               duration: 0.5
-            }} className="inline-block" data-unique-id="3ce433fb-d6ff-48eb-bb25-655c357c03d0" data-file-name="components/home/Hero.tsx">
-                <span className="editable-text" data-unique-id="b5b665b0-695d-4d83-9bfa-3dabec650fcd" data-file-name="components/home/Hero.tsx">anveer</span>
+            }} className="inline-block" data-unique-id="beb01814-cb21-4e75-90e7-466cf8107c21" data-file-name="components/home/Hero.tsx">
+                <span className="editable-text" data-unique-id="cc5ccb2c-bce2-422d-8ba1-83c9c5200cba" data-file-name="components/home/Hero.tsx">anveer</span>
               </motion.span>
               <motion.span initial={{
               display: "inline-block",
@@ -122,8 +122,8 @@ export default function Hero() {
             }} transition={{
               delay: 0.4,
               duration: 0.5
-            }} className="inline-block ml-3 text-chart-1" data-unique-id="a4229fc1-e509-427b-ba74-2c81f60f9601" data-file-name="components/home/Hero.tsx">
-                <span className="editable-text" data-unique-id="64b4a8df-c441-48c6-98c8-ccd0b3caff4c" data-file-name="components/home/Hero.tsx">L</span>
+            }} className="inline-block ml-3 text-chart-1" data-unique-id="0eb2d09a-ede0-4cb6-a0d9-a598d7c665fe" data-file-name="components/home/Hero.tsx">
+                <span className="editable-text" data-unique-id="e2a814b5-69a6-407f-8b28-0612c2b72a3a" data-file-name="components/home/Hero.tsx">L</span>
               </motion.span>
               <motion.span initial={{
               display: "inline-block",
@@ -135,8 +135,8 @@ export default function Hero() {
             }} transition={{
               delay: 0.5,
               duration: 0.5
-            }} className="inline-block" data-unique-id="8b5a7361-c9e5-4b16-86ae-d004f86b83e7" data-file-name="components/home/Hero.tsx">
-                <span className="editable-text" data-unique-id="f6c3dc86-d529-454c-82d6-f73e66518db5" data-file-name="components/home/Hero.tsx">ashari</span>
+            }} className="inline-block" data-unique-id="af3f9360-2940-435c-b369-87f12fb79dbd" data-file-name="components/home/Hero.tsx">
+                <span className="editable-text" data-unique-id="9f37690d-3db4-4b6d-a0fe-7b9453e8bbca" data-file-name="components/home/Hero.tsx">ashari</span>
               </motion.span>
             </motion.h1>
             
@@ -149,7 +149,7 @@ export default function Hero() {
           }} transition={{
             duration: 0.5,
             delay: 0.6
-          }} className="relative inline-flex h-10 overflow-hidden mb-8" data-unique-id="3e3c5a78-b2b6-4fc1-8272-24d240a33d07" data-file-name="components/home/Hero.tsx">
+          }} className="relative inline-flex h-10 overflow-hidden mb-8" data-unique-id="5bf42c7c-1fce-4dc0-a5df-c540c025ce69" data-file-name="components/home/Hero.tsx">
               <motion.h3 initial={{
               y: 0
             }} animate={{
@@ -160,8 +160,8 @@ export default function Hero() {
               repeat: Infinity,
               repeatType: 'loop',
               repeatDelay: 2
-            }} className="absolute text-2xl sm:text-3xl font-medium text-muted-foreground" data-unique-id="5e1fdbc6-2d92-40d7-998b-88702e9fced4" data-file-name="components/home/Hero.tsx">
-                <span className="editable-text" data-unique-id="93b2bcec-bc16-4aec-9d1a-60b1468d4438" data-file-name="components/home/Hero.tsx">Library and Information Science Graduate</span>
+            }} className="absolute text-2xl sm:text-3xl font-medium text-muted-foreground" data-unique-id="789cfbf1-ff61-4ac6-add1-777b08a693d4" data-file-name="components/home/Hero.tsx">
+                <span className="editable-text" data-unique-id="7079ce47-894e-4401-baee-d2714a67415c" data-file-name="components/home/Hero.tsx">Library and Information Science Graduate</span>
               </motion.h3>
               <motion.h3 initial={{
               y: '100%'
@@ -173,10 +173,10 @@ export default function Hero() {
               repeat: Infinity,
               repeatType: 'loop',
               repeatDelay: 2
-            }} className="absolute text-2xl sm:text-3xl font-medium text-muted-foreground" data-unique-id="6aa372b8-7b88-489d-af3a-591d48a25295" data-file-name="components/home/Hero.tsx">
-                <span className="flex items-center" data-unique-id="06c75876-75e0-40ec-802d-6c43839b8eab" data-file-name="components/home/Hero.tsx">
+            }} className="absolute text-2xl sm:text-3xl font-medium text-muted-foreground" data-unique-id="c172eb3b-9dee-4d48-ab69-66fe2eb510db" data-file-name="components/home/Hero.tsx">
+                <span className="flex items-center" data-unique-id="1d71ed1c-29a9-471a-80d0-b02c36b6e102" data-file-name="components/home/Hero.tsx">
                   <BookOpen size={20} className="mr-2 text-chart-2" />
-                  <span className="editable-text" data-unique-id="8f3ddb85-25bd-4a87-ba5b-4ae3605857c4" data-file-name="components/home/Hero.tsx">Digital Library Specialist</span>
+                  <span className="editable-text" data-unique-id="0a5b21dd-04f0-4095-b6ae-4716213a1845" data-file-name="components/home/Hero.tsx">Digital Library Specialist</span>
                 </span>
               </motion.h3>
             </motion.div>
@@ -190,9 +190,9 @@ export default function Hero() {
           }} transition={{
             duration: 0.5,
             delay: 0.7
-          }} data-unique-id="28623bec-e12d-4810-98ca-b3f931378af4" data-file-name="components/home/Hero.tsx">
-              <p className="text-lg text-muted-foreground mb-10 max-w-2xl leading-relaxed" data-unique-id="289bb740-473f-48a0-9b52-d196acadc060" data-file-name="components/home/Hero.tsx">
-                <span className="editable-text" data-unique-id="ae0fb7e5-6401-4183-a65f-96b3894d4899" data-file-name="components/home/Hero.tsx">
+          }} data-unique-id="7d7f3a26-76ef-42d0-b6b2-756189e44f8f" data-file-name="components/home/Hero.tsx">
+              <p className="text-lg text-muted-foreground mb-10 max-w-2xl leading-relaxed" data-unique-id="bb563207-2e8f-4668-b927-12c51ca9f56b" data-file-name="components/home/Hero.tsx">
+                <span className="editable-text" data-unique-id="2d2d5c5a-3274-437e-88d9-5267778e799b" data-file-name="components/home/Hero.tsx">
                   Passionate about library sciences, cataloging, digital library systems, and knowledge organization.
                   Experienced in modern library management systems and dedicated to enhancing user services.
                 </span>
@@ -208,7 +208,7 @@ export default function Hero() {
           }} transition={{
             duration: 0.5,
             delay: 0.8
-          }} className="flex flex-wrap gap-4" data-unique-id="925fb8bf-90ed-477e-ae7b-51b949115d36" data-file-name="components/home/Hero.tsx">
+          }} className="flex flex-wrap gap-4 sm:flex-row" data-unique-id="475b32ac-a8f0-4af9-86f0-bb62ac0a46ad" data-file-name="components/home/Hero.tsx">
               <motion.a href="#contact" whileHover={{
               scale: 1.05,
               boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)"
@@ -219,9 +219,9 @@ export default function Hero() {
               document.querySelector('#contact')?.scrollIntoView({
                 behavior: 'smooth'
               });
-            }} data-unique-id="daa622b4-36df-400e-ae38-c9ba85530666" data-file-name="components/home/Hero.tsx">
+            }} data-unique-id="666fb063-ea45-498e-94c8-8b0959c9555d" data-file-name="components/home/Hero.tsx">
                 <Mail size={18} />
-                <span className="editable-text" data-unique-id="ed2797e6-1c7b-4182-aac8-feaeb5225d5c" data-file-name="components/home/Hero.tsx">Contact Me</span>
+                <span className="editable-text" data-unique-id="c45a9e4f-e1d5-40a4-89d1-11ce053dd738" data-file-name="components/home/Hero.tsx">Contact Me</span>
               </motion.a>
               
               <motion.a href="#" whileHover={{
@@ -229,9 +229,9 @@ export default function Hero() {
               boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)"
             }} whileTap={{
               scale: 0.95
-            }} className="flex items-center gap-2 bg-chart-2 hover:bg-chart-2/90 text-white px-6 py-3 rounded-lg transition-all" data-unique-id="fead510e-7e86-4d3a-a754-13ac9e54e50b" data-file-name="components/home/Hero.tsx">
+            }} className="flex items-center gap-2 bg-chart-2 hover:bg-chart-2/90 text-white px-6 py-3 rounded-lg transition-all" data-unique-id="b6456c61-58d3-47fb-abd2-539d43a64596" data-file-name="components/home/Hero.tsx">
                 <Download size={18} />
-                <span className="editable-text" data-unique-id="1df96eff-b350-46ee-8a08-d40c251de1c5" data-file-name="components/home/Hero.tsx">Download Resume</span>
+                <span className="editable-text" data-unique-id="b0337cc4-b85d-468d-a989-d72c712c3d97" data-file-name="components/home/Hero.tsx">Download Resume</span>
               </motion.a>
               
               <motion.a href="#experience" whileHover={{
@@ -244,14 +244,14 @@ export default function Hero() {
               document.querySelector('#experience')?.scrollIntoView({
                 behavior: 'smooth'
               });
-            }} data-unique-id="562dc6e3-e559-4024-bffa-35a2ff10c448" data-file-name="components/home/Hero.tsx">
+            }} data-unique-id="28a4a23b-0ec0-458c-bfeb-131910118a00" data-file-name="components/home/Hero.tsx">
                 <Briefcase size={18} />
-                <span className="editable-text" data-unique-id="f1e52ce5-95fd-4e39-9382-d1b8a768b6b6" data-file-name="components/home/Hero.tsx">Hire Me</span>
+                <span className="editable-text" data-unique-id="82730d8b-7c8f-4003-b33b-a0e7f02a5dba" data-file-name="components/home/Hero.tsx">Hire Me</span>
               </motion.a>
             </motion.div>
           </div>
           
-          <div className="hidden lg:col-span-5 lg:block" data-unique-id="f2d88060-b34b-4ab8-ab96-2d1072e66f67" data-file-name="components/home/Hero.tsx">
+          <div className="hidden lg:col-span-5 lg:block" data-unique-id="81f58098-a0bb-4b17-a542-0afdbc12fca5" data-file-name="components/home/Hero.tsx">
             <motion.div initial={{
             opacity: 0,
             scale: 0.8
@@ -261,22 +261,22 @@ export default function Hero() {
           }} transition={{
             duration: 0.8,
             delay: 0.5
-          }} className="relative w-full h-full" data-unique-id="36e96ed1-6d61-4528-b948-f6c267797a43" data-file-name="components/home/Hero.tsx" data-dynamic-text="true">
-              <div className="absolute w-72 h-72 bg-chart-1/10 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="a88aebce-202b-4705-a122-1ddd1cddb58f" data-file-name="components/home/Hero.tsx"></div>
+          }} className="relative w-full h-full" data-unique-id="3a12b926-4285-4d5a-b37f-68587044a4c5" data-file-name="components/home/Hero.tsx" data-dynamic-text="true">
+              <div className="absolute w-72 h-72 bg-chart-1/10 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="ad0cabd6-de43-44af-80b8-f1e48321ead7" data-file-name="components/home/Hero.tsx"></div>
               <motion.div animate={{
               rotate: [0, 360]
             }} transition={{
               duration: 20,
               repeat: Infinity,
               ease: "linear"
-            }} className="absolute w-[450px] h-[450px] border-2 border-dashed border-chart-2/30 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="d16fe444-a4a3-445e-af6a-5c2a5fcc691e" data-file-name="components/home/Hero.tsx"></motion.div>
+            }} className="absolute w-[450px] h-[450px] border-2 border-dashed border-chart-2/30 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="29180828-3a63-4e3f-aa7f-b4181793a758" data-file-name="components/home/Hero.tsx"></motion.div>
               <motion.div animate={{
               rotate: [360, 0]
             }} transition={{
               duration: 25,
               repeat: Infinity,
               ease: "linear"
-            }} className="absolute w-[380px] h-[380px] border-2 border-dashed border-chart-1/20 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="cab3c8e4-1ff0-4489-a4a9-70545ffcb872" data-file-name="components/home/Hero.tsx"></motion.div>
+            }} className="absolute w-[380px] h-[380px] border-2 border-dashed border-chart-1/20 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="21ac6634-1fcf-42a3-bc2d-16835c05a1be" data-file-name="components/home/Hero.tsx"></motion.div>
               
               {/* Skill icons positioned around circle */}
               <motion.div animate={{
@@ -285,32 +285,32 @@ export default function Hero() {
               duration: 20,
               repeat: Infinity,
               ease: "linear"
-            }} className="absolute w-[450px] h-[450px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="a2e6d024-07cc-4914-bfb3-3b643d29bbcc" data-file-name="components/home/Hero.tsx">
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="80f6b7f5-94c8-4c63-ba05-b9deb4aef7fa" data-file-name="components/home/Hero.tsx">
+            }} className="absolute w-[450px] h-[450px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="1f13267f-4010-4c73-b8e6-b1e409fb3193" data-file-name="components/home/Hero.tsx">
+                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="e8efd9f1-4fd8-466b-8405-3cdb27a873c2" data-file-name="components/home/Hero.tsx">
                   <motion.div whileHover={{
                   scale: 1.2
-                }} className="bg-chart-1/20 p-3 rounded-full" data-unique-id="e6bd6609-a67c-49ca-95c9-447bbda9a6c3" data-file-name="components/home/Hero.tsx">
+                }} className="bg-chart-1/20 p-3 rounded-full" data-unique-id="4fdecce1-c980-4414-ac6b-bdcea8302ff1" data-file-name="components/home/Hero.tsx">
                     <BookOpen size={24} className="text-chart-1" />
                   </motion.div>
                 </div>
-                <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2" data-unique-id="18d7e178-10fe-43ae-8263-3a9b879a5c99" data-file-name="components/home/Hero.tsx">
+                <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2" data-unique-id="0e943f66-00f1-4023-aa40-86e5fc963ca0" data-file-name="components/home/Hero.tsx">
                   <motion.div whileHover={{
                   scale: 1.2
-                }} className="bg-chart-2/20 p-3 rounded-full" data-unique-id="a8d7ee81-bd10-4759-bf2a-9d9980cd9308" data-file-name="components/home/Hero.tsx">
+                }} className="bg-chart-2/20 p-3 rounded-full" data-unique-id="6314eb85-e111-4fb0-9865-9829b0f09c51" data-file-name="components/home/Hero.tsx">
                     <Mail size={24} className="text-chart-2" />
                   </motion.div>
                 </div>
-                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2" data-unique-id="7245104c-5100-411e-9fb0-cf50c24890d6" data-file-name="components/home/Hero.tsx">
+                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2" data-unique-id="4f925dfb-8176-41d7-a8db-0a1380ae09d1" data-file-name="components/home/Hero.tsx">
                   <motion.div whileHover={{
                   scale: 1.2
-                }} className="bg-chart-3/20 p-3 rounded-full" data-unique-id="35d85fa7-91db-4705-ad60-62bab02e62bb" data-file-name="components/home/Hero.tsx">
+                }} className="bg-chart-3/20 p-3 rounded-full" data-unique-id="e8a1ab0e-a61b-4b6c-a362-241ed31fd2bb" data-file-name="components/home/Hero.tsx">
                     <Briefcase size={24} className="text-chart-3" />
                   </motion.div>
                 </div>
-                <div className="absolute top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="3a64d802-3104-4d37-9286-3fd92b5cc5d6" data-file-name="components/home/Hero.tsx">
+                <div className="absolute top-1/2 left-0 transform -translate-x-1/2 -translate-y-1/2" data-unique-id="5eddd353-261b-4d19-8c3c-5f293da0cde7" data-file-name="components/home/Hero.tsx">
                   <motion.div whileHover={{
                   scale: 1.2
-                }} className="bg-chart-4/20 p-3 rounded-full" data-unique-id="3361a6e5-c386-471b-aab7-c6e76e8514f1" data-file-name="components/home/Hero.tsx">
+                }} className="bg-chart-4/20 p-3 rounded-full" data-unique-id="687a9dee-069c-46bb-af4f-7faa1903cd9a" data-file-name="components/home/Hero.tsx">
                     <Download size={24} className="text-chart-4" />
                   </motion.div>
                 </div>
@@ -336,10 +336,10 @@ export default function Hero() {
         duration: 2,
         repeat: Infinity
       }
-    }} className="absolute bottom-10 left-1/2 transform -translate-x-1/2" data-unique-id="aa15eefe-6b84-4b4d-b415-3556c2ea139c" data-file-name="components/home/Hero.tsx">
+    }} className="absolute bottom-10 left-1/2 transform -translate-x-1/2" data-unique-id="712b5bc9-e40c-4f69-b263-ab84dcafae01" data-file-name="components/home/Hero.tsx">
         <motion.div whileHover={{
         scale: 1.2
-      }} className="bg-background/50 backdrop-blur-sm p-2 rounded-full border border-border" data-unique-id="4e04bc61-3aef-418d-808b-648088c8b007" data-file-name="components/home/Hero.tsx">
+      }} className="bg-background/50 backdrop-blur-sm p-2 rounded-full border border-border" data-unique-id="09314a46-bcbf-4486-9e88-a1c1ddd0fd21" data-file-name="components/home/Hero.tsx">
           <ArrowDown className="text-muted-foreground" />
         </motion.div>
       </motion.div>
