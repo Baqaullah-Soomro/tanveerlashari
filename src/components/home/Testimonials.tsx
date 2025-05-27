@@ -30,8 +30,8 @@ export default function Testimonials() {
   const prevTestimonial = () => {
     setCurrentIndex(prevIndex => prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1);
   };
-  return <section id="testimonials" className="py-24" data-unique-id="f1fa2041-f680-4d1a-95a1-bab9d34de112" data-file-name="components/home/Testimonials.tsx">
-      <div className="container mx-auto px-6" data-unique-id="b5e263be-2369-42db-89f4-ecb140c4bf00" data-file-name="components/home/Testimonials.tsx">
+  return <section id="testimonials" className="py-24" data-unique-id="294a6015-aaba-4231-a545-ed4d88780925" data-file-name="components/home/Testimonials.tsx">
+      <div className="container mx-auto px-6" data-unique-id="7f1db4b8-be54-4a59-9cff-2b093b93265a" data-file-name="components/home/Testimonials.tsx">
         <motion.div initial={{
         opacity: 0,
         y: 20
@@ -43,22 +43,22 @@ export default function Testimonials() {
         amount: 0.2
       }} transition={{
         duration: 0.5
-      }} className="text-center mb-16" data-unique-id="ee987aff-4cb4-4b24-8413-1ea27069ad87" data-file-name="components/home/Testimonials.tsx">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="78f6faac-a355-4f15-be81-5aa9505c0c9e" data-file-name="components/home/Testimonials.tsx"><span className="editable-text" data-unique-id="e8f6c7cd-886a-45bd-a5ba-43a7f91ab868" data-file-name="components/home/Testimonials.tsx">What People Say</span></h2>
-          <div className="h-1 w-20 bg-chart-4 mx-auto" data-unique-id="ebc0c206-4ba6-4c83-adb7-ac82cef260ad" data-file-name="components/home/Testimonials.tsx"></div>
-          <p className="text-muted-foreground mt-6 max-w-2xl mx-auto" data-unique-id="0f1df2b7-20d8-4201-bb68-07ecde8130a7" data-file-name="components/home/Testimonials.tsx"><span className="editable-text" data-unique-id="df80e572-d8ec-4f18-89b4-baf9d356d8c2" data-file-name="components/home/Testimonials.tsx">
+      }} className="text-center mb-16" data-unique-id="ace96d6c-c7ba-4b87-a3b7-fc88737c7d17" data-file-name="components/home/Testimonials.tsx">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="758c7135-b0b1-41f9-a7bd-9605bde497d9" data-file-name="components/home/Testimonials.tsx"><span className="editable-text" data-unique-id="ce7bdffe-ef58-4a11-94cc-1bd386bfc039" data-file-name="components/home/Testimonials.tsx">What People Say</span></h2>
+          <div className="h-1 w-20 bg-chart-4 mx-auto" data-unique-id="6edadf8e-9a5d-4986-89a0-2ac951c08861" data-file-name="components/home/Testimonials.tsx"></div>
+          <p className="text-muted-foreground mt-6 max-w-2xl mx-auto" data-unique-id="b3ef1fca-27f5-42dd-b4fe-0ffda16c13b0" data-file-name="components/home/Testimonials.tsx"><span className="editable-text" data-unique-id="3368c749-d0fc-457c-8228-44db1e1c2862" data-file-name="components/home/Testimonials.tsx">
             Feedback from professionals I've worked with during my academic and internship journey.
           </span></p>
         </motion.div>
 
-        <div className="max-w-4xl mx-auto" data-unique-id="a67b0988-d67b-4352-92be-c7d327c0c427" data-file-name="components/home/Testimonials.tsx">
-          <div className="relative" data-unique-id="3a505882-f6c4-4885-bab4-3defe2d9386e" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true">
+        <div className="max-w-4xl mx-auto" data-unique-id="40854f32-3543-4d67-b683-c773e8cf3c23" data-file-name="components/home/Testimonials.tsx">
+          <div className="relative" data-unique-id="a9dad16d-bd32-42de-8b6f-e73e2cf5557f" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true">
             {/* Large quote icon */}
-            <div className="absolute -top-12 -left-8 opacity-10" data-unique-id="c72e839b-d011-4335-a0d3-20138143b799" data-file-name="components/home/Testimonials.tsx">
+            <div className="absolute -top-12 -left-8 opacity-10" data-unique-id="053fc4ff-ccd6-4554-800f-c3ab51cffa1b" data-file-name="components/home/Testimonials.tsx">
               <Quote size={80} className="text-chart-1" />
             </div>
             
-            <div className="bg-card shadow-lg rounded-xl p-8 border border-border/40 min-h-[320px] flex flex-col justify-between" data-unique-id="1d7576f0-a43d-4a17-92bb-f3f992f1d370" data-file-name="components/home/Testimonials.tsx">
+            <div className="bg-card shadow-lg rounded-xl p-8 border border-border/40 min-h-[320px] flex flex-col justify-between" data-unique-id="cbb9f07a-1bb1-49e3-9ab9-e9b624186848" data-file-name="components/home/Testimonials.tsx">
               <AnimatePresence mode="wait">
                 <motion.div key={testimonials[currentIndex].id} initial={{
                 opacity: 0,
@@ -71,40 +71,40 @@ export default function Testimonials() {
                 y: -20
               }} transition={{
                 duration: 0.5
-              }} className="mb-8" data-unique-id="23e57275-a1c9-4bef-a2ec-0ed7b3be1a66" data-file-name="components/home/Testimonials.tsx">
-                  <p className="text-lg italic text-foreground leading-relaxed" data-unique-id="862c6b47-4baa-4bc9-8930-151b55030d79" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="0cc82100-dd44-438e-b004-f4b43f455aef" data-file-name="components/home/Testimonials.tsx">
-                    "</span>{testimonials[currentIndex].content}<span className="editable-text" data-unique-id="19f41d74-91d1-4896-b024-9c1f6cb129ad" data-file-name="components/home/Testimonials.tsx">"
+              }} className="mb-8" data-unique-id="fecabec6-e7a7-4570-9e7e-06fa9b167a82" data-file-name="components/home/Testimonials.tsx">
+                  <p className="text-lg italic text-foreground leading-relaxed" data-unique-id="73912c08-1e21-4325-a95c-1473c06a6ab5" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="e549bee4-20a0-4966-96e2-8864a8b62803" data-file-name="components/home/Testimonials.tsx">
+                    "</span>{testimonials[currentIndex].content}<span className="editable-text" data-unique-id="661eb597-0688-4a4f-9863-dcddb60bab38" data-file-name="components/home/Testimonials.tsx">"
                   </span></p>
                 </motion.div>
               </AnimatePresence>
 
-              <div className="flex items-center justify-between" data-unique-id="d329edd9-2fe8-4d29-8fbf-51256aa1c227" data-file-name="components/home/Testimonials.tsx">
-                <div className="flex items-center" data-unique-id="25abd34b-2972-425d-98dd-9077476ea56a" data-file-name="components/home/Testimonials.tsx">
-                  <div className="mr-4" data-unique-id="21cfd527-b823-44f7-b474-47b7494133a8" data-file-name="components/home/Testimonials.tsx">
-                    <img src={testimonials[currentIndex].avatar} alt={testimonials[currentIndex].name} className="w-12 h-12 rounded-full object-cover border-2 border-chart-1" data-unique-id="2fb56e48-3540-4566-847a-25510f2fa6f9" data-file-name="components/home/Testimonials.tsx" />
+              <div className="flex items-center justify-between" data-unique-id="27775488-16c3-4609-88f0-e6e4ee34e9f8" data-file-name="components/home/Testimonials.tsx">
+                <div className="flex items-center" data-unique-id="a822610f-f7bd-4318-8a2b-598a35693511" data-file-name="components/home/Testimonials.tsx">
+                  <div className="mr-4" data-unique-id="7bca263f-b70d-447e-9c87-92b1c8bb77f2" data-file-name="components/home/Testimonials.tsx">
+                    <img src={testimonials[currentIndex].avatar} alt={testimonials[currentIndex].name} className="w-12 h-12 rounded-full object-cover border-2 border-chart-1" data-unique-id="2d47abb3-8567-486e-b7ef-07b90ff11cfd" data-file-name="components/home/Testimonials.tsx" />
                   </div>
-                  <div data-unique-id="2148cbeb-903a-4555-b1f4-45bf5101ca7b" data-file-name="components/home/Testimonials.tsx">
-                    <h4 className="font-bold text-foreground" data-unique-id="dff78a59-1406-4f82-b05b-2f359a0a137f" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true">
+                  <div data-unique-id="66962232-cf13-43c6-a7c5-52a54dd24546" data-file-name="components/home/Testimonials.tsx">
+                    <h4 className="font-bold text-foreground" data-unique-id="a176ffe9-526e-44cb-b16d-4a73b3fa14e5" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true">
                       {testimonials[currentIndex].name}
                     </h4>
-                    <p className="text-sm text-muted-foreground" data-unique-id="7708fe16-d6f2-4ddc-b3c6-e5b4e5a22dbc" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true">
+                    <p className="text-sm text-muted-foreground" data-unique-id="95b6e316-d4ef-46f0-ba1a-a91b4e76092b" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true">
                       {testimonials[currentIndex].role}
                     </p>
                   </div>
                 </div>
 
-                <div className="flex space-x-2" data-unique-id="d3f83dd7-df88-40e3-b6c9-757938fe82e8" data-file-name="components/home/Testimonials.tsx">
-                  <button onClick={prevTestimonial} className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors" aria-label="Previous testimonial" data-unique-id="a698367e-ec80-4c19-9405-0a0f9ff47de6" data-file-name="components/home/Testimonials.tsx">
+                <div className="flex space-x-2" data-unique-id="3297348b-2e7a-41ff-8042-a5d8a9b64b65" data-file-name="components/home/Testimonials.tsx">
+                  <button onClick={prevTestimonial} className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors" aria-label="Previous testimonial" data-unique-id="fbc0be00-e4a1-4783-8050-ff4b915e32fd" data-file-name="components/home/Testimonials.tsx">
                     <ChevronLeft size={20} />
                   </button>
-                  <button onClick={nextTestimonial} className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors" aria-label="Next testimonial" data-unique-id="9d90ca1a-0245-4fdb-8ffd-29785dfa50dd" data-file-name="components/home/Testimonials.tsx">
+                  <button onClick={nextTestimonial} className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors" aria-label="Next testimonial" data-unique-id="4e1560eb-ddb1-4de5-b4ae-2aafb9e9fa33" data-file-name="components/home/Testimonials.tsx">
                     <ChevronRight size={20} />
                   </button>
                 </div>
               </div>
 
-              <div className="flex justify-center mt-6" data-unique-id="57811408-6331-4c34-a5ce-92b5f32c0199" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true">
-                {testimonials.map((_, index) => <button key={index} onClick={() => setCurrentIndex(index)} className={`w-2 h-2 rounded-full mx-1 transition-all duration-300 ${index === currentIndex ? 'bg-chart-1 w-6' : 'bg-muted'}`} aria-label={`Go to testimonial ${index + 1}`} data-unique-id="37f3c4e8-7611-4e3a-9975-799078cae2c8" data-file-name="components/home/Testimonials.tsx" />)}
+              <div className="flex justify-center mt-6" data-unique-id="bb298daf-8b7e-4e73-a732-715a0c14daac" data-file-name="components/home/Testimonials.tsx" data-dynamic-text="true">
+                {testimonials.map((_, index) => <button key={index} onClick={() => setCurrentIndex(index)} className={`w-2 h-2 rounded-full mx-1 transition-all duration-300 ${index === currentIndex ? 'bg-chart-1 w-6' : 'bg-muted'}`} aria-label={`Go to testimonial ${index + 1}`} data-unique-id="6d697ab7-9c48-46e6-8772-0e4d2cb6f96a" data-file-name="components/home/Testimonials.tsx" />)}
               </div>
             </div>
           </div>

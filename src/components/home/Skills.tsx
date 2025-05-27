@@ -138,8 +138,8 @@ export default function Skills() {
       y: 0
     }
   };
-  return <section id="skills" className="py-24" data-unique-id="2169cf17-26d6-40b4-977c-4cfadcb5c53b" data-file-name="components/home/Skills.tsx">
-      <div className="container mx-auto px-6" data-unique-id="815d991a-3d62-44c2-9ba5-93e22ef2a659" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
+  return <section id="skills" className="py-24" data-unique-id="ec94c179-459c-4fab-8f19-393deb67dff7" data-file-name="components/home/Skills.tsx">
+      <div className="container mx-auto px-6" data-unique-id="4e700bd1-01d6-4789-aa2f-05c5dc07bd29" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
         <motion.div initial={{
         opacity: 0,
         y: 20
@@ -151,12 +151,12 @@ export default function Skills() {
         amount: 0.2
       }} transition={{
         duration: 0.5
-      }} className="text-center mb-16" data-unique-id="d5c3a444-c954-4288-9f1a-353b93e4ae4e" data-file-name="components/home/Skills.tsx">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="db00ab89-e788-4c4f-b91a-e5b8192a2008" data-file-name="components/home/Skills.tsx">
-            <span className="editable-text" data-unique-id="bac4e015-9c18-4408-bfe1-493c629a28c3" data-file-name="components/home/Skills.tsx">Skills & Expertise</span>
+      }} className="text-center mb-16" data-unique-id="aceae333-ec4d-4eb9-9fdf-e343fb296cdb" data-file-name="components/home/Skills.tsx">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="78262d40-249d-48dc-b572-6fa0aae2fae2" data-file-name="components/home/Skills.tsx">
+            <span className="editable-text" data-unique-id="be96c573-3d9b-41ec-b429-a8b5ecd32570" data-file-name="components/home/Skills.tsx">Skills & Expertise</span>
           </h2>
-          <div className="h-1 w-20 bg-chart-3 mx-auto" data-unique-id="ad10f101-0b5b-4eab-ba3f-70624b2ac38a" data-file-name="components/home/Skills.tsx"></div>
-          <p className="text-muted-foreground max-w-2xl mx-auto mt-6" data-unique-id="c8a0407d-7f37-4ae8-9346-c506e55c1ae8" data-file-name="components/home/Skills.tsx"><span className="editable-text" data-unique-id="df079e72-15ef-40dd-8dac-483641064d89" data-file-name="components/home/Skills.tsx">
+          <div className="h-1 w-20 bg-chart-3 mx-auto" data-unique-id="25017bf1-81bd-42db-9af4-d91f9ef895bd" data-file-name="components/home/Skills.tsx"></div>
+          <p className="text-muted-foreground max-w-2xl mx-auto mt-6" data-unique-id="f3c2605a-c2f4-4374-b903-98b3441fa18b" data-file-name="components/home/Skills.tsx"><span className="editable-text" data-unique-id="8592c2b7-30e6-4c2a-a7e2-e00f6ca323e3" data-file-name="components/home/Skills.tsx">
             My professional skills encompass both technical library science competencies and essential soft skills needed for effective information management.
           </span></p>
         </motion.div>
@@ -171,18 +171,18 @@ export default function Skills() {
       }} exit={{
         opacity: 0,
         y: -20
-      }} className="bg-card shadow-lg p-4 rounded-lg border border-chart-1/20 max-w-lg mx-auto mb-10 relative" data-unique-id="2fa3ad13-8c1e-4c5a-998a-705f6e2dcedc" data-file-name="components/home/Skills.tsx">
-            <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-card rotate-45 border-t border-l border-chart-1/20" data-unique-id="76b6a4c9-e8b4-48ec-9266-e7e80c6a525c" data-file-name="components/home/Skills.tsx"></div>
-            <div className="flex items-start gap-4" data-unique-id="b74f29ff-2a0f-477f-a3c3-c9ae72f55162" data-file-name="components/home/Skills.tsx">
-              <div className={`p-3 rounded-full bg-chart-${activeSkill.categoryIndex + 1}/10`} data-unique-id="21997ddb-f4e6-4c37-bf0b-4c74785535ff" data-file-name="components/home/Skills.tsx">
+      }} className="bg-card shadow-lg p-4 rounded-lg border border-chart-1/20 max-w-lg mx-auto mb-10 relative" data-unique-id="5984dc5a-6b9c-4767-9eb0-b6b75e4173e7" data-file-name="components/home/Skills.tsx">
+            <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-card rotate-45 border-t border-l border-chart-1/20" data-unique-id="a4b16c8a-19b4-4bcc-87ac-2c84138c6817" data-file-name="components/home/Skills.tsx"></div>
+            <div className="flex items-start gap-4" data-unique-id="2090160e-d1a4-44eb-9cae-ea60e6c87c2f" data-file-name="components/home/Skills.tsx">
+              <div className={`p-3 rounded-full bg-chart-${activeSkill.categoryIndex + 1}/10`} data-unique-id="42ea5a24-9924-4703-84e9-3249e6af1e31" data-file-name="components/home/Skills.tsx">
                 <Info className={`text-chart-${activeSkill.categoryIndex + 1}`} size={24} />
               </div>
-              <div data-unique-id="73141318-2a85-4a63-8785-61569f35baa7" data-file-name="components/home/Skills.tsx">
-                <div className="flex items-center justify-between" data-unique-id="6b8c39a4-6681-437b-a82f-ef20cb730c82" data-file-name="components/home/Skills.tsx">
-                  <h4 className="font-bold text-lg" data-unique-id="eecffe76-5c58-4f25-8267-86c8048df442" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{activeSkill.name}</h4>
-                  <span className="text-sm font-semibold text-chart-1" data-unique-id="2d889828-063d-4ece-bd29-6769d64a4494" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{activeSkill.level}<span className="editable-text" data-unique-id="1faaf2dd-25db-4b78-a3a7-c144be111ba3" data-file-name="components/home/Skills.tsx">%</span></span>
+              <div data-unique-id="b844d7f8-fdb8-4d27-ae43-6e3f42b73b33" data-file-name="components/home/Skills.tsx">
+                <div className="flex items-center justify-between" data-unique-id="98668120-16d2-4794-928a-55b6100a1d24" data-file-name="components/home/Skills.tsx">
+                  <h4 className="font-bold text-lg" data-unique-id="9994442f-05fe-4cd3-b810-fa451e9ed47b" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{activeSkill.name}</h4>
+                  <span className="text-sm font-semibold text-chart-1" data-unique-id="069fc42d-c2e9-42a1-bf7c-b67f61be6a44" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{activeSkill.level}<span className="editable-text" data-unique-id="9cad67e5-a7c0-4d24-961a-ebc03d7fec79" data-file-name="components/home/Skills.tsx">%</span></span>
                 </div>
-                <div className="w-full h-1.5 bg-muted rounded-full mt-2 mb-3" data-unique-id="c2b42991-2b91-4da6-af7a-9fefc209bbdd" data-file-name="components/home/Skills.tsx">
+                <div className="w-full h-1.5 bg-muted rounded-full mt-2 mb-3" data-unique-id="48d611fa-eed8-4197-9bcb-9b260e3b443a" data-file-name="components/home/Skills.tsx">
                   <motion.div initial={{
                 width: 0
               }} animate={{
@@ -190,14 +190,14 @@ export default function Skills() {
               }} transition={{
                 duration: 0.8,
                 ease: "easeOut"
-              }} className={`h-full bg-chart-${activeSkill.categoryIndex + 1} rounded-full`} data-unique-id="57b1098f-a3c5-42a1-bc9d-02ed33bf6f2b" data-file-name="components/home/Skills.tsx" />
+              }} className={`h-full bg-chart-${activeSkill.categoryIndex + 1} rounded-full`} data-unique-id="020fb735-3870-4d8d-955a-dfd9cc2e3233" data-file-name="components/home/Skills.tsx" />
                 </div>
-                <p className="text-muted-foreground" data-unique-id="70933c06-39e8-4215-a632-48e4f703b8b8" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{activeSkill.description}</p>
+                <p className="text-muted-foreground" data-unique-id="08311e5a-0d62-4168-80fd-2f5f1b3b929a" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{activeSkill.description}</p>
               </div>
             </div>
           </motion.div>}
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12" data-unique-id="d124ce63-40cc-4d80-b521-0b344cb2da8b" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12" data-unique-id="4102a6b9-e402-428b-a032-335af833eace" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
           {skillCategories.map((category, index) => <motion.div key={index} initial={{
           opacity: 0,
           y: 30
@@ -210,18 +210,18 @@ export default function Skills() {
         }} transition={{
           duration: 0.5,
           delay: index * 0.1
-        }} className={`bg-card p-8 rounded-lg shadow-md border-t-4 ${category.color} hover:shadow-xl transition-shadow`} data-unique-id="793f82c3-1105-4cc4-825e-89102189297e" data-file-name="components/home/Skills.tsx">
-              <div className="flex items-center gap-3 mb-6 pb-3 border-b" data-unique-id="28f543e6-4390-4ae6-8d3e-a27bf9d57bad" data-file-name="components/home/Skills.tsx">
-                <div className={`p-2 rounded-md bg-chart-${index + 1}/10`} data-unique-id="76030da3-e467-42d9-a657-62f823000b8f" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
+        }} className={`bg-card p-8 rounded-lg shadow-md border-t-4 ${category.color} hover:shadow-xl transition-shadow`} data-unique-id="c0b59931-c1f3-4f35-b208-e39b4db6159e" data-file-name="components/home/Skills.tsx">
+              <div className="flex items-center gap-3 mb-6 pb-3 border-b" data-unique-id="1f9db4db-6093-4146-ada1-e41cd0c56ab2" data-file-name="components/home/Skills.tsx">
+                <div className={`p-2 rounded-md bg-chart-${index + 1}/10`} data-unique-id="83c97b44-eceb-4910-907a-0cfa4a52aaf7" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
                   {category.icon}
                 </div>
-                <h3 className="text-xl font-bold" data-unique-id="3cce9ac3-cc45-4e13-bc78-0feb4e51b83f" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{category.title}</h3>
+                <h3 className="text-xl font-bold" data-unique-id="cdcc5d72-50b3-4b23-9904-1dadcfaea40e" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{category.title}</h3>
               </div>
               
               <motion.ul variants={containerVariants} initial="hidden" whileInView="visible" viewport={{
             once: true,
             amount: 0.3
-          }} className="space-y-4" data-unique-id="98ab3f88-7862-4728-a163-b5b86ad876f6" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
+          }} className="space-y-4" data-unique-id="e1424347-2cf9-4527-a89a-10e47817a129" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
                 {category.skills.map((skill, skillIndex) => <motion.li key={skillIndex} variants={itemVariants} onClick={() => setActiveSkill({
               name: skill.name,
               description: skill.description,
@@ -233,16 +233,16 @@ export default function Skills() {
               type: "spring",
               stiffness: 400,
               damping: 20
-            }} data-unique-id="9bd22b17-35fc-4a92-aafa-5e58deaf1784" data-file-name="components/home/Skills.tsx">
-                    <div className={`p-3 rounded-full ${skill.bgColor} ${skill.color} transition-all group-hover:scale-110 shadow-inner`} data-unique-id="f7160f0f-ea9e-493d-ba9c-3af57c62dc6e" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
+            }} data-unique-id="696fa2c1-1d00-40b8-a87a-6fd41d82f5dd" data-file-name="components/home/Skills.tsx">
+                    <div className={`p-3 rounded-full ${skill.bgColor} ${skill.color} transition-all group-hover:scale-110 shadow-inner`} data-unique-id="9d521428-848d-41ca-86be-e0b3688d1869" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">
                       {skill.icon}
                     </div>
-                    <div className="flex-1" data-unique-id="77f27319-4da4-4eca-8988-1b8f0f8c3d41" data-file-name="components/home/Skills.tsx">
-                      <div className="flex justify-between items-center" data-unique-id="88ba0906-8043-4c67-baa1-ba10ec00ee20" data-file-name="components/home/Skills.tsx">
-                        <span className="font-medium text-lg" data-unique-id="4e8f81f5-9937-4fce-aedf-17da2dd9a8b9" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{skill.name}</span>
-                        <span className="text-xs font-semibold px-2 py-1 rounded-md bg-chart-1 text-white" data-unique-id="6881ff7f-9803-4190-a62b-fa4c88128f86" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{skill.level}<span className="editable-text" data-unique-id="83a0dd9e-3331-4dac-81a2-b59186a5f84c" data-file-name="components/home/Skills.tsx">%</span></span>
+                    <div className="flex-1" data-unique-id="b0230e79-b424-4ec0-9c13-85a7cc2cf4d2" data-file-name="components/home/Skills.tsx">
+                      <div className="flex justify-between items-center" data-unique-id="43730b8d-9d13-45fa-8ee6-615034a89ba5" data-file-name="components/home/Skills.tsx">
+                        <span className="font-medium text-lg" data-unique-id="b5f46293-3153-434b-bf46-91cebe299ffb" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{skill.name}</span>
+                        <span className="text-xs font-semibold px-2 py-1 rounded-md bg-chart-1 text-white" data-unique-id="73ee7421-a8ab-4a4f-9a7a-61ae69ecc60d" data-file-name="components/home/Skills.tsx" data-dynamic-text="true">{skill.level}<span className="editable-text" data-unique-id="50879b32-b6a4-4754-8270-a342a967b454" data-file-name="components/home/Skills.tsx">%</span></span>
                       </div>
-                      <div className="w-full h-2 bg-muted/40 rounded-full mt-2 overflow-hidden" data-unique-id="23e3037a-69bc-48df-b01f-5e30000eb378" data-file-name="components/home/Skills.tsx">
+                      <div className="w-full h-2 bg-muted/40 rounded-full mt-2 overflow-hidden" data-unique-id="f912381e-2573-436a-a990-19dd7691f63d" data-file-name="components/home/Skills.tsx">
                         <motion.div className={`h-full bg-chart-${index + 1} rounded-full`} initial={{
                     width: 0
                   }} whileInView={{
@@ -253,7 +253,7 @@ export default function Skills() {
                     delay: 0.2,
                     duration: 1,
                     ease: "easeOut"
-                  }} data-unique-id="2cf5908d-c23e-464c-afca-67e1c72340a4" data-file-name="components/home/Skills.tsx" />
+                  }} data-unique-id="f38d5100-f95f-463c-8c99-76ba3cf1d984" data-file-name="components/home/Skills.tsx" />
                       </div>
                     </div>
                   </motion.li>)}
@@ -261,8 +261,8 @@ export default function Skills() {
             </motion.div>)}
         </div>
         
-        <div className="text-center mt-12 text-muted-foreground text-sm" data-unique-id="a01ebf73-8423-4d30-9296-d36125a930b4" data-file-name="components/home/Skills.tsx">
-          <p data-unique-id="9f050467-4095-4238-b545-a2126ee28ac1" data-file-name="components/home/Skills.tsx"><span className="editable-text" data-unique-id="7ed26fc8-3c1d-46ad-b414-47015c9b35f7" data-file-name="components/home/Skills.tsx">Click on any skill to see more details</span></p>
+        <div className="text-center mt-12 text-muted-foreground text-sm" data-unique-id="7fb3b4aa-f9f4-4350-beb8-88038f8b544b" data-file-name="components/home/Skills.tsx">
+          <p data-unique-id="9e48dbb5-7797-4b47-9e63-5f4c02db6eb6" data-file-name="components/home/Skills.tsx"><span className="editable-text" data-unique-id="2430fab7-4eff-49b1-bc64-fa8b19cf93f9" data-file-name="components/home/Skills.tsx">Click on any skill to see more details</span></p>
         </div>
       </div>
     </section>;

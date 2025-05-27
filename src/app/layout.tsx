@@ -71,8 +71,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <html lang="en" className={`${inter.variable} ${poppins.variable} scroll-smooth`} data-unique-id="8857460e-1fc0-4440-b5e8-53fcb8ad9e71" data-file-name="app/layout.tsx">
-      <body data-unique-id="887f3a7f-2a9a-4a66-8751-a7f48b31e35d" data-file-name="app/layout.tsx">
+  return <html lang="en" className={`${inter.variable} ${poppins.variable} scroll-smooth`} data-unique-id="0c0257d8-3410-4b2c-9b97-1f4f38b7ecdd" data-file-name="app/layout.tsx">
+      <body data-unique-id="cad6053c-9925-44f0-b030-af3971e406ef" data-file-name="app/layout.tsx">
         <DevtoolsProvider>
           <Navbar />
           {children}
