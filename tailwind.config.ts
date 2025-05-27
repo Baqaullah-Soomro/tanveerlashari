@@ -67,11 +67,11 @@ export default {
 				input: 'var(--input)',
 				ring: 'var(--ring)',
 				chart: {
-					'1': 'var(--chart-1)',
-					'2': 'var(--chart-2)',
-					'3': 'var(--chart-3)',
-					'4': 'var(--chart-4)',
-					'5': 'var(--chart-5)'
+					'1': 'rgb(var(--chart-1-rgb) / <alpha-value>)',
+					'2': 'rgb(var(--chart-2-rgb) / <alpha-value>)',
+					'3': 'rgb(var(--chart-3-rgb) / <alpha-value>)',
+					'4': 'rgb(var(--chart-4-rgb) / <alpha-value>)',
+					'5': 'rgb(var(--chart-5-rgb) / <alpha-value>)'
 				},
 				sidebar: {
 					DEFAULT: 'var(--sidebar-background)',

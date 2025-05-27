@@ -3,8 +3,8 @@
 import { motion } from 'framer-motion';
 import { Download, File, FileText, Link as LinkIcon } from 'lucide-react';
 export default function Resume() {
-  return <section id="resume" className="py-24 bg-chart-1/5" data-unique-id="42150216-2e59-4cbd-b16a-d405496b9b31" data-file-name="components/home/Resume.tsx">
-      <div className="container mx-auto px-6" data-unique-id="d418ebbc-5f4e-4e2d-985d-ecee8710d20c" data-file-name="components/home/Resume.tsx">
+  return <section id="resume" className="py-24 bg-chart-1/5" data-unique-id="49c11536-6112-484e-8d01-62b34880f3da" data-file-name="components/home/Resume.tsx">
+      <div className="container mx-auto px-6" data-unique-id="542d0645-9ef6-47db-a5bd-8ab09d156bf2" data-file-name="components/home/Resume.tsx">
         <motion.div initial={{
         opacity: 0,
         y: 20
@@ -16,18 +16,18 @@ export default function Resume() {
         amount: 0.2
       }} transition={{
         duration: 0.5
-      }} className="text-center mb-16" data-unique-id="5c9d08f6-b56c-4122-8278-94a8a47b75be" data-file-name="components/home/Resume.tsx">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="a43b5fb7-f32a-477e-aed4-caac0e9d359c" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="403c92e9-f0ec-42d6-9ccd-f1c448a307b2" data-file-name="components/home/Resume.tsx">Resume</span></h2>
-          <div className="h-1 w-20 bg-chart-5 mx-auto" data-unique-id="b44ec43d-376b-42c4-a833-07c9d10db55f" data-file-name="components/home/Resume.tsx"></div>
-          <p className="text-muted-foreground mt-6 max-w-2xl mx-auto" data-unique-id="027f37ac-cea0-4aff-8178-8060da8a29c0" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="a7c5c749-5613-47a1-851a-5fa9e906c713" data-file-name="components/home/Resume.tsx">
+      }} className="text-center mb-16" data-unique-id="18d954f8-0446-4e99-a6cc-673f254d61a1" data-file-name="components/home/Resume.tsx">
+          <h2 className="text-3xl md:text-4xl font-bold mb-3" data-unique-id="3ca320e5-0d40-4b8b-890b-a8a4050b764e" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="85185a0c-ceb8-4a13-9989-bb994e5fcbd3" data-file-name="components/home/Resume.tsx">Resume</span></h2>
+          <div className="h-1 w-20 bg-chart-5 mx-auto" data-unique-id="c74b2712-38de-4eaa-ae44-fb7420168c53" data-file-name="components/home/Resume.tsx"></div>
+          <p className="text-muted-foreground mt-6 max-w-2xl mx-auto" data-unique-id="12a84c47-2427-487a-9fc8-348219472510" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="59e0205e-681d-4a1c-ba75-96665d0c9c55" data-file-name="components/home/Resume.tsx">
             View and download my complete resume with detailed information about my education, skills, and work experience
           </span></p>
         </motion.div>
 
-        <div className="max-w-5xl mx-auto" data-unique-id="4ac53a97-3826-42e0-bac3-df52bcce6340" data-file-name="components/home/Resume.tsx">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8" data-unique-id="7b2ec4c3-3f28-416d-85cc-e615a0da08aa" data-file-name="components/home/Resume.tsx" data-dynamic-text="true">
+        <div className="max-w-5xl mx-auto" data-unique-id="2a7e2e2b-0279-4f70-b476-132697ffc323" data-file-name="components/home/Resume.tsx">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8" data-unique-id="7b0b3444-7514-478f-a392-daf41471bee9" data-file-name="components/home/Resume.tsx" data-dynamic-text="true">
             {/* Resume preview column */}
-            <div className="md:col-span-3" data-unique-id="f6301651-4308-4dd9-b587-8c4797550b13" data-file-name="components/home/Resume.tsx">
+            <div className="md:col-span-3" data-unique-id="b2702429-c534-46ea-837c-42b6a9e2963f" data-file-name="components/home/Resume.tsx">
               <motion.div initial={{
               opacity: 0,
               y: 20
@@ -40,82 +40,82 @@ export default function Resume() {
             }} transition={{
               duration: 0.5,
               delay: 0.1
-            }} className="bg-card shadow-lg rounded-lg overflow-hidden border border-border/30" data-unique-id="cc3f71dd-8303-42c1-a2e0-c3174b448221" data-file-name="components/home/Resume.tsx">
-                <div className="bg-chart-1/10 p-4 flex justify-between items-center border-b border-border/30" data-unique-id="53154617-bcb0-4a78-8e27-60d2236e8af2" data-file-name="components/home/Resume.tsx">
-                  <h3 className="font-bold text-lg flex items-center" data-unique-id="3a13a4a9-5579-454b-b4f2-ac3c63ba2dbc" data-file-name="components/home/Resume.tsx">
-                    <FileText className="mr-2 text-chart-1" size={20} /><span className="editable-text" data-unique-id="88e1bf50-6b07-4414-8812-a4e8d07942d0" data-file-name="components/home/Resume.tsx">
+            }} className="bg-card shadow-lg rounded-lg overflow-hidden border border-border/30" data-unique-id="42a3b2e3-d007-433d-b5ba-e101e5f5b695" data-file-name="components/home/Resume.tsx">
+                <div className="bg-chart-1/10 p-4 flex justify-between items-center border-b border-border/30" data-unique-id="5bab220c-9fcb-4455-92ba-b8fb4d16856c" data-file-name="components/home/Resume.tsx">
+                  <h3 className="font-bold text-lg flex items-center" data-unique-id="5e9ee24f-b667-4cd7-9b5d-0ada21659551" data-file-name="components/home/Resume.tsx">
+                    <FileText className="mr-2 text-chart-1" size={20} /><span className="editable-text" data-unique-id="b99f5578-9cc3-4fb1-a687-c6e5a5850e9b" data-file-name="components/home/Resume.tsx">
                     Resume Preview
                   </span></h3>
-                  <span className="text-xs text-muted-foreground" data-unique-id="b31b96b2-95f0-450f-a802-16de893372bc" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="24e5449f-f2d8-4469-8d83-c6c754fc822b" data-file-name="components/home/Resume.tsx">PDF, 1 page</span></span>
+                  <span className="text-xs text-muted-foreground" data-unique-id="421e0e8c-cb43-4876-900d-636cc8756173" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="56954c66-5b3c-4546-8b57-69561325ceb7" data-file-name="components/home/Resume.tsx">PDF, 1 page</span></span>
                 </div>
                 
-                <div className="p-4" data-unique-id="f398cd2b-2596-45a1-84eb-75ce381d64fe" data-file-name="components/home/Resume.tsx">
-                  <div className="aspect-[3/4] bg-background rounded-md border border-border/30 overflow-hidden" data-unique-id="8b710953-6ed3-4fd8-adb1-4a1d9c3329fe" data-file-name="components/home/Resume.tsx">
-                    <div className="w-full h-full p-4" data-unique-id="303fad5b-f5be-42b3-ac0a-a2fe91126668" data-file-name="components/home/Resume.tsx" data-dynamic-text="true">
+                <div className="p-4" data-unique-id="1a956e30-159d-420c-86ce-8594832e4863" data-file-name="components/home/Resume.tsx">
+                  <div className="aspect-[3/4] bg-background rounded-md border border-border/30 overflow-hidden" data-unique-id="eacb6dbc-150d-41aa-b8fa-0d561471462c" data-file-name="components/home/Resume.tsx">
+                    <div className="w-full h-full p-4" data-unique-id="38731d44-feaf-46f0-b81d-530810c38cd4" data-file-name="components/home/Resume.tsx" data-dynamic-text="true">
                       {/* Resume content preview */}
-                      <div className="text-sm space-y-4" data-unique-id="0b4c082a-658e-4ab4-b70c-49a81a638d95" data-file-name="components/home/Resume.tsx">
-                        <div className="text-center space-y-1" data-unique-id="99918791-8317-4749-a4ab-b5b7f3523096" data-file-name="components/home/Resume.tsx">
-                          <h1 className="text-xl font-bold text-chart-1" data-unique-id="46859598-d8e0-462d-b37e-de7d1a150bd1" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="3a7f3a44-41b2-4e1f-9b39-10545b03906e" data-file-name="components/home/Resume.tsx">TANVEER LASHARI</span></h1>
-                          <div className="flex justify-center gap-3 text-xs" data-unique-id="d2be7501-92b1-4be9-85bb-81ef4c8fa0ee" data-file-name="components/home/Resume.tsx">
-                            <span data-unique-id="e46d8658-bd60-4d42-b04f-c5bd27e4c230" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="5b9faff0-c431-49a5-be7b-e31218627f25" data-file-name="components/home/Resume.tsx">0312-0362742</span></span>
-                            <span data-unique-id="47e5a5ec-0440-4034-b058-1fb91ca569ef" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="812f960b-d6d3-48fe-9768-822a4ca73df8" data-file-name="components/home/Resume.tsx">•</span></span>
-                            <span className="text-chart-1" data-unique-id="08e6eb8b-675d-4ec4-819d-d17207a98c93" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="faae8219-e997-4e1a-adee-a83d9e6d3109" data-file-name="components/home/Resume.tsx">lasharitanveerahmed68@gmail.com</span></span>
+                      <div className="text-sm space-y-4" data-unique-id="9b49a1b8-e34a-4fb1-8f58-91e70b728720" data-file-name="components/home/Resume.tsx">
+                        <div className="text-center space-y-1" data-unique-id="8c0c515a-0839-44d0-8030-88160c060697" data-file-name="components/home/Resume.tsx">
+                          <h1 className="text-xl font-bold text-chart-1" data-unique-id="6acd8d58-5c52-4a1a-bd0d-9b6d2bd9a050" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="94cd8454-2e67-4379-8322-ee21d9ee08bb" data-file-name="components/home/Resume.tsx">TANVEER LASHARI</span></h1>
+                          <div className="flex justify-center gap-3 text-xs" data-unique-id="8b76a89c-1781-4f46-9df4-fcfb973f8833" data-file-name="components/home/Resume.tsx">
+                            <span data-unique-id="51b92081-d269-423e-b953-cee59361469b" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="d34d85d7-5fcd-4ee7-a55d-6b872d71487d" data-file-name="components/home/Resume.tsx">0312-0362742</span></span>
+                            <span data-unique-id="414d1b39-7301-4980-a9b7-5cd3ca87726c" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="8d8777ed-a57a-43ce-87c5-8b5096b51ecc" data-file-name="components/home/Resume.tsx">•</span></span>
+                            <span className="text-chart-1" data-unique-id="e439c3da-bb6c-4499-9ae8-7d1346de8da1" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="1e5ff757-03cb-411a-9953-f7b35c778b95" data-file-name="components/home/Resume.tsx">lasharitanveerahmed68@gmail.com</span></span>
                           </div>
                         </div>
                         
-                        <div data-unique-id="c4e2787b-683b-48b6-b130-dfe87ded54a2" data-file-name="components/home/Resume.tsx">
-                          <h2 className="text-md font-bold border-b border-border/70 mb-1" data-unique-id="3b22516e-473a-4b3d-af7b-91ba5aa423e8" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="55614531-7682-48c5-a1a7-13c8a6c5afe1" data-file-name="components/home/Resume.tsx">EDUCATION</span></h2>
-                          <div className="text-xs mb-1" data-unique-id="4200ac0d-3683-4cfb-923f-11766ebebfa4" data-file-name="components/home/Resume.tsx">
-                            <div className="flex justify-between" data-unique-id="8584ad6b-c858-4af6-8339-c7adbce21c0a" data-file-name="components/home/Resume.tsx">
-                              <span className="font-semibold" data-unique-id="d60bf6b6-81a1-4739-bd97-ea1455ed6745" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="559eedd0-edb3-463e-90f9-61eb4fef884e" data-file-name="components/home/Resume.tsx">Bachelor of Library Information Science and Archives Studies</span></span>
-                              <span data-unique-id="19d196cf-6214-4732-a6f1-9534681c1180" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="ab99f189-042f-40ad-b945-dcf1fd86eb85" data-file-name="components/home/Resume.tsx">2020-2023</span></span>
+                        <div data-unique-id="374a039f-9ad2-4be9-a8f0-7290043b528b" data-file-name="components/home/Resume.tsx">
+                          <h2 className="text-md font-bold border-b border-border/70 mb-1" data-unique-id="0d2e489c-72c0-4aad-a19f-7f4896313658" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="d2256b0b-0a56-437c-bb02-48ad01d06be9" data-file-name="components/home/Resume.tsx">EDUCATION</span></h2>
+                          <div className="text-xs mb-1" data-unique-id="14c58ce8-1077-44f0-95b2-5c52e602c131" data-file-name="components/home/Resume.tsx">
+                            <div className="flex justify-between" data-unique-id="b5103592-2c4c-4263-8269-4417d9397442" data-file-name="components/home/Resume.tsx">
+                              <span className="font-semibold" data-unique-id="50b6ef69-f778-41f2-aab6-bda8a8b3c415" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="5d925fc1-706d-4e6a-86f4-d4a54fd5b0d2" data-file-name="components/home/Resume.tsx">Bachelor of Library Information Science and Archives Studies</span></span>
+                              <span data-unique-id="d1775e82-d02a-4ca9-8ba7-a3b70bc99134" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="979be305-e5a3-4dd9-83b3-44bf9c1fc821" data-file-name="components/home/Resume.tsx">2020-2023</span></span>
                             </div>
-                            <div className="flex justify-between" data-unique-id="780653ed-df44-4962-9397-e021b2bf9044" data-file-name="components/home/Resume.tsx">
-                              <span data-unique-id="9042790c-ba9a-4d21-8da0-3ad1187c3ee1" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="1a1ff3e9-0fea-4037-845d-6efb22bd46b9" data-file-name="components/home/Resume.tsx">University of Sindh</span></span>
-                              <span className="text-chart-1" data-unique-id="368281e0-5f38-4b3e-8e04-99183cda8673" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="3f2a0194-7b8c-4130-aded-d909d1220847" data-file-name="components/home/Resume.tsx">1st Division (CGPA 3.59)</span></span>
+                            <div className="flex justify-between" data-unique-id="36a46a30-6c40-4ccd-a570-a4b4bd8f3c13" data-file-name="components/home/Resume.tsx">
+                              <span data-unique-id="548e5063-43a0-4e09-bb37-811a4f4f8812" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="e7816dd5-ff43-4cec-ac17-90f633890d71" data-file-name="components/home/Resume.tsx">University of Sindh</span></span>
+                              <span className="text-chart-1" data-unique-id="10fe7e21-e55c-4a81-881e-b4e0c0153084" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="8e90bc55-acf0-4bc1-adfa-e30eab27802b" data-file-name="components/home/Resume.tsx">1st Division (CGPA 3.59)</span></span>
                             </div>
                           </div>
-                          <div className="text-xs" data-unique-id="3a54ff61-a619-4f4a-bac0-7a4edb9ad65d" data-file-name="components/home/Resume.tsx">
-                            <div className="flex justify-between" data-unique-id="fed314b9-9ac3-4796-95d8-07d66f5db6ac" data-file-name="components/home/Resume.tsx">
-                              <span data-unique-id="7ef5dfb2-84aa-43a0-890e-0eb42e2dd5ee" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="1a00eb02-21ea-4819-8b8e-606823136e89" data-file-name="components/home/Resume.tsx">Intermediate</span></span>
-                              <span data-unique-id="290757ee-94c4-4431-a8f4-9609cb85fb7b" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="efa8631d-0229-4239-88d4-07ae6c0583b1" data-file-name="components/home/Resume.tsx">2016-2018</span></span>
+                          <div className="text-xs" data-unique-id="b95221b2-b433-4540-a1b6-1176c32904ab" data-file-name="components/home/Resume.tsx">
+                            <div className="flex justify-between" data-unique-id="92f6bf77-088c-40d9-928c-aad190ddc6f7" data-file-name="components/home/Resume.tsx">
+                              <span data-unique-id="5d01db64-f6d0-4dcc-9d0c-ad389a7fdc76" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="4e31edd5-3606-4b35-b3e4-7c7eb4799ee3" data-file-name="components/home/Resume.tsx">Intermediate</span></span>
+                              <span data-unique-id="dbb425e5-7a6a-46f3-b4d6-bdb83cb53f2b" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="20ef8301-083e-47f0-9c93-81d81120ffe4" data-file-name="components/home/Resume.tsx">2016-2018</span></span>
                             </div>
-                            <span data-unique-id="98d64e8f-31f0-4ee6-be5e-f50c0b016064" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="ee9743af-8f4a-4599-bf47-947a94a32e22" data-file-name="components/home/Resume.tsx">Hyderabad Board • "B" Grade</span></span>
+                            <span data-unique-id="b85edb8a-5105-4c5b-9713-f67d49963895" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="7de3dbd8-1918-4760-be95-956e6f16a1c3" data-file-name="components/home/Resume.tsx">Hyderabad Board • "B" Grade</span></span>
                           </div>
                         </div>
                         
-                        <div data-unique-id="cf1e740d-aee3-43bc-9b76-8423c646244b" data-file-name="components/home/Resume.tsx">
-                          <h2 className="text-md font-bold border-b border-border/70 mb-1" data-unique-id="2d7c2a42-1e9c-48ae-9fec-7d53bf59c80a" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="2e959f7f-76a8-4444-b811-224e7bfa1e80" data-file-name="components/home/Resume.tsx">EXPERIENCE</span></h2>
-                          <div className="text-xs space-y-2" data-unique-id="f3b70a4b-729e-4840-a8f5-97daa52d2ec7" data-file-name="components/home/Resume.tsx">
-                            <div data-unique-id="47ae6020-b16f-4f6e-a9d5-3f10b6d82a6a" data-file-name="components/home/Resume.tsx">
-                              <div className="flex justify-between font-medium" data-unique-id="49b0731d-17b8-47c5-ab88-d1a4c297045e" data-file-name="components/home/Resume.tsx">
-                                <span data-unique-id="dcddda2a-cb3f-44cd-ae1a-d8c6137d604a" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="8e8caebc-f5bb-48a6-8578-ccbc9af6073d" data-file-name="components/home/Resume.tsx">Faculty of Pharmacy Seminar Library</span></span>
-                                <span data-unique-id="2bbf7fe2-ab47-4a87-8238-f6201a560c28" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="12c74ac1-a7db-4a7e-8533-dc9fc2c2541c" data-file-name="components/home/Resume.tsx">Aug - Dec 2023</span></span>
+                        <div data-unique-id="95cdc5a6-bd33-46e3-baf4-e7e5321c9e50" data-file-name="components/home/Resume.tsx">
+                          <h2 className="text-md font-bold border-b border-border/70 mb-1" data-unique-id="345162ce-aee8-4ffa-b1fd-f1f7a99376ac" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="8eb7fcd2-ea1a-466c-aa26-c72584a05226" data-file-name="components/home/Resume.tsx">EXPERIENCE</span></h2>
+                          <div className="text-xs space-y-2" data-unique-id="c1f740d5-a17f-436b-af41-8d4098df19d7" data-file-name="components/home/Resume.tsx">
+                            <div data-unique-id="9c192e80-c2ff-4ce3-9f3b-4da22cd2f526" data-file-name="components/home/Resume.tsx">
+                              <div className="flex justify-between font-medium" data-unique-id="d0736138-b73c-4f06-ba6c-770fda945346" data-file-name="components/home/Resume.tsx">
+                                <span data-unique-id="219eea5c-7468-471c-8a01-5e8dd243a005" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="84390d7f-67a5-48dc-a603-197869fffbf2" data-file-name="components/home/Resume.tsx">Faculty of Pharmacy Seminar Library</span></span>
+                                <span data-unique-id="d4c8d141-1286-40c7-bbec-aa3da4bbdf67" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="17448945-8930-4659-85f4-859b86392d9a" data-file-name="components/home/Resume.tsx">Aug - Dec 2023</span></span>
                               </div>
-                              <span className="italic" data-unique-id="e4ba451e-0301-482c-9a97-61323675b331" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="aa740cf9-3676-4b12-b814-e3681c1ea078" data-file-name="components/home/Resume.tsx">University of Sindh</span></span>
+                              <span className="italic" data-unique-id="9299205c-7d0f-40d1-b9e0-88d075ccc467" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="6c110a61-0679-42c1-a694-4ce4d0426475" data-file-name="components/home/Resume.tsx">University of Sindh</span></span>
                             </div>
-                            <div data-unique-id="001b4d12-b8ac-42bb-b219-2a1ef0a6de39" data-file-name="components/home/Resume.tsx">
-                              <div className="flex justify-between font-medium" data-unique-id="c0c9eedf-9b95-4e85-bfe0-454a1d837d18" data-file-name="components/home/Resume.tsx">
-                                <span data-unique-id="2c6f61e9-77a3-433e-b643-ae128e8cd233" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="a23e198f-7252-4f14-abe7-ffc379d66eda" data-file-name="components/home/Resume.tsx">Department of Sindhi Seminar Library</span></span>
-                                <span data-unique-id="ad17fcbe-6ebf-4ed2-baa1-7461ff67421e" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="58c96e11-2023-4c8e-b58b-137b43c204b6" data-file-name="components/home/Resume.tsx">Oct - Dec 2022</span></span>
+                            <div data-unique-id="68c3b60f-f001-48e0-bba2-ad7b3a6c3955" data-file-name="components/home/Resume.tsx">
+                              <div className="flex justify-between font-medium" data-unique-id="f122d991-a13f-4bd8-a80a-36b31105c6fe" data-file-name="components/home/Resume.tsx">
+                                <span data-unique-id="12377c8f-2c64-4d8f-a339-d7795d14374c" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="e9508729-9265-4b6c-b7da-a034a92d1862" data-file-name="components/home/Resume.tsx">Department of Sindhi Seminar Library</span></span>
+                                <span data-unique-id="d1602596-5428-4bc7-9cb0-3d52604edf90" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="1537d3c8-fcf5-45ef-9207-fe780bc0a26c" data-file-name="components/home/Resume.tsx">Oct - Dec 2022</span></span>
                               </div>
-                              <span className="italic" data-unique-id="7f42fec4-6626-40ac-aee4-2d4b7bd03064" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="d89fa7a5-9eeb-435a-b362-027ab6508028" data-file-name="components/home/Resume.tsx">University of Sindh</span></span>
+                              <span className="italic" data-unique-id="025e9cb8-d431-4121-818b-55da0f6010e3" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="fbb72390-6d60-45ec-a9b8-b9df985a73b4" data-file-name="components/home/Resume.tsx">University of Sindh</span></span>
                             </div>
                           </div>
                         </div>
                         
-                        <div data-unique-id="e6f0a2f9-7062-41be-a9df-08d0ba0afc49" data-file-name="components/home/Resume.tsx">
-                          <h2 className="text-md font-bold border-b border-border/70 mb-1" data-unique-id="a6812f27-06f1-4a5e-94da-3a367d8e27a4" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="3698db1e-2ea2-41a8-97f1-446d014a85e9" data-file-name="components/home/Resume.tsx">SKILLS</span></h2>
-                          <div className="grid grid-cols-2 gap-x-4 text-xs" data-unique-id="61732f31-7a6b-496c-981f-c9e4de74021d" data-file-name="components/home/Resume.tsx">
-                            <ul className="list-disc list-inside" data-unique-id="21a31546-a25a-43a9-b926-658cd6d9f210" data-file-name="components/home/Resume.tsx">
-                              <li data-unique-id="91c07207-86c5-4b82-96e4-ba808224dd6e" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="ff30f405-d765-4b93-a7a8-25b88215116a" data-file-name="components/home/Resume.tsx">Library Organization</span></li>
-                              <li data-unique-id="e8c30c31-73ff-4d46-a21b-6c97e60be9b0" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="d3fbbff8-239e-4afd-8831-95819904855a" data-file-name="components/home/Resume.tsx">Cataloging & Classification</span></li>
-                              <li data-unique-id="82153428-b504-4912-925b-591f65a68073" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="02abc641-93f9-48fc-b18b-f366439b453f" data-file-name="components/home/Resume.tsx">Library Automation</span></li>
+                        <div data-unique-id="2e5ec8ce-34cd-45ad-8e25-2d3514db0333" data-file-name="components/home/Resume.tsx">
+                          <h2 className="text-md font-bold border-b border-border/70 mb-1" data-unique-id="f9219ffd-f78a-478c-9479-ae3c11dae068" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="af3089d2-a243-4bd3-9fa0-2b84afbe8a75" data-file-name="components/home/Resume.tsx">SKILLS</span></h2>
+                          <div className="grid grid-cols-2 gap-x-4 text-xs" data-unique-id="d8db44ea-14a9-4400-a760-ac827d3c6855" data-file-name="components/home/Resume.tsx">
+                            <ul className="list-disc list-inside" data-unique-id="5715db0d-8001-48d1-820a-4a4540f69e3f" data-file-name="components/home/Resume.tsx">
+                              <li data-unique-id="e08dae13-5e11-4eba-9637-f372ed3adb07" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="caf137d9-8123-4534-953b-6184ce089d31" data-file-name="components/home/Resume.tsx">Library Organization</span></li>
+                              <li data-unique-id="99791ede-2120-4120-9a1e-855dd62cfa1e" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="7e965e78-5fbb-421f-8f5f-8ba616bc2433" data-file-name="components/home/Resume.tsx">Cataloging & Classification</span></li>
+                              <li data-unique-id="8a8ef0cf-d91f-42b7-9bd2-6da3cb39dea1" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="3c7ed661-3612-4a2c-8889-0aecd4602bc5" data-file-name="components/home/Resume.tsx">Library Automation</span></li>
                             </ul>
-                            <ul className="list-disc list-inside" data-unique-id="63d97f1f-72c9-401d-8bf7-5c96007be390" data-file-name="components/home/Resume.tsx">
-                              <li data-unique-id="d49c1f49-c5ec-48f7-9f9e-8511e913af65" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="aa579b5e-3a33-48af-a663-e2d7f8c42c3c" data-file-name="components/home/Resume.tsx">Koha Software</span></li>
-                              <li data-unique-id="dfa4f356-a7ac-4c39-b348-e4b1e564a879" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="71c5e905-a95e-4131-902e-565692d3e2f1" data-file-name="components/home/Resume.tsx">Information Literacy</span></li>
-                              <li data-unique-id="3e8736f4-8232-4378-abd8-09103a548b94" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="27c92a60-63e5-4aad-af5b-c8a513fd27a5" data-file-name="components/home/Resume.tsx">Time Management</span></li>
+                            <ul className="list-disc list-inside" data-unique-id="5de22497-e746-46c1-8bee-47563f9adcde" data-file-name="components/home/Resume.tsx">
+                              <li data-unique-id="adb127d9-b2e6-45d5-9aa3-ae6459cce84b" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="df5e9260-3bd4-4ccc-83b0-d0f45953d7b4" data-file-name="components/home/Resume.tsx">Koha Software</span></li>
+                              <li data-unique-id="58f0e93d-80b1-4b86-8851-1906816a95dd" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="bef4798a-337e-44d0-bd76-27605e7ce33b" data-file-name="components/home/Resume.tsx">Information Literacy</span></li>
+                              <li data-unique-id="eef892ad-a39c-4979-8b55-e3efa1871dba" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="e44091da-392b-41e2-b226-152d99b3fe0b" data-file-name="components/home/Resume.tsx">Time Management</span></li>
                             </ul>
                           </div>
                         </div>
@@ -127,7 +127,7 @@ export default function Resume() {
             </div>
             
             {/* Download options column */}
-            <div className="md:col-span-2" data-unique-id="1440768f-22f1-4459-9833-808503be8bdb" data-file-name="components/home/Resume.tsx">
+            <div className="md:col-span-2" data-unique-id="7945cad1-2ebd-4da6-92a0-bb40c788b314" data-file-name="components/home/Resume.tsx">
               <motion.div initial={{
               opacity: 0,
               y: 20
@@ -140,10 +140,10 @@ export default function Resume() {
             }} transition={{
               duration: 0.5,
               delay: 0.2
-            }} className="bg-card shadow-lg rounded-lg p-6 border border-border/30 h-full" data-unique-id="4d2f8788-c368-4c49-af5d-966f70bdadf9" data-file-name="components/home/Resume.tsx">
-                <h3 className="font-bold text-xl mb-6" data-unique-id="a5be000b-9206-4745-8736-f04c64097e92" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="6241ac53-9f3b-446a-9a3e-ac0f38db06b1" data-file-name="components/home/Resume.tsx">Download Options</span></h3>
+            }} className="bg-card shadow-lg rounded-lg p-6 border border-border/30 h-full" data-unique-id="1bb7d384-ba37-4877-b4f6-436f7d2d5790" data-file-name="components/home/Resume.tsx">
+                <h3 className="font-bold text-xl mb-6" data-unique-id="a4f8f19f-ec48-4131-b73b-6984d96397eb" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="81d3ab59-d4d1-4aad-b817-fb51a3f441e6" data-file-name="components/home/Resume.tsx">Download Options</span></h3>
                 
-                <div className="space-y-4" data-unique-id="1fdd3ec4-436a-4427-b866-269e290d31e3" data-file-name="components/home/Resume.tsx">
+                <div className="space-y-4" data-unique-id="7c2ac150-6f36-4c48-ab11-904c76c7edfa" data-file-name="components/home/Resume.tsx">
                   <motion.a href="/resume.pdf" download="Tanveer_Lashari_Resume.pdf" whileHover={{
                   scale: 1.03,
                   backgroundColor: "rgba(var(--chart-1-rgb), 0.1)",
@@ -154,12 +154,12 @@ export default function Resume() {
                   type: "spring",
                   stiffness: 400,
                   damping: 20
-                }} className="flex items-center justify-between p-5 border border-chart-1/30 rounded-lg hover:bg-chart-1/5 transition-all shadow-sm hover:shadow-md" data-unique-id="ef002c5e-d7b6-4a40-a93a-cd1420d4aedb" data-file-name="components/home/Resume.tsx">
-                    <div className="flex items-center" data-unique-id="c7366102-58f5-4583-9284-0856c90e585f" data-file-name="components/home/Resume.tsx">
+                }} className="flex items-center justify-between p-5 border border-chart-1/30 rounded-lg hover:bg-chart-1/5 transition-all shadow-sm hover:shadow-md" data-unique-id="fb1632bf-b8e8-45dd-84da-5860d6bb5779" data-file-name="components/home/Resume.tsx">
+                    <div className="flex items-center" data-unique-id="0465c242-b402-42fc-b14c-cd2539b39d4a" data-file-name="components/home/Resume.tsx">
                       <File className="mr-3 text-chart-1" />
-                      <div data-unique-id="0acd217c-f29b-4a1c-a709-9d24759baad1" data-file-name="components/home/Resume.tsx">
-                        <p className="font-medium" data-unique-id="8b531dd9-8ed0-4783-9d50-9fd6d564ee38" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="7c49b99e-dd28-4a7a-883f-59fa5b056930" data-file-name="components/home/Resume.tsx">Full Resume</span></p>
-                        <p className="text-xs text-muted-foreground" data-unique-id="246dc012-c5d5-4d58-b152-f9c4e091a2ef" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="e8bbd47a-19c7-4a47-83b2-130047e8e683" data-file-name="components/home/Resume.tsx">Complete professional resume (PDF)</span></p>
+                      <div data-unique-id="e93f47d6-722c-4182-99fc-064af379da3b" data-file-name="components/home/Resume.tsx">
+                        <p className="font-medium" data-unique-id="0c9b7dee-cb82-43da-96cb-509b449e5eff" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="2dd7338c-18ae-402d-9869-351a919a49c8" data-file-name="components/home/Resume.tsx">Full Resume</span></p>
+                        <p className="text-xs text-muted-foreground" data-unique-id="f5152e4c-4a86-46e3-a42f-1de1f81849ab" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="05fd1684-4236-486e-a432-14fdac066b37" data-file-name="components/home/Resume.tsx">Complete professional resume (PDF)</span></p>
                       </div>
                     </div>
                     <Download size={20} className="text-chart-1" />
@@ -174,37 +174,37 @@ export default function Resume() {
                   scale: 1.02
                 }} whileTap={{
                   scale: 0.98
-                }} className="flex items-center justify-between p-4 border border-border/50 rounded-md hover:bg-chart-2/5 transition-colors" data-unique-id="63c85553-e210-4e33-956e-b2a5e59aed3f" data-file-name="components/home/Resume.tsx">
-                    <div className="flex items-center" data-unique-id="864215d5-af30-4364-8af1-cdf454160c59" data-file-name="components/home/Resume.tsx">
+                }} className="flex items-center justify-between p-4 border border-border/50 rounded-md hover:bg-chart-2/5 transition-colors" data-unique-id="53d9b7d1-ff52-4648-8575-99973e44167b" data-file-name="components/home/Resume.tsx">
+                    <div className="flex items-center" data-unique-id="74c217ae-14af-4983-9c0c-a58aecb697fd" data-file-name="components/home/Resume.tsx">
                       <LinkIcon className="mr-3 text-chart-2" />
-                      <div data-unique-id="65489985-9ee0-4435-a0c4-680d6b6e3542" data-file-name="components/home/Resume.tsx">
-                        <p className="font-medium" data-unique-id="45f1a330-cfdb-4865-88d3-eed034ff4efe" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="d03e2e9d-d4ea-4eb1-89fa-4453152e4422" data-file-name="components/home/Resume.tsx">Request Custom Resume</span></p>
-                        <p className="text-xs text-muted-foreground" data-unique-id="3c12cea8-e4a4-4dea-ba89-43d84dbdbe9f" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="8530d8f3-22df-440b-8d50-505fe15aa21b" data-file-name="components/home/Resume.tsx">Contact me for a tailored resume</span></p>
+                      <div data-unique-id="990d7f5a-5fe0-4904-a678-fc65726d8f51" data-file-name="components/home/Resume.tsx">
+                        <p className="font-medium" data-unique-id="34828e91-0172-4f86-a63b-f1dda581b34b" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="f21b8dee-f392-4925-8192-e132f6cebe67" data-file-name="components/home/Resume.tsx">Request Custom Resume</span></p>
+                        <p className="text-xs text-muted-foreground" data-unique-id="3fa5228a-7028-4022-9307-d81896206bce" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="e53faa74-ae23-47c4-89f4-9dff5309ca35" data-file-name="components/home/Resume.tsx">Contact me for a tailored resume</span></p>
                       </div>
                     </div>
-                    <div className="h-6 w-6 rounded-full flex items-center justify-center bg-chart-2/10" data-unique-id="1697bfed-ea84-43e3-ab0e-77ae5d7b044d" data-file-name="components/home/Resume.tsx">
+                    <div className="h-6 w-6 rounded-full flex items-center justify-center bg-chart-2/10" data-unique-id="ed5cd94a-26cd-4b9d-b390-5552c8f44bd7" data-file-name="components/home/Resume.tsx">
                       <LinkIcon size={12} className="text-chart-2" />
                     </div>
                   </motion.a>
                   
-                  <div className="mt-8" data-unique-id="41c3b3a4-861a-45a6-a54e-f36a89e4328d" data-file-name="components/home/Resume.tsx">
-                    <h4 className="font-medium text-sm mb-2" data-unique-id="97ae8f38-eab2-4b5b-89ec-93c6a91dea22" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="b3afddd7-009f-41c1-bdfb-a2da8ac18079" data-file-name="components/home/Resume.tsx">Resume Summary</span></h4>
-                    <ul className="text-sm text-muted-foreground space-y-2" data-unique-id="248cf8d2-c638-4fe3-8da9-8d565678b37d" data-file-name="components/home/Resume.tsx">
-                      <li className="flex items-start" data-unique-id="5f1c62a6-c2b8-4cdc-b596-aeb3e17b9c32" data-file-name="components/home/Resume.tsx">
-                        <span className="h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 mr-2" data-unique-id="9960d290-e929-48a4-8b56-85b997894b1c" data-file-name="components/home/Resume.tsx"></span>
-                        <span data-unique-id="8b56d38a-ca69-45a5-a56c-707f44ce416f" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="40848647-0a95-4541-8dc4-0a8ffd1b801d" data-file-name="components/home/Resume.tsx">Library and Information Science graduate with 3.59 CGPA</span></span>
+                  <div className="mt-8" data-unique-id="5f2dad47-ffbd-47fa-a84e-4f32f109b388" data-file-name="components/home/Resume.tsx">
+                    <h4 className="font-medium text-sm mb-2" data-unique-id="98931daf-2c7f-4473-8416-26ba731e7f36" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="d720460a-119a-478c-822f-c9a190574163" data-file-name="components/home/Resume.tsx">Resume Summary</span></h4>
+                    <ul className="text-sm text-muted-foreground space-y-2" data-unique-id="ed0d88df-1282-448d-ac18-88969be7db18" data-file-name="components/home/Resume.tsx">
+                      <li className="flex items-start" data-unique-id="4d2d62e2-9621-4b56-8e49-b9b9683c3bf9" data-file-name="components/home/Resume.tsx">
+                        <span className="h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 mr-2" data-unique-id="b1b9219e-0536-4343-ba50-14df3a79d274" data-file-name="components/home/Resume.tsx"></span>
+                        <span data-unique-id="d289a04b-e935-452b-b19b-9c40d0b9d5c4" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="c6040573-1083-4533-a4ea-8b33b3453ea2" data-file-name="components/home/Resume.tsx">Library and Information Science graduate with 3.59 CGPA</span></span>
                       </li>
-                      <li className="flex items-start" data-unique-id="680489c2-eb87-4a22-855a-10f58a1d49ca" data-file-name="components/home/Resume.tsx">
-                        <span className="h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 mr-2" data-unique-id="cf982fce-6806-4425-9943-7b7a7c78ed35" data-file-name="components/home/Resume.tsx"></span>
-                        <span data-unique-id="a016252e-0ace-46ce-8f84-88bcfe2c173c" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="efedcb32-6909-4314-bf1a-d98ccd308121" data-file-name="components/home/Resume.tsx">Experience in multiple university library settings</span></span>
+                      <li className="flex items-start" data-unique-id="b4e4ed42-c02b-4ff0-9d79-09ca9e3b55d4" data-file-name="components/home/Resume.tsx">
+                        <span className="h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 mr-2" data-unique-id="5ec80050-df25-48c9-a747-621894f5a2de" data-file-name="components/home/Resume.tsx"></span>
+                        <span data-unique-id="a8b348cb-bdae-4245-bd1a-b53fbb86bf67" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="584f9f2d-0e45-42a5-9a53-ea59c040304f" data-file-name="components/home/Resume.tsx">Experience in multiple university library settings</span></span>
                       </li>
-                      <li className="flex items-start" data-unique-id="4fd4c3db-254c-4830-b197-e531d5d111e2" data-file-name="components/home/Resume.tsx">
-                        <span className="h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 mr-2" data-unique-id="bed78766-0290-4168-888b-36889b750404" data-file-name="components/home/Resume.tsx"></span>
-                        <span data-unique-id="ff9b8ad0-fc7a-43a8-8dd7-9d49098dcdab" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="25c9d112-c529-46b7-b939-5519f027df03" data-file-name="components/home/Resume.tsx">Expertise in Koha software and library automation</span></span>
+                      <li className="flex items-start" data-unique-id="01cda1d6-ced0-4e8c-ad94-82a45c40b481" data-file-name="components/home/Resume.tsx">
+                        <span className="h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 mr-2" data-unique-id="231c55e6-07c0-41f4-a23f-c78d0851eb83" data-file-name="components/home/Resume.tsx"></span>
+                        <span data-unique-id="8e767cfc-eeac-432b-8772-572a9c508f7b" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="bfba6464-62b7-4162-8f58-ce683d001be7" data-file-name="components/home/Resume.tsx">Expertise in Koha software and library automation</span></span>
                       </li>
-                      <li className="flex items-start" data-unique-id="6a03cdad-4428-4f20-9ab2-5cd13c67c177" data-file-name="components/home/Resume.tsx">
-                        <span className="h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 mr-2" data-unique-id="0c1abde1-9f2a-48f4-bcc2-48cfcd34f4bf" data-file-name="components/home/Resume.tsx"></span>
-                        <span data-unique-id="c0d8871b-9518-41af-9c77-22186875caed" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="838f2af1-8b2f-481b-9ec1-29551faf0b23" data-file-name="components/home/Resume.tsx">Trilingual: English, Sindhi, and Urdu proficiency</span></span>
+                      <li className="flex items-start" data-unique-id="93b64d87-b9bf-488e-ba69-aed96a83b46f" data-file-name="components/home/Resume.tsx">
+                        <span className="h-1.5 w-1.5 rounded-full bg-chart-1 mt-2 mr-2" data-unique-id="43247798-b20b-4cd0-9c7e-f6dd8bb8955b" data-file-name="components/home/Resume.tsx"></span>
+                        <span data-unique-id="18a922e7-cc79-49d4-b32e-ab827db6c82e" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="2cdd1f99-88df-4439-92f3-84f462e95f72" data-file-name="components/home/Resume.tsx">Trilingual: English, Sindhi, and Urdu proficiency</span></span>
                       </li>
                     </ul>
                   </div>

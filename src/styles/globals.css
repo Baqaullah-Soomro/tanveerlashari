@@ -25,15 +25,10 @@
     --ring: #1B2431;
     
     /* Enhanced color palette with RGB values for animations */
-    --chart-1: #1D5B79;
     --chart-1-rgb: 29, 91, 121;
-    --chart-2: #468B97;
     --chart-2-rgb: 70, 139, 151;
-    --chart-3: #EF6262;
     --chart-3-rgb: 239, 98, 98;
-    --chart-4: #F3AA60;
     --chart-4-rgb: 243, 170, 96;
-    --chart-5: #8A5082;
     --chart-5-rgb: 138, 80, 130;
     
     --radius: 0.5rem;
@@ -70,15 +65,10 @@
     --ring: #94A3B8;
     
     /* Enhanced dark mode colors with RGB values */
-    --chart-1: #38BDF8;
     --chart-1-rgb: 56, 189, 248;
-    --chart-2: #4ADE80;
     --chart-2-rgb: 74, 222, 128;
-    --chart-3: #FB923C;
     --chart-3-rgb: 251, 146, 60;
-    --chart-4: #F9C46B;
     --chart-4-rgb: 249, 196, 107;
-    --chart-5: #A78BFA;
     --chart-5-rgb: 167, 139, 250;
 
     --sidebar-background: #17212E;
