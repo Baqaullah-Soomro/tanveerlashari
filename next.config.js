@@ -19,9 +19,12 @@ const config = {
     ignoreBuildErrors: true,
   },
   productionBrowserSourceMaps: true,
-  webpack: (config, { isServer }) => {
+  webpack: (config, { isServer, dev }) => {
     config.stats = "verbose";
-    config.devtool = 'source-map'
+    // Only apply custom devtool in production mode
+    if (!dev) {
+      config.devtool = 'source-map'
+    }
     // Enhanced node polyfills for postgres and other modules
     if (!isServer) {
       config.resolve.fallback = {

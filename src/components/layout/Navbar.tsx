@@ -83,28 +83,18 @@ export default function Navbar() {
     y: -100
   }} animate={{
     y: 0
-  }} className={cn('fixed w-full z-50 transition-all duration-500 sticky top-0', scrolled ? 'bg-background/95 backdrop-blur-md shadow-lg py-3' : 'bg-transparent py-5')} style={{
+  }} className={cn('fixed w-full z-50 transition-all duration-500 sticky top-0', scrolled ? 'bg-background/80 backdrop-blur-md shadow-lg py-3' : 'bg-transparent py-5')} style={{
     boxShadow: scrolled ? '0 4px 20px rgba(0, 0, 0, 0.12)' : 'none'
   }} data-unique-id="03ef2550-243a-4936-a8d0-ca6ec98a591e" data-file-name="components/layout/Navbar.tsx">
-      <div className="container mx-auto px-6 flex items-center justify-between" data-unique-id="6cc59ed1-5062-4bc6-a50e-f75386960a65" data-file-name="components/layout/Navbar.tsx" data-dynamic-text="true">
-        <motion.div initial={{
-        opacity: 0
-      }} animate={{
-        opacity: 1
-      }} transition={{
-        delay: 0.2
-      }} className="text-2xl font-bold text-primary" data-unique-id="c0b95e4b-d3eb-4ab3-b998-5a43f22c1124" data-file-name="components/layout/Navbar.tsx">
-          <span className="text-chart-1" data-unique-id="673101e8-beb6-42f7-9521-5182967bbd3f" data-file-name="components/layout/Navbar.tsx"><span data-unique-id="f574b077-733d-4511-b6ea-d930d9dc1882" data-file-name="components/layout/Navbar.tsx"><span className="editable-text" data-unique-id="e7344f78-d0a0-494c-8806-517b32ef59c3" data-file-name="components/layout/Navbar.tsx">T</span></span></span><span data-unique-id="77b41d7e-e6c3-452d-9348-b8a810bc59b6" data-file-name="components/layout/Navbar.tsx"><span className="editable-text" data-unique-id="aca9fcd2-8d51-4118-a8ba-3bdc7ace2012" data-file-name="components/layout/Navbar.tsx">anveer</span></span><span className="text-chart-1" data-unique-id="814dbc7a-8b79-4fb9-93f8-603430ee453d" data-file-name="components/layout/Navbar.tsx"><span data-unique-id="0dd72cb1-43c9-4ed1-a054-8f70a460e7a0" data-file-name="components/layout/Navbar.tsx"><span className="editable-text" data-unique-id="172416b4-5f85-4ef4-bbcb-7d53d5fecf3d" data-file-name="components/layout/Navbar.tsx">L</span></span></span>
-        </motion.div>
-        
+      <div className="container mx-auto px-6 flex items-center justify-center" data-unique-id="6cc59ed1-5062-4bc6-a50e-f75386960a65" data-file-name="components/layout/Navbar.tsx" data-dynamic-text="true">
         {/* Desktop navigation */}
         <nav className="hidden md:block" data-unique-id="7ebc4834-d815-4356-9adc-289577d92ed1" data-file-name="components/layout/Navbar.tsx">
-          <ul className="flex space-x-5" data-unique-id="019001f7-cd9a-48f5-8693-80d193839627" data-file-name="components/layout/Navbar.tsx" data-dynamic-text="true">
+          <ul className="flex space-x-8 items-center" data-unique-id="019001f7-cd9a-48f5-8693-80d193839627" data-file-name="components/layout/Navbar.tsx" data-dynamic-text="true">
             {navLinks.map(link => <li key={link.name} data-unique-id="e728f961-63e1-46e3-acd3-9b7f5f404ccd" data-file-name="components/layout/Navbar.tsx">
-                <a href={link.href} onClick={e => handleNavClick(e, link.href)} className={cn('relative px-2 py-2 text-sm font-medium transition-all hover:text-chart-1 flex items-center gap-1 group', activeSection === link.href.slice(1) ? 'text-chart-1' : 'text-foreground')} data-unique-id="cce971f6-93b6-44da-84d2-d78f8c2e83d9" data-file-name="components/layout/Navbar.tsx" data-dynamic-text="true">
+                <a href={link.href} onClick={e => handleNavClick(e, link.href)} className={cn('relative px-4 py-2 text-sm font-medium transition-all hover:text-chart-1 flex items-center gap-1 group backdrop-blur-sm rounded-lg mx-1', activeSection === link.href.slice(1) ? 'text-chart-1 bg-background/40' : 'text-foreground hover:bg-background/30')} data-unique-id="cce971f6-93b6-44da-84d2-d78f8c2e83d9" data-file-name="components/layout/Navbar.tsx" data-dynamic-text="true">
                   {activeSection === link.href.slice(1) && <ChevronRight size={14} className="opacity-100 transition-opacity" />}
                   <span className="font-medium" data-unique-id="e00c920e-fe1c-4ecc-8d1d-f174d035caea" data-file-name="components/layout/Navbar.tsx" data-dynamic-text="true">{link.name}</span>
-                  <motion.div className={cn("absolute bottom-0 left-0 h-0.5 bg-chart-1 transition-all", activeSection === link.href.slice(1) ? "w-full" : "w-0 group-hover:w-full")} layoutId="navIndicator" transition={{
+                  <motion.div className={cn("absolute bottom-0 left-0 right-0 h-0.5 bg-chart-1 transition-all rounded-full", activeSection === link.href.slice(1) ? "w-full" : "w-0 group-hover:w-full")} layoutId="navIndicator" transition={{
                 type: "spring",
                 stiffness: 350,
                 damping: 30

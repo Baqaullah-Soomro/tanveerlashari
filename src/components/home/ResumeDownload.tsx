@@ -33,7 +33,7 @@ export default function ResumeDownload() {
             boxShadow: "0 10px 30px -10px rgba(0,0,0,0.3)"
           }} whileTap={{
             scale: 0.95
-          }} href="/resume.pdf" download="Tanveer_Lashari_Resume.pdf" className="flex items-center gap-2 bg-chart-1 hover:bg-chart-1/90 text-white px-7 py-4 rounded-lg transition-all font-medium shadow-lg shadow-chart-1/20" data-unique-id="42a6d809-1649-4586-a587-298d38226e6e" data-file-name="components/home/ResumeDownload.tsx">
+          }} href="/Tanveer.pdf" download="Tanveer_Lashari_Resume.pdf" className="flex items-center gap-2 bg-chart-1 hover:bg-chart-1/90 text-white px-7 py-4 rounded-lg transition-all font-medium shadow-lg shadow-chart-1/20" data-unique-id="42a6d809-1649-4586-a587-298d38226e6e" data-file-name="components/home/ResumeDownload.tsx">
               <Download size={20} />
               <span className="text-lg" data-unique-id="d62de2be-5325-48cf-b33c-3e403d3c1d22" data-file-name="components/home/ResumeDownload.tsx"><span className="editable-text" data-unique-id="7ea9ff61-9be6-4f8f-a39b-c64da9bc966e" data-file-name="components/home/ResumeDownload.tsx"> Download Resume</span></span>
             </motion.a>
@@ -43,16 +43,8 @@ export default function ResumeDownload() {
               scale: 1.1
             }} whileTap={{
               scale: 0.9
-            }} href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-card hover:bg-accent p-3 rounded-full border border-border transition-all" data-unique-id="9f9727f4-0022-41ee-8e29-566ca9c09961" data-file-name="components/home/ResumeDownload.tsx">
+            }} href="https://linkedin.com/in/tanveer-ahmed-lashari-1a62b8253" target="_blank" rel="noopener noreferrer" className="bg-card hover:bg-accent p-3 rounded-full border border-border transition-all" data-unique-id="9f9727f4-0022-41ee-8e29-566ca9c09961" data-file-name="components/home/ResumeDownload.tsx">
                 <Linkedin size={20} />
-              </motion.a>
-              
-              <motion.a whileHover={{
-              scale: 1.1
-            }} whileTap={{
-              scale: 0.9
-            }} href="https://github.com" target="_blank" rel="noopener noreferrer" className="bg-card hover:bg-accent p-3 rounded-full border border-border transition-all" data-unique-id="af68a19e-b752-4417-9ac3-d693d868bb60" data-file-name="components/home/ResumeDownload.tsx">
-                <Github size={20} />
               </motion.a>
             </motion.div>
           </div>

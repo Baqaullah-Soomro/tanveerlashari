@@ -5,22 +5,22 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [{
   id: 1,
-  name: "Dr. Sarah Ahmed",
-  role: "Head Librarian, University of Sindh",
+  name: "Arif Ali Bhatti",
+  role: "Incharge Chairman, Department of Libray Information Science and Archive Studies, University of Sindh",
   content: "Tanveer demonstrated exceptional skills in library automation and cataloging during his internship. His contributions to our digital archiving project were invaluable.",
-  avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+  avatar: "/Arif ali Bhatti.png"
 }, {
   id: 2,
-  name: "Prof. Muhammad Saleem",
-  role: "Faculty of Pharmacy, University of Sindh",
+  name: "Prof. Ahmed Shah",
+  role: "Library Incharge, Faculty of Pharmacy, University of Sindh",
   content: "Tanveer's implementation of the Koha system greatly improved our library's efficiency. His attention to detail and technical knowledge were impressive.",
-  avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+  avatar: "/Ahmed shah.png"
 }, {
   id: 3,
-  name: "Ms. Fatima Nazir",
-  role: "Digital Resources Manager, IBA",
+  name: "Prof. Imamuddin Khoso",
+  role: "Professor, IBA, University of Sindh",
   content: "Working with Tanveer on our information literacy program was a pleasure. His ability to simplify complex concepts for users made our training sessions highly effective.",
-  avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+  avatar: "/Imam din.png"
 }];
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);

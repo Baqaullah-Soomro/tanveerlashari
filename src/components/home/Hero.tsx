@@ -85,7 +85,7 @@ export default function Hero() {
           }} transition={{
             duration: 1,
             delay: 0.2
-          }} className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 drop-shadow-sm" data-unique-id="a6562344-c460-4bd2-bed7-bb6e16d6851e" data-file-name="components/home/Hero.tsx">
+          }} className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 drop-shadow-sm" data-unique-id="a6562344-c460-4bd2-bed7-bb6e16d6851e" data-file-name="components/home/Hero.tsx">
               <motion.span initial={{
               display: "inline-block",
               opacity: 0,
@@ -96,7 +96,7 @@ export default function Hero() {
             }} transition={{
               delay: 0.2,
               duration: 0.5
-            }} className="inline-block text-chart-1" data-unique-id="02038034-d434-4c2c-80a2-a9ac511907dc" data-file-name="components/home/Hero.tsx">
+            }} className="inline-block text-chart-1 text-4xl sm:text-5xl md:text-6xl lg:text-7xl" data-unique-id="02038034-d434-4c2c-80a2-a9ac511907dc" data-file-name="components/home/Hero.tsx">
                 <span className="editable-text" data-unique-id="25ee99df-5ac5-4396-8994-af4bb1af9632" data-file-name="components/home/Hero.tsx">T</span>
               </motion.span>
               <motion.span initial={{
@@ -109,7 +109,7 @@ export default function Hero() {
             }} transition={{
               delay: 0.3,
               duration: 0.5
-            }} className="inline-block" data-unique-id="ec577592-a353-4d35-a0c6-5b9436b9891f" data-file-name="components/home/Hero.tsx">
+            }} className="inline-block text-4xl sm:text-5xl md:text-6xl lg:text-7xl" data-unique-id="ec577592-a353-4d35-a0c6-5b9436b9891f" data-file-name="components/home/Hero.tsx">
                 <span className="editable-text" data-unique-id="ec7c1b63-c1bc-43bc-b348-091e985b1025" data-file-name="components/home/Hero.tsx">anveer</span>
               </motion.span>
               <motion.span initial={{
@@ -122,7 +122,7 @@ export default function Hero() {
             }} transition={{
               delay: 0.4,
               duration: 0.5
-            }} className="inline-block ml-3 text-chart-1" data-unique-id="bf6a2415-364a-4812-98d4-1315f5c03c19" data-file-name="components/home/Hero.tsx">
+            }} className="inline-block ml-2 sm:ml-3 text-chart-1 text-4xl sm:text-5xl md:text-6xl lg:text-7xl" data-unique-id="bf6a2415-364a-4812-98d4-1315f5c03c19" data-file-name="components/home/Hero.tsx">
                 <span className="editable-text" data-unique-id="9c6880a6-332c-4709-860e-45dc9b688a80" data-file-name="components/home/Hero.tsx">L</span>
               </motion.span>
               <motion.span initial={{
@@ -135,7 +135,7 @@ export default function Hero() {
             }} transition={{
               delay: 0.5,
               duration: 0.5
-            }} className="inline-block" data-unique-id="564ea106-8392-4272-aad1-ccdf856b8ec8" data-file-name="components/home/Hero.tsx">
+            }} className="inline-block text-4xl sm:text-5xl md:text-6xl lg:text-7xl" data-unique-id="564ea106-8392-4272-aad1-ccdf856b8ec8" data-file-name="components/home/Hero.tsx">
                 <span className="editable-text" data-unique-id="c0419471-6034-45db-8679-ff1da88f13dd" data-file-name="components/home/Hero.tsx">ashari</span>
               </motion.span>
             </motion.h1>
@@ -193,8 +193,7 @@ export default function Hero() {
           }} data-unique-id="6bffd5fd-fda9-4331-8968-2f4adb290c6b" data-file-name="components/home/Hero.tsx">
               <p className="text-lg text-muted-foreground mb-10 max-w-2xl leading-relaxed" data-unique-id="52c13a79-116e-4cb8-871d-94a3476a4deb" data-file-name="components/home/Hero.tsx">
                 <span className="editable-text" data-unique-id="0f8882a1-4082-4637-b8d0-f18792a9eda8" data-file-name="components/home/Hero.tsx">
-                  Passionate about library sciences, cataloging, digital library systems, and knowledge organization.
-                  Experienced in modern library management systems and dedicated to enhancing user services.
+                  Information and library science professional with proven expertise in cataloging, digital library systems, and knowledge organization. Skilled in implementing advanced library management technologies to optimize resource accessibility and user engagement. Committed to advancing innovative, user-focused services in academic, public, and digital library environments aligned with global best practices.
                 </span>
               </p>
             </motion.div>
@@ -224,7 +223,7 @@ export default function Hero() {
                 <span data-unique-id="f7cbbb08-1d90-4b8f-a391-ffda217427d5" data-file-name="components/home/Hero.tsx"><span className="editable-text" data-unique-id="2e9594c0-ebd3-4623-80bf-06628a713192" data-file-name="components/home/Hero.tsx">Contact Me</span></span>
               </motion.a>
               
-              <motion.a href="#" whileHover={{
+              <motion.a href="/Tanveer.pdf" whileHover={{
               scale: 1.05,
               boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)"
             }} whileTap={{

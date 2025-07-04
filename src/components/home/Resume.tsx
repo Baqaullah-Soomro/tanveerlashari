@@ -59,7 +59,7 @@ export default function Resume() {
                           <div className="flex justify-center gap-3 text-xs" data-unique-id="81649627-bce0-402a-8365-6a1b7d56adb5" data-file-name="components/home/Resume.tsx">
                             <span data-unique-id="92236626-8268-413a-a51a-f8f02197cd63" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="84c9b34f-d372-4158-9fb1-2b6c9728f4cb" data-file-name="components/home/Resume.tsx">0312-0362742</span></span>
                             <span data-unique-id="d0d61c93-ccfc-4dc9-b4c9-1a10f3c57062" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="f891f6e1-8592-4920-be3e-20dcc9880350" data-file-name="components/home/Resume.tsx">•</span></span>
-                            <span className="text-chart-1" data-unique-id="c9f82882-67db-4bc9-8e87-a4ec1f91866c" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="bece270b-7bc2-4e70-bd4f-c8cd5854c9fc" data-file-name="components/home/Resume.tsx">lasharitanveerahmed68@gmail.com</span></span>
+                            <span className="text-chart-1" data-unique-id="c9f82882-67db-4bc9-8e87-a4ec1f91866c" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="bece270b-7bc2-4e70-bd4f-c8cd5854c9fc" data-file-name="components/home/Resume.tsx">tanveerlasharilibrarian@gmail.com</span></span>
                           </div>
                         </div>
                         
@@ -144,7 +144,7 @@ export default function Resume() {
                 <h3 className="font-bold text-xl mb-6" data-unique-id="04756bab-2ce6-4eb4-be7c-322b861d5dc5" data-file-name="components/home/Resume.tsx"><span className="editable-text" data-unique-id="15c3b16c-9d59-40a5-8c5f-7293a01cef32" data-file-name="components/home/Resume.tsx">Download Options</span></h3>
                 
                 <div className="space-y-4" data-unique-id="d42dde5c-22ff-4a00-8ea6-dc1a273c6387" data-file-name="components/home/Resume.tsx">
-                  <motion.a href="/resume.pdf" download="Tanveer_Lashari_Resume.pdf" whileHover={{
+                  <motion.a href="/Tanveer.pdf" download="Tanveer.pdf" whileHover={{
                   scale: 1.03,
                   backgroundColor: "rgba(var(--chart-1-rgb), 0.1)",
                   boxShadow: "0 10px 30px -10px rgba(0,0,0,0.2)"

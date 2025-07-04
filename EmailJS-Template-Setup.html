@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmailJS Template Setup Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #4b5563;
+            margin-top: 30px;
+        }
+        .step {
+            background-color: #f9fafb;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 4px solid #2563eb;
+        }
+        .highlight {
+            background-color: #fffbeb;
+            border: 1px solid #fbbf24;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        img {
+            max-width: 100%;
+            border: 1px solid #e5e7eb;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        code {
+            background-color: #f1f5f9;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .important {
+            color: #ef4444;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>EmailJS Template Setup Guide</h1>
+    
+    <div class="step">
+        <h2>Step 1: Navigate to Email Templates</h2>
+        <p>In your EmailJS dashboard, go to the "Email Templates" section and select your contact form template.</p>
+    </div>
+
+    <div class="step">
+        <h2>Step 2: Set the Recipient Email Address</h2>
+        <p>In the template editor, locate the "To Email" field. This is where you specify who will receive the emails sent from your contact form.</p>
+        
+        <div class="highlight">
+            <p><span class="important">Important:</span> Set the "To Email" field to: <code>tanveerlasharilibrarian@gmail.com</code></p>
+            <p>This ensures all contact form submissions are sent to this email address.</p>
+        </div>
+        
+        <p>The "To Email" field is typically located in the email settings section of the template editor:</p>
+        <ul>
+            <li>To Email: <code>tanveerlasharilibrarian@gmail.com</code></li>
+            <li>From Name: Can be set to <code>{{from_name}}</code> (the sender's name)</li>
+            <li>Reply-To: Should be set to <code>{{reply_to}}</code> (the sender's email)</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h2>Step 3: Save Your Template</h2>
+        <p>After setting the recipient email address, click the "Save" button to apply your changes.</p>
+    </div>
+
+    <div class="step">
+        <h2>Step 4: Test Your Contact Form</h2>
+        <p>Return to your website and test the contact form to ensure emails are being sent to the correct address.</p>
+    </div>
+
+    <div class="highlight">
+        <h2>Why This Matters</h2>
+        <p>In EmailJS, the recipient email address is configured in the template settings on the EmailJS dashboard, not in your website's code. This is a security feature that prevents unauthorized changes to the recipient address.</p>
+        <p>If your contact form is not sending emails to the correct address, it's likely because the "To Email" field in your template is not properly configured.</p>
+    </div>
+</body>
+</html>

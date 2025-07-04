@@ -15,9 +15,9 @@ export default function Footer() {
           }} transition={{
             delay: 0.2
           }} className="text-2xl font-bold" data-unique-id="3426518b-0361-49a3-bc1a-0e82e8283371" data-file-name="components/layout/Footer.tsx">
-              <span className="text-chart-1" data-unique-id="9d905f06-a8d2-4070-93b2-99028da6d238" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="3e998b34-e016-4bed-97ea-6c336ccacd41" data-file-name="components/layout/Footer.tsx">T</span></span><span className="editable-text" data-unique-id="afd0de0d-61e0-4280-bd0a-303b1c5f3bf2" data-file-name="components/layout/Footer.tsx">anver</span><span className="text-chart-1" data-unique-id="1eff6888-b9ac-43ec-bb3f-3543cdfc6eff" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="d21af5c7-8f1d-4326-b78b-fbe5c4637d0d" data-file-name="components/layout/Footer.tsx">L</span></span>
+              <span className="text-chart-1" data-unique-id="9d905f06-a8d2-4070-93b2-99028da6d238" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="3e998b34-e016-4bed-97ea-6c336ccacd41" data-file-name="components/layout/Footer.tsx">T</span></span><span className="editable-text" data-unique-id="afd0de0d-61e0-4280-bd0a-303b1c5f3bf2" data-file-name="components/layout/Footer.tsx">anveer</span><span className="text-chart-1" data-unique-id="1eff6888-b9ac-43ec-bb3f-3543cdfc6eff" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="d21af5c7-8f1d-4326-b78b-fbe5c4637d0d" data-file-name="components/layout/Footer.tsx"></span></span>
             </motion.div>
-            <p className="text-muted-foreground mt-2" data-unique-id="24280609-fa22-4eab-a5ca-9b9aac3951e2" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="c4c94786-b16f-4dd1-a711-4033412152eb" data-file-name="components/layout/Footer.tsx">Library and Information Science Graduate</span></p>
+            <p className="text-muted-foreground mt-2" data-unique-id="24280609-fa22-4eab-a5ca-9b9aac3951e2" data-file-name="components/layout/Footer.tsx"><span className="editable-text" data-unique-id="c4c94786-b16f-4dd1-a711-4033412152eb" data-file-name="components/layout/Footer.tsx">Library and Information Science Professional</span></p>
           </div>
           
           <div className="flex items-center space-x-4" data-unique-id="fda01f8e-e38a-4e46-9993-a275ca940db0" data-file-name="components/layout/Footer.tsx">
@@ -25,22 +25,15 @@ export default function Footer() {
             scale: 1.1
           }} whileTap={{
             scale: 0.9
-          }} href="mailto:lasharitanveerahmed68@gmail.com" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="Email" data-unique-id="f85f820a-fa16-42fc-a67c-ddb89e933fff" data-file-name="components/layout/Footer.tsx">
+          }} onClick={() => window.open("https://mail.google.com/mail/?view=cm&fs=1&to=tanveerlasharilibrarian@gmail.com&su=Contact from Portfolio Website&body=Hello Tanveer,%0A%0AI visited your portfolio website and would like to connect with you.%0A%0ABest regards,%0A")} className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors cursor-pointer" aria-label="Email Tanveer Lashari" title="Send an email to Tanveer" data-unique-id="f85f820a-fa16-42fc-a67c-ddb89e933fff" data-file-name="components/layout/Footer.tsx">
               <Mail size={20} />
             </motion.a>
             <motion.a whileHover={{
             scale: 1.1
           }} whileTap={{
             scale: 0.9
-          }} href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="LinkedIn" data-unique-id="fc3f468a-9de2-471a-a536-8bdb6b8c7c8b" data-file-name="components/layout/Footer.tsx">
+          }} href="https://linkedin.com/in/tanveer-ahmed-lashari-1a62b8253" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="LinkedIn" data-unique-id="fc3f468a-9de2-471a-a536-8bdb6b8c7c8b" data-file-name="components/layout/Footer.tsx">
               <Linkedin size={20} />
-            </motion.a>
-            <motion.a whileHover={{
-            scale: 1.1
-          }} whileTap={{
-            scale: 0.9
-          }} href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-accent hover:bg-accent/80 transition-colors" aria-label="GitHub" data-unique-id="7bb0f349-0612-405d-b3bf-6fa77cb868a6" data-file-name="components/layout/Footer.tsx">
-              <Github size={20} />
             </motion.a>
           </div>
         </div>
