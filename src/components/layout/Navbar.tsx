@@ -105,7 +105,15 @@ export default function Navbar() {
         </nav>
         
         {/* Mobile menu button */}
-        <button className="md:hidden p-2 z-50 relative" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Toggle menu" data-unique-id="02060c13-f289-4dab-a3c4-d8bf0d095595" data-file-name="components/layout/Navbar.tsx">
+        <button
+          className="md:hidden p-2 z-50 relative"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileMenuOpen}
+          aria-controls="mobile-menu-panel"
+          data-unique-id="02060c13-f289-4dab-a3c4-d8bf0d095595"
+          data-file-name="components/layout/Navbar.tsx"
+        >
           <AnimatePresence mode="wait">
             {mobileMenuOpen ? <motion.div key="close" initial={{
             opacity: 0,
@@ -139,7 +147,9 @@ export default function Navbar() {
         
         {/* Mobile menu */}
         <AnimatePresence>
-          {mobileMenuOpen && <motion.div initial={{
+          {mobileMenuOpen && <motion.div
+            id="mobile-menu-panel"
+            initial={{
           opacity: 0,
           height: 0,
           y: -20

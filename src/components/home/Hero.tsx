@@ -233,14 +233,14 @@ export default function Hero() {
                 <span className="editable-text" data-unique-id="daba44d9-f097-4719-9394-647c7a4492a6" data-file-name="components/home/Hero.tsx">Download Resume</span>
               </motion.a>
               
-              <motion.a href="#experience" whileHover={{
+              <motion.a href="#contact" whileHover={{
               scale: 1.05,
               boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)"
             }} whileTap={{
               scale: 0.95
             }} className="flex items-center gap-2 bg-chart-3 hover:bg-chart-3/90 text-white px-6 py-3 rounded-lg transition-all" onClick={e => {
               e.preventDefault();
-              document.querySelector('#experience')?.scrollIntoView({
+              document.querySelector('#contact')?.scrollIntoView({
                 behavior: 'smooth'
               });
             }} data-unique-id="79961c66-1ea6-4a65-8fab-ef78b0287266" data-file-name="components/home/Hero.tsx">
